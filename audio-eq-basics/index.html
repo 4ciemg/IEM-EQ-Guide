@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793008058487">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793008889293">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.6.0.793008058487" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.793008889293" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793008058487" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793008889293" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793008058487" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793008889293" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -234,15 +234,22 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Rules to consider</h5>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- Measurements between different databases/couplers/standards cannot be mixed
-- Most couplers are only rated to 10kHz, therefore measurements should not be scrutinized &gt;10kHz. High amplitude and narrow peaks/dips above 5kHz should also be ignored
-- Unit variation is a considerable factor, and should be accounted for 
-- Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for
-- Normalization should be accounted for, and should be modified to fit actual perception</code></pre>
-</doc-codeblock></div>
+<ul>
+<li>Measurements between different databases/couplers/standards cannot be mixed</li>
+<li>Most couplers are only rated to 10kHz, therefore measurements should not be scrutinized &gt;10kHz. High amplitude and narrow peaks/dips above 5kHz should also be ignored</li>
+<li>Unit variation is a considerable factor, and should be accounted for</li>
+<li>Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for</li>
+<li>Normalization should be accounted for, and should be modified to fit actual perception</li>
+</ul>
+        </div>
+    </div>
+</div>
 <p>Another aspect that should considered is compensation, which is used in two ways in the community. The first one uses compensation as a way to more easily see the error/deviation of an FR curve to another. Compensation in this manner improves &quot;readability&quot;, and makes the EQ process easier.</p>
-<p>-&gt;<img src="https://i.postimg.cc/FKBZ5DL4/Compensation-target.png" alt="Compensation of the Truthear Zero to the HarmanIE 2019 target, normalized at 1kHz" />{75%:75%}&lt;-</p>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/FKBZ5DL4/Compensation-target.png" alt="Compensation of the Truthear Zero to the HarmanIE 2019 target, normalized at 1kHz">
+    <figcaption class="caption">Compensation of the Truthear Zero to the HarmanIE 2019 target, normalized at 1kHz</figcaption>
+</figure>
+</p>
 <p>The second way aims to correct/remove the errors introduced by the coupler. It can also be used to correct the coupler to a reference coupler, which can theoretically mean that measurements done on different couplers can be exchanged, provided they have been compensated properly. A full explanation of proper coupler compensation is beyond the scope of this guide; just know that it is complicated and requires a lot of data to work properly.</p>
 <p>The 5128∆ project aims to create such compensations for various different databases on squig.link; more precisely, the compensations use Crinacle&#x27;s coupler as a reference (more information about databases in the <a href="https://rentry.co/IEM-EQ-Guide#measurement-databases-and-tools">Measurement databases and tools</a> section). Therefore, compensated measurements in databases that are a part of the 5128∆ project can be compared to those in Crinacle&#x27;s database, and by extension to other 5128∆-compliant squig databases as well.</p>
 <hr>
@@ -267,14 +274,21 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Oversimplified summary on the role of anatomy in terms of hearing and graphs</h5>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">1. Parts of the ear/body act like filters on the incoming audio signal for localization purposes. The biggest change is a total rise from 1.5kHz - 8kHz peaking at 3kHz
-2. The eardrum acts like a pressure detector measuring amplitude vs frequency. Therefore, the eardrum **does** perceive more 3kHz energy
-3. The brain expects these changes, and &quot;cancels&quot; out these filters. The resulting perceived sound is therefore the same as the original sound
-4. IEMs bypass many of those parts. They should therefore aim to have a resulting sound at the eardrum that includes every single expected changes</code></pre>
-</doc-codeblock></div>
+<ol>
+<li>Parts of the ear/body act like filters on the incoming audio signal for localization purposes. The biggest change is a total rise from 1.5kHz - 8kHz peaking at 3kHz</li>
+<li>The eardrum acts like a pressure detector measuring amplitude vs frequency. Therefore, the eardrum <strong>does</strong> perceive more 3kHz energy</li>
+<li>The brain expects these changes, and &quot;cancels&quot; out these filters. The resulting perceived sound is therefore the same as the original sound</li>
+<li>IEMs bypass many of those parts. They should therefore aim to have a resulting sound at the eardrum that includes every single expected changes</li>
+</ol>
+        </div>
+    </div>
+</div>
 <p>Grasping the above is important because it explains why IEM measurements and preference targets are <strong>not</strong> flat, and why they have a large rise after 1kHz (commonly referred to as <strong>ear gain</strong>). The couplers used for measurements aim to simulate the eardrum where resulting measurement will reflect the FR at the eardrum after having been influenced by parts of the body. These changes that the brain expects are called Head-Related Transfer Functions (HRTF), and it is this HRTF that is responsible for <strong>sound localization</strong>. Of course, different people will have different HRTFs due to differences in anatomy, and these differences become significant in certain frequency ranges. <strong>While HRTF variation is quite high, there is still value in trying to find a preference target that sounds pleasing to the majority of people, which is why preference research is still ongoing</strong>. The image below is commonly used to explain HRTF; only the concept of the rise and fall of the FR should be noted, as all the other minutiae is <strong>not applicable to IEMs/headphones</strong>.</p>
-<p>-&gt;<img src="https://i.postimg.cc/MpJRmYdG/HRTF.png" alt="Different changes caused by anatomy on incoming sound and FR. Ignore the angle of incidence part" />{75%:75%}&lt;-</p>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/MpJRmYdG/HRTF.png" alt="Different changes caused by anatomy on incoming sound and FR. Ignore the angle of incidence part">
+    <figcaption class="caption">Different changes caused by anatomy on incoming sound and FR. Ignore the angle of incidence part</figcaption>
+</figure>
+</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -289,16 +303,19 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Oversimplified summary on preference research</h5>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- There is a significant correlation between preference and &quot;neutrality&quot;/accuracy in terms of sound reproduction
-- For loudspeakers, this means that a flat FR in anechoic conditions is preferable
-- Anechoic conditions are rarely found in everyday life, much less in studios. Most environments are semi-reflective, which introduces a downwards slope (or clockwise tilt) to the loudspeaker FR
-- IEM (and headphone) preference research usually aims to recreate similar timbre to that of optimal loudspeakers
-- Significant deviations in bass and treble is normal, and attributable to preference, hearing loss, and other factors
-- Small changes in FR (&lt;3dB) over relatively small frequency ranges are hard to notice at best, and imperceivable at worst</code></pre>
-</doc-codeblock></div>
+<ul>
+<li>There is a significant correlation between preference and &quot;neutrality&quot;/accuracy in terms of sound reproduction</li>
+<li>For loudspeakers, this means that a flat FR in anechoic conditions is preferable</li>
+<li>Anechoic conditions are rarely found in everyday life, much less in studios. Most environments are semi-reflective, which introduces a downwards slope (or clockwise tilt) to the loudspeaker FR</li>
+<li>IEM (and headphone) preference research usually aims to recreate similar timbre to that of optimal loudspeakers</li>
+<li>Significant deviations in bass and treble is normal, and attributable to preference, hearing loss, and other factors</li>
+<li>Small changes in FR (&lt;3dB) over relatively small frequency ranges are hard to notice at best, and imperceivable at worst</li>
+</ul>
+        </div>
+    </div>
+</div>
 <p>The most &quot;researched&quot; target comes from Harman, and the latest iteration of their IEM target  is their Harman In-ear (HarmanIE) 2019v2 target. Despite being the most thoroughly researched target, there has been a lot of pushback against this target. Furthermore, many prominent reviewers have also included their own personal preference targets in their databases. Oftentimes these targets are either existing preference targets with tweaks (eg some variation on HarmanIE) or a mix of different FR parts of different IEMs they like (eg combining the bass of X IEM, mid range of Y IEM, and treble of Z IEM).</p>
-<p>The following is a brief summary of important preference target curves, as well as other curves that are <strong>not based on preference</strong>. There are also more informative and in-depth explanations of each of them in the <a href="https://rentry.co/IEM-EQ-Guide#measurement-rigs-curves-and-preference-targets">Measurement rigs, curves, and preference targets</a> section.</p>
+<p>The following is a brief summary of important preference target curves, as well as other curves that are <strong>not based on preference</strong>. There are also more informative and in-depth explanations of each of them in the [Measurement rigs, curves, and preference targets] section.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -313,14 +330,17 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
         </div>
         <div class="pr-5 ml-3 w-full">
             <h5>Summary on various preference targets and other curves</h5>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- Harman In-Ear (HarmanIE): Preference target by Harman for IEMs, based on past headphone and loudspeaker preference studies. The most validated target when it comes to targets with proper listening testing
-- Diffuse Field (DF): FR curve based on a completely &quot;reverberant&quot; listening condition (ie no energy emphasis on any direction). Used mainly as a reference curve, not a preference one
-- Etymotic Target: DF with an introduced &quot;room tilt&quot; based on outdated preference research (Consumer reports accuracy score) and the X-curve.
-- IEF 2020: Rudimentary target, mostly used to showcase &quot;proper&quot; HRTF features / ear gain. Bass is completely variable and up to taste, but is shown as flat for ease of use
-- IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up t taste
-- DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there's not a singular target. Mostly used in the context of the B&amp;K 5128 rig</code></pre>
-</doc-codeblock></div>
+<ul>
+<li>Harman In-Ear (HarmanIE): Preference target by Harman for IEMs, based on past headphone and loudspeaker preference studies. The most validated target when it comes to targets with proper listening testing</li>
+<li>Diffuse Field (DF): FR curve based on a completely &quot;reverberant&quot; listening condition (ie no energy emphasis on any direction). Used mainly as a reference curve, not a preference one</li>
+<li>Etymotic Target: DF with an introduced &quot;room tilt&quot; based on outdated preference research (Consumer reports accuracy score) and the X-curve.</li>
+<li>IEF 2020: Rudimentary target, mostly used to showcase &quot;proper&quot; HRTF features / ear gain. Bass is completely variable and up to taste, but is shown as flat for ease of use</li>
+<li>IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up t taste</li>
+<li>DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there&#x27;s not a singular target. Mostly used in the context of the B&amp;K 5128 rig</li>
+</ul>
+        </div>
+    </div>
+</div>
 <hr>
 <doc-anchor-target id="human-hearing">
     <h2>
@@ -568,18 +588,6 @@ There are a few other individual databases that are also noteworthy:<br />
 <a href="https://www.hypethesonics.com/">HypeTheSonics</a> (FR, distortion, noise attenuation, and more. Also has a B&amp;K 5128 database)<br />
 <a href="https://www.woodenears.com/">WoodenEars</a> (FR, distortion, and more. Also has a few B&amp;K 5128 measurements)<br />
 <a href="rtings.com">Rtings</a> (FR, distortion, and more)</p>
-        </div>
-    </div>
-</div>
-        </div>
-    </div>
-</div>
-        </div>
-    </div>
-</div>
-        </div>
-    </div>
-</div>
         </div>
     </div>
 </div>
