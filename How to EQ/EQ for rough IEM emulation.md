@@ -1,4 +1,6 @@
-
+---
+order: 97
+---
 # EQ for rough IEM emulation (\*)
 So far, EQ was used to match an IEM's FR to a preference target (in most cases, HarmanIE 2019). It is also possible to roughly emulate another IEM through EQ. There are two methods to do so, both of which have already been covered previously: Squig AutoEQ and custom manual EQ. These will only yield rough approximations of another IEM.
 
