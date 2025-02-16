@@ -70,7 +70,7 @@ Mid range is a tough region to tweak because it is wide in range and also contai
 
 Mid range has a lot of variation between different IEMs, so much so that it becomes rather hard to demonstrate these different aspects independently. Aiming for a similar mid range as ones found in preference targets should be the goal, but don't be afraid to make big changes if it sounds better to you. The following pics shows different mid range responses and how variable they can also be. Also notice how different normalization can skew visual perception of mid range, which is why listening to the EQ changes is recommended.
 
-![Different mid range responses (normalized at 1kHz)](https://i.postimg.cc/VvV30YxS/mids-1khz.png){49%:49%} ![Different mid range responses (normalized at 300Hz)](https://i.postimg.cc/WpYRHnd2/mids-300hz.png)
+![Different mid range responses (normalized at 1kHz)](https://i.postimg.cc/VvV30YxS/mids-1khz.png){width=400} ![Different mid range responses (normalized at 300Hz)](https://i.postimg.cc/WpYRHnd2/mids-300hz.png)
 
 
 ***
@@ -103,11 +103,11 @@ Listening to each frequency region independently does not reflect how music is h
 
 In the end, the final obtained FR should be ideal to your preferences, and while large deviations in bass and treble regions are normal, the mid range should still have a generally "normal" profile (ie have some semblance of ear gain). The following collection of images are some commonly seen and liked "types" of FR with small descriptions of their tuning; use them as a template and/or mix and match different parts. 
 
-![Normal ear gain with a bass boost (glide)](https://i.postimg.cc/NFhCkjQZ/zero2.png){width=300} ![Normal ear gain with flat bass](https://i.postimg.cc/NjbVvtxr/Proxima.png){width=300} ![Sub bass boost with very little to no ear gain](https://i.postimg.cc/15hbpJt4/MEST2.png){width=300}
+![Normal ear gain with a bass boost (glide)](https://i.postimg.cc/NFhCkjQZ/zero2.png){width=200} ![Normal ear gain with flat bass](https://i.postimg.cc/NjbVvtxr/Proxima.png){width=200} ![Sub bass boost with very little to no ear gain](https://i.postimg.cc/15hbpJt4/MEST2.png){width=200}
 
-![Forward mids and ear gain with bass boost; emphasis on mid bass by rolling off the sub bass](https://i.postimg.cc/8zT3YcLS/Origin.png){width=300} ![Sub bass boost followed by a mid bass dip with forward ear gain](https://i.postimg.cc/bJSFntfQ/Variations.png){width=300} ![Bass boost (glide) with low ear gain except for a 4.5kHz peak](https://i.postimg.cc/FFJ2d2h2/CRA.png){width=300}
+![Forward mids and ear gain with bass boost; emphasis on mid bass by rolling off the sub bass](https://i.postimg.cc/8zT3YcLS/Origin.png){width=200} ![Sub bass boost followed by a mid bass dip with forward ear gain](https://i.postimg.cc/bJSFntfQ/Variations.png){width=200} ![Bass boost (glide) with low ear gain except for a 4.5kHz peak](https://i.postimg.cc/FFJ2d2h2/CRA.png){width=200}
 
-![Somewhat flat or rolled off bass with a lot of lower mids (warmth), with low plateau ear gain](https://i.postimg.cc/KYHH45wG/Andro.png){width=300} ![Bass boost (glide) with moderate plateau ear gain](https://i.postimg.cc/5NBTpLYg/P5.png){width=300} ![Mostly sub bass boost with moderate ear gain](https://i.postimg.cc/Bv6zqzh7/5EST.png){width=300}
+![Somewhat flat or rolled off bass with a lot of lower mids (warmth), with low plateau ear gain](https://i.postimg.cc/KYHH45wG/Andro.png){width=200} ![Bass boost (glide) with moderate plateau ear gain](https://i.postimg.cc/5NBTpLYg/P5.png){width=200} ![Mostly sub bass boost with moderate ear gain](https://i.postimg.cc/Bv6zqzh7/5EST.png){width=200}
 
 
 ***
