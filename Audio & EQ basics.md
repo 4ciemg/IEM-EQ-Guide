@@ -26,7 +26,6 @@ Measurements in the headphone and IEM community often refer to frequency (magnit
 !!!info Importance of measurements
 1. FR is by far the most important factor when it comes to sound quality (ignoring factors like comfort, price bias, aesthetics, etc.) and is the main metric that is used both in the audiophile hobby and the acoustic preference research sphere.
 2. Human hearing is **not reliable**. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to.
-
 !!!
 
 Do note that music can also be represented in such plots, where different frequencies will have different amplitudes. For example, imagine a song where there is only bass music playing, and another that only has a flute: the bass song will have higher amplitudes at lower frequencies, while the flute song will have higher amplitudes at higher frequencies. Of course, music has a time component, meaning that a singular FR graph of music only represents a snapshot of the music at a specific time. Intuitively, one might assume that IEMs also have a time component; this is covered in the [FAQ](https://rentry.co/IEM-EQ-Guide#faq). **All that is important for now is that an IEM's FR is all that really matters when it comes to objective metrics.**
@@ -44,7 +43,6 @@ This does not mean that measurements are infallible. Clone couplers are manufact
 - Unit variation is a considerable factor, and should be accounted for
 - Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for
 - Normalization should be accounted for, and should be modified to fit actual perception
-- 
 !!!
 
 Another aspect that should considered is compensation, which is used in two ways in the community. The first one uses compensation as a way to more easily see the error/deviation of an FR curve to another. Compensation in this manner improves "readability", and makes the EQ process easier.
@@ -65,7 +63,6 @@ While a lot of research in terms of sound preference has been done on loudspeake
 2. The eardrum acts like a pressure detector measuring amplitude vs frequency. Therefore, the eardrum **does** perceive more 3kHz energy
 3. The brain expects these changes, and "cancels" out these filters. The resulting perceived sound is therefore the same as the original sound
 4. IEMs bypass many of those parts. They should therefore aim to have a resulting sound at the eardrum that includes every single expected changes
-
 !!!
 
 Grasping the above is important because it explains why IEM measurements and preference targets are **not** flat, and why they have a large rise after 1kHz (commonly referred to as **ear gain**). The couplers used for measurements aim to simulate the eardrum where resulting measurement will reflect the FR at the eardrum after having been influenced by parts of the body. These changes that the brain expects are called Head-Related Transfer Functions (HRTF), and it is this HRTF that is responsible for **sound localization**. Of course, different people will have different HRTFs due to differences in anatomy, and these differences become significant in certain frequency ranges. **While HRTF variation is quite high, there is still value in trying to find a preference target that sounds pleasing to the majority of people, which is why preference research is still ongoing**. The image below is commonly used to explain HRTF; only the concept of the rise and fall of the FR should be noted, as all the other minutiae is **not applicable to IEMs/headphones**.
@@ -80,7 +77,6 @@ Grasping the above is important because it explains why IEM measurements and pre
 - IEM (and headphone) preference research usually aims to recreate similar timbre to that of optimal loudspeakers
 - Significant deviations in bass and treble is normal, and attributable to preference, hearing loss, and other factors
 - Small changes in FR (<3dB) over relatively small frequency ranges are hard to notice at best, and imperceivable at worst
-
 !!!
 
 The most "researched" target comes from Harman, and the latest iteration of their IEM target  is their Harman In-ear (HarmanIE) 2019v2 target. Despite being the most thoroughly researched target, there has been a lot of pushback against this target. Furthermore, many prominent reviewers have also included their own personal preference targets in their databases. Oftentimes these targets are either existing preference targets with tweaks (eg some variation on HarmanIE) or a mix of different FR parts of different IEMs they like (eg combining the bass of X IEM, mid range of Y IEM, and treble of Z IEM).
@@ -93,7 +89,7 @@ The following is a brief summary of important preference target curves, as well 
 - Etymotic Target: DF with an introduced "room tilt" based on outdated preference research (Consumer reports accuracy score) and the X-curve.
 - IEF 2020: Rudimentary target, mostly used to showcase "proper" HRTF features / ear gain. Bass is completely variable and up to taste, but is shown as flat for ease of use
 - IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up t taste
-- DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there's not a singular target. Mostly used in the context of the B&K 5128 rig!!!	
+- DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there's not a singular target. Mostly used in the context of the B&K 5128 rig  !!!	
 
 ***
 ## Human hearing
