@@ -1,3 +1,6 @@
+---
+order: 100
+---
 # EQ Guide for IEMs
 
 !!!warning The guide is really long.
