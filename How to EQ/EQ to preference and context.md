@@ -103,9 +103,7 @@ Listening to each frequency region independently does not reflect how music is h
 
 In the end, the final obtained FR should be ideal to your preferences, and while large deviations in bass and treble regions are normal, the mid range should still have a generally "normal" profile (ie have some semblance of ear gain). The following collection of images are some commonly seen and liked "types" of FR with small descriptions of their tuning; use them as a template and/or mix and match different parts. 
 
-![](https://i.postimg.cc/NFhCkjQZ/zero2.png){width=200}
-![](https://i.postimg.cc/NjbVvtxr/Proxima.png){width=200}
-![Sub bass boost with very little to no ear gain](https://i.postimg.cc/15hbpJt4/MEST2.png){width=200}
+-![](https://i.postimg.cc/NFhCkjQZ/zero2.png){width=200} ![](https://i.postimg.cc/NjbVvtxr/Proxima.png){width=200} ![Sub bass boost with very little to no ear gain](https://i.postimg.cc/15hbpJt4/MEST2.png){width=200}
 
 ![Forward mids and ear gain with bass boost; emphasis on mid bass by rolling off the sub bass](https://i.postimg.cc/8zT3YcLS/Origin.png){width=200} ![Sub bass boost followed by a mid bass dip with forward ear gain](https://i.postimg.cc/bJSFntfQ/Variations.png){width=200} ![Bass boost (glide) with low ear gain except for a 4.5kHz peak](https://i.postimg.cc/FFJ2d2h2/CRA.png){width=200}
 
