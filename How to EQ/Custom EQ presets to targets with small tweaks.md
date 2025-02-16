@@ -1,3 +1,6 @@
+---
+order: 98
+---
 # Custom EQ presets to targets with small tweaks (\*)
 While AutoEQ is excellent at what it sets out to do, it is also possible to EQ to a target manually. Results will probably be very similar to AutoEQ, but creating the preset allows for possible customization filters, and in cases where concise EQ presets are needed (eg when wanting to input presets on other apps/devices), AutoEQ can be non-ideal.
 
