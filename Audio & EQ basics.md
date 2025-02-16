@@ -25,7 +25,9 @@ Measurements in the headphone and IEM community often refer to frequency (magnit
 
 !!!info Importance of measurements
 1. FR is by far the most important factor when it comes to sound quality (ignoring factors like comfort, price bias, aesthetics, etc.) and is the main metric that is used both in the audiophile hobby and the acoustic preference research sphere.
-2. Human hearing is **not reliable**. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to.!!!
+2. Human hearing is **not reliable**. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to.
+
+!!!
 
 Do note that music can also be represented in such plots, where different frequencies will have different amplitudes. For example, imagine a song where there is only bass music playing, and another that only has a flute: the bass song will have higher amplitudes at lower frequencies, while the flute song will have higher amplitudes at higher frequencies. Of course, music has a time component, meaning that a singular FR graph of music only represents a snapshot of the music at a specific time. Intuitively, one might assume that IEMs also have a time component; this is covered in the [FAQ](https://rentry.co/IEM-EQ-Guide#faq). **All that is important for now is that an IEM's FR is all that really matters when it comes to objective metrics.**
 
@@ -38,14 +40,11 @@ This does not mean that measurements are infallible. Clone couplers are manufact
 
 !!!warning Rules to consider
 - Measurements between different databases/couplers/standards cannot be mixed
-  
 - Most couplers are only rated to 10kHz, therefore measurements should not be scrutinized >10kHz. High amplitude and narrow peaks/dips above 5kHz should also be ignored
-  
 - Unit variation is a considerable factor, and should be accounted for
-  
 - Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for
-  
 - Normalization should be accounted for, and should be modified to fit actual perception
+- 
 !!!
 
 Another aspect that should considered is compensation, which is used in two ways in the community. The first one uses compensation as a way to more easily see the error/deviation of an FR curve to another. Compensation in this manner improves "readability", and makes the EQ process easier.
@@ -66,6 +65,7 @@ While a lot of research in terms of sound preference has been done on loudspeake
 2. The eardrum acts like a pressure detector measuring amplitude vs frequency. Therefore, the eardrum **does** perceive more 3kHz energy
 3. The brain expects these changes, and "cancels" out these filters. The resulting perceived sound is therefore the same as the original sound
 4. IEMs bypass many of those parts. They should therefore aim to have a resulting sound at the eardrum that includes every single expected changes
+
 !!!
 
 Grasping the above is important because it explains why IEM measurements and preference targets are **not** flat, and why they have a large rise after 1kHz (commonly referred to as **ear gain**). The couplers used for measurements aim to simulate the eardrum where resulting measurement will reflect the FR at the eardrum after having been influenced by parts of the body. These changes that the brain expects are called Head-Related Transfer Functions (HRTF), and it is this HRTF that is responsible for **sound localization**. Of course, different people will have different HRTFs due to differences in anatomy, and these differences become significant in certain frequency ranges. **While HRTF variation is quite high, there is still value in trying to find a preference target that sounds pleasing to the majority of people, which is why preference research is still ongoing**. The image below is commonly used to explain HRTF; only the concept of the rise and fall of the FR should be noted, as all the other minutiae is **not applicable to IEMs/headphones**.
@@ -80,6 +80,7 @@ Grasping the above is important because it explains why IEM measurements and pre
 - IEM (and headphone) preference research usually aims to recreate similar timbre to that of optimal loudspeakers
 - Significant deviations in bass and treble is normal, and attributable to preference, hearing loss, and other factors
 - Small changes in FR (<3dB) over relatively small frequency ranges are hard to notice at best, and imperceivable at worst
+
 !!!
 
 The most "researched" target comes from Harman, and the latest iteration of their IEM target  is their Harman In-ear (HarmanIE) 2019v2 target. Despite being the most thoroughly researched target, there has been a lot of pushback against this target. Furthermore, many prominent reviewers have also included their own personal preference targets in their databases. Oftentimes these targets are either existing preference targets with tweaks (eg some variation on HarmanIE) or a mix of different FR parts of different IEMs they like (eg combining the bass of X IEM, mid range of Y IEM, and treble of Z IEM).
@@ -98,44 +99,50 @@ The following is a brief summary of important preference target curves, as well 
 ## Human hearing
 The human hearing mechanism is complex, and can only be summarized in an almost-vulgar, oversimplified manner. A few more of the relevant concepts to this guide are discussed.
 
-!!! info Auditory masking
-	->Auditory masking is a phenomena where a signal can affect the perception of another signal, usually one in proximity in terms of frequency. The following image illustrate the concept: a simple tone at one frequency (masker) can create a masking threshold on the surrounding frequency range whose shape and amplitude depends on the masker's own loudness. Any other signal that falls "under" the threshold is masked and inaudible.<-
-->![Auditory masking](https://i.postimg.cc/rFPm0wjt/1706913375313.png){75%:75%}<-
+!!!info Auditory masking
+Auditory masking is a phenomena where a signal can affect the perception of another signal, usually one in proximity in terms of frequency. The following image illustrate the concept: a simple tone at one frequency (masker) can create a masking threshold on the surrounding frequency range whose shape and amplitude depends on the masker's own loudness. Any other signal that falls "under" the threshold is masked and inaudible.
+!!!
+![Auditory masking](https://i.postimg.cc/rFPm0wjt/1706913375313.png)
 
-!!! info Auditory memory
-	->Auditory memory is **especially fragile and short** for humans. Relying entirely on memory when it comes to sound is not possible. It is therefore recommended to take notes of sound impressions, do ABX tests, and use measurements when it comes to describing and/or modifying IEMs and audio. **It doesn't mean that our hearing is useless**, but rather that it is **very fickle** and should be used as a "measuring tool" conservatively.<-
+!!!info Auditory memory
+Auditory memory is **especially fragile and short** for humans. Relying entirely on memory when it comes to sound is not possible. It is therefore recommended to take notes of sound impressions, do ABX tests, and use measurements when it comes to describing and/or modifying IEMs and audio. **It doesn't mean that our hearing is useless**, but rather that it is **very fickle** and should be used as a "measuring tool" conservatively.
+!!!
 
-!!! info Equal-Loudness Contours
-	->Equal-loudness contours show the required loudness level (in this case phons) for perceived equal loudness at various frequencies. The image below shows a rise in lower and higher frequencies in the curve, indicating that those regions need more phons in order to be perceived the same as the middle frequencies (ie human hearing is more sensitive to the middle frequency range). Another important aspect is how this rise in low/high frequencies **reduces** as SPL goes up, indicating that those regions require less phons in order to be perceived in equal loudness (ie human hearing becomes more sensitive to low/high frequency range with increases in listening volume). The effect over normal listening volumes is somewhat negligible, but it should still be considered throughout the guide.<-
-->![Equal-Loudness Contours](https://i.postimg.cc/QMczSpWq/ELC.jpg){50%:50%}<-
+!!!info Equal-Loudness Contours
+Equal-loudness contours show the required loudness level (in this case phons) for perceived equal loudness at various frequencies. The image below shows a rise in lower and higher frequencies in the curve, indicating that those regions need more phons in order to be perceived the same as the middle frequencies (ie human hearing is more sensitive to the middle frequency range). Another important aspect is how this rise in low/high frequencies **reduces** as SPL goes up, indicating that those regions require less phons in order to be perceived in equal loudness (ie human hearing becomes more sensitive to low/high frequency range with increases in listening volume). The effect over normal listening volumes is somewhat negligible, but it should still be considered throughout the guide.<-
+!!!
+![Equal-Loudness Contours](https://i.postimg.cc/QMczSpWq/ELC.jpg)
 
-!!! info Distortion and audibility
-	->Distortion at a frequency increases/decreases when the amplitude at said frequency increases/decreases. Therefore, using EQ to boost the level of certain frequencies will also increase distortion. For IEMs, distortion is **negligible**, and even more so when considering distortion audibility with music. Only severe flaws with the IEM will lead to distortion being a relevant metric to consider.<-
+!!!info Distortion and audibility
+Distortion at a frequency increases/decreases when the amplitude at said frequency increases/decreases. Therefore, using EQ to boost the level of certain frequencies will also increase distortion. For IEMs, distortion is **negligible**, and even more so when considering distortion audibility with music. Only severe flaws with the IEM will lead to distortion being a relevant metric to consider.
+!!!
 
-!!! info Brain Burn-in
-	->Brain burn-in refers to how our perception of sound can change with time as we get acclimated to a particular sound, and often occurs (in the context of IEMs) when the FR of a new IEM is significantly different than another one that was used before it. Preference for the new one is then taken to the extreme (positively or negatively), and this disparity in preference averages out and lessens with time as the user gets used to the sound presentation. For this guide where comparisons and constant subjective evaluation are needed, brain burn-in should be isolated and/or removed from the process.<-
+!!!info Brain Burn-in
+Brain burn-in refers to how our perception of sound can change with time as we get acclimated to a particular sound, and often occurs (in the context of IEMs) when the FR of a new IEM is significantly different than another one that was used before it. Preference for the new one is then taken to the extreme (positively or negatively), and this disparity in preference averages out and lessens with time as the user gets used to the sound presentation. For this guide where comparisons and constant subjective evaluation are needed, brain burn-in should be isolated and/or removed from the process.
+!!!
 
 
 ***
 ## Equalizer basics
 An equalizer (EQ) is a tool used to modify a signal, in this case an audio signal. In most cases, it is used as a way to change the amplitude for a specific frequency range/band. 
 
-!!! info Four relevant filter parameters
-	- Filter frequency, which dictates where the center of the filter is 
-	- Filter quality/slope Q, which dictates what frequency range will be affected by the filter
-	- Filter gain, which dictates the amplitude change, usually in dB
-	- Filter type, which dictates how a filter behaves
+!!!info Four relevant filter parameters
+- Filter frequency, which dictates where the center of the filter is 
+- Filter quality/slope Q, which dictates what frequency range will be affected by the filter
+- Filter gain, which dictates the amplitude change, usually in dB
+- Filter type, which dictates how a filter behaves
+	!!!
 
 There are different types of EQs, ranging from analog/digital EQs to parametric and graphic ones. Parametric EQs (PEQ) allow the user to change all three parameters, and provide a nice balance between being flexible, and being easy to modify and use. Unless stated otherwise, EQ will refer to PEQ for the rest of the guide. 
 
 !!! warning EQ minimalism
-	->The guide adheres to what I call **EQ minimalism**, which can be thought of as an approach to how EQ is used and developed. In this context, it means that ideally, an EQ preset should have **as few filters as possible**, for which each filter should have **low gain and Q values**. Aiming for few but broad changes is a good rule of thumb to follow; for more complex sections, deviation from this rule will be normal, even necessary.<-
+The guide adheres to what I call **EQ minimalism**, which can be thought of as an approach to how EQ is used and developed. In this context, it means that ideally, an EQ preset should have **as few filters as possible**, for which each filter should have **low gain and Q values**. Aiming for few but broad changes is a good rule of thumb to follow; for more complex sections, deviation from this rule will be normal, even necessary.
+!!!
 
 	
-
 The following image shows three FRs in three different colors. The red one is the base one with no filters, while the green and blue ones have different filters in order to showcase what each parameter does. The table includes the filters used in increasing order of frequency; the three left columns are for the blue FR, the three right columns for the green one.
 
-->![Peak filters](https://i.postimg.cc/zfY5VpYw/EQ.png){75%:75%}<-
+![Peak filters](https://i.postimg.cc/zfY5VpYw/EQ.png)
 Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|
 50 | 5 | 3 | 50 | 8 | 3 | 
@@ -144,20 +151,21 @@ Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 12000 | 5 | 3 |  |  | |
 
 
-!!! info A few things to note
-	- Increasing gain also widens the filter
-	- Overlapping filters are summed. For the last two filters for the blue FR, the gain is 5 dB, but the overlap make the peaks land at around 7 dB
-	- Negative gain is also possible. If two filters with the same frequency and Q values have "opposite" gain (eg 4 and -4 dB), they will be canceled
-		
+!!!info A few things to note
+- Increasing gain also widens the filter
+- Overlapping filters are summed. For the last two filters for the blue FR, the gain is 5 dB, but the overlap make the peaks land at around 7 dB
+- Negative gain is also possible. If two filters with the same frequency and Q values have "opposite" gain (eg 4 and -4 dB), they will be canceled
+!!!
 
 The only parameter that was not discussed is the filter type. In this guide, three types are used the most often.
 
 !!! info Filter types
-	1. Peak filters, which are the ones shown above
-	2. Low-shelf filters, which boosts every frequency **below** the specified one (first row). The Q changes the shape of the filter 
-	3. High-shelf filters, which boosts every frequency **above** the specified one (second row). The Q changes the shape of the filter 
+1. Peak filters, which are the ones shown above
+2. Low-shelf filters, which boosts every frequency **below** the specified one (first row). The Q changes the shape of the filter 
+3. High-shelf filters, which boosts every frequency **above** the specified one (second row). The Q changes the shape of the filter 
+!!!
 
-->![Shelf filters](https://i.postimg.cc/bJmwQSQw/Shelves.png){75%:75%}<-
+![Shelf filters](https://i.postimg.cc/bJmwQSQw/Shelves.png)
 Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|
 100 | 8 |  0.4| 100 | 8 | 0.707 | 
@@ -180,10 +188,9 @@ Do note that because of how the Android audio stack works, there are slight diff
 For the rest of the guide, EqualizerAPO with the PeaceGUI will be used; differences between different apps that have PEQ are very minor. Depending on the complexity of how EQ is being used, additional software and tools might be required.
 
 !!! note EqualizerAPO/PeaceGUI filter types
-	->It is important to choose the appropriate filter types when using EQ. The image below contains the main ones; the difference between the shelf filters is that the one with "Q as slope" has adjustable Q values, while the one without has a default Q value of 0.707. Any other app not in the link above might have different filter types with different filter slope derivations that will not match what this guide uses (Robert Bristow-Johnson cookbook).<-
-	
-	->![Filter types in EqualizerAPO/PeaceGUI](https://i.postimg.cc/bJS532dZ/EQ-Sliders.png){40%:40%}<-
-	
+It is important to choose the appropriate filter types when using EQ. The image below contains the main ones; the difference between the shelf filters is that the one with "Q as slope" has adjustable Q values, while the one without has a default Q value of 0.707. Any other app not in the link above might have different filter types with different filter slope derivations that will not match what this guide uses (Robert Bristow-Johnson cookbook).
+![Filter types in EqualizerAPO/PeaceGUI](https://i.postimg.cc/bJS532dZ/EQ-Sliders.png){width=300}	
+!!!
 	
 
 ### Measurement databases and tools
