@@ -105,15 +105,15 @@ Listening to each frequency region independently does not reflect how music is h
 
 In the end, the final obtained FR should be ideal to your preferences, and while large deviations in bass and treble regions are normal, the mid range should still have a generally "normal" profile (ie have some semblance of ear gain). The following collection of images are some commonly seen and liked "types" of FR with small descriptions of their tuning; use them as a template and/or mix and match different parts. 
 
-||| ![](https://i.postimg.cc/NFhCkjQZ/zero2.png){width=300}
-![Forward mids and ear gain with bass boost; emphasis on mid bass by rolling off the sub bass](https://i.postimg.cc/8zT3YcLS/Origin.png){width=200}
-![Somewhat flat or rolled off bass with a lot of lower mids (warmth), with low plateau ear gain](https://i.postimg.cc/KYHH45wG/Andro.png){width=200}
-||| ![](https://i.postimg.cc/NjbVvtxr/Proxima.png){width=300}
-![Sub bass boost followed by a mid bass dip with forward ear gain](https://i.postimg.cc/bJSFntfQ/Variations.png){width=200}
-![Bass boost (glide) with moderate plateau ear gain](https://i.postimg.cc/5NBTpLYg/P5.png){width=200}
-||| ![Sub bass boost with very little to no ear gain](https://i.postimg.cc/15hbpJt4/MEST2.png){width=300}
-![Bass boost (glide) with low ear gain except for a 4.5kHz peak](https://i.postimg.cc/FFJ2d2h2/CRA.png){width=200}
-![Mostly sub bass boost with moderate ear gain](https://i.postimg.cc/Bv6zqzh7/5EST.png){width=200}
+||| ![](https://i.postimg.cc/NFhCkjQZ/zero2.png)
+![Forward mids and ear gain with bass boost; emphasis on mid bass by rolling off the sub bass](https://i.postimg.cc/8zT3YcLS/Origin.png)
+![Somewhat flat or rolled off bass with a lot of lower mids (warmth), with low plateau ear gain](https://i.postimg.cc/KYHH45wG/Andro.png)
+||| ![](https://i.postimg.cc/NjbVvtxr/Proxima.png)
+![Sub bass boost followed by a mid bass dip with forward ear gain](https://i.postimg.cc/bJSFntfQ/Variations.png)
+![Bass boost (glide) with moderate plateau ear gain](https://i.postimg.cc/5NBTpLYg/P5.png)
+||| ![Sub bass boost with very little to no ear gain](https://i.postimg.cc/15hbpJt4/MEST2.png)
+![Bass boost (glide) with low ear gain except for a 4.5kHz peak](https://i.postimg.cc/FFJ2d2h2/CRA.png)
+![Mostly sub bass boost with moderate ear gain](https://i.postimg.cc/Bv6zqzh7/5EST.png)
 |||
 
 
