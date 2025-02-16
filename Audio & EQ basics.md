@@ -14,7 +14,7 @@ The following videos are also fun and intuitive ways of understanding audio and 
 
 
 
-!!! warning 
+!!!warning 
 **Before continuing, knowing how to read graphs is a crucial skill, and it is essential in using EQ. Knowing how to properly wear IEMs is just as important; getting a proper seal and consistent insertion depth will yield the best results.
 The FAQ and terminology sections are also worth taking a quick look at.**
 !!!
@@ -33,23 +33,21 @@ Do note that music can also be represented in such plots, where different freque
 ![Example of a frequency response graph. ](https://i.postimg.cc/ZKjcq1bh/mic-basics-frequency-response-content-1.png) ![Example of a frequency response graph. ](https://i.postimg.cc/fydyGycD/KZ.png)
 
 
-
 IEM measurements are significantly more prominent than others because they are devices that are easy to measure compared to headphones and loudspeakers. Further more, the prevalence of affordable clone couplers - coupler in this case referring to the measurement device - made it so that IEM measurements have become widespread in a very short amount of time while still *somewhat* adhering to the established standard for measuring such devices. This widespread prevalence of high quality measurements is very useful for EQ purposes as well as for getting a rough idea of how an IEM will sound like.
 
 This does not mean that measurements are infallible. Clone couplers are manufactured by unknown companies/groups in dubious conditions, and while they **might** comply with the relevant standards, they are not nearly as precise and/or as consistent as official gear. Not only that, **measurements might not match what the user/listener is hearing**. This topic is addressed later; for now, note that having a **proper seal is important for bass frequencies**. It is therefore important to understand the following rules in order to avoid problems with regards to FR graphs and measurements.
 
-!!! warning Rules to consider
-	- Measurements between different databases/couplers/standards cannot be mixed
-	- Most couplers are only rated to 10kHz, therefore measurements should not be scrutinized >10kHz. High amplitude and narrow peaks/dips above 5kHz should also be ignored
-	- Unit variation is a considerable factor, and should be accounted for 
-	- Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for
-	- Normalization should be accounted for, and should be modified to fit actual perception
-	
+!!!warning Rules to consider
+- Measurements between different databases/couplers/standards cannot be mixed
+- Most couplers are only rated to 10kHz, therefore measurements should not be scrutinized >10kHz. High amplitude and narrow peaks/dips above 5kHz should also be ignored
+- Unit variation is a considerable factor, and should be accounted for 
+- Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for
+- Normalization should be accounted for, and should be modified to fit actual perception
+!!!
 
 Another aspect that should considered is compensation, which is used in two ways in the community. The first one uses compensation as a way to more easily see the error/deviation of an FR curve to another. Compensation in this manner improves "readability", and makes the EQ process easier.
 
-->![Compensation of the Truthear Zero to the HarmanIE 2019 target, normalized at 1kHz](https://i.postimg.cc/FKBZ5DL4/Compensation-target.png){75%:75%}<-
-
+![Compensation of the Truthear Zero to the HarmanIE 2019 target, normalized at 1kHz](https://i.postimg.cc/FKBZ5DL4/Compensation-target.png)
 
 The second way aims to correct/remove the errors introduced by the coupler. It can also be used to correct the coupler to a reference coupler, which can theoretically mean that measurements done on different couplers can be exchanged, provided they have been compensated properly. A full explanation of proper coupler compensation is beyond the scope of this guide; just know that it is complicated and requires a lot of data to work properly.
 
@@ -60,37 +58,39 @@ The 5128∆ project aims to create such compensations for various different data
 ## Targets and preferences
 While a lot of research in terms of sound preference has been done on loudspeakers and headphones, what has been done with IEMs has been less thorough. To better understand measurements, it is important to understand the intersectionality between preference, perceived accuracy, and anatomy. 
 
-!!! info Oversimplified summary on the role of anatomy in terms of hearing and graphs
-	1. Parts of the ear/body act like filters on the incoming audio signal for localization purposes. The biggest change is a total rise from 1.5kHz - 8kHz peaking at 3kHz
-	2. The eardrum acts like a pressure detector measuring amplitude vs frequency. Therefore, the eardrum **does** perceive more 3kHz energy
-	3. The brain expects these changes, and "cancels" out these filters. The resulting perceived sound is therefore the same as the original sound
-	4. IEMs bypass many of those parts. They should therefore aim to have a resulting sound at the eardrum that includes every single expected changes
+!!!info Oversimplified summary on the role of anatomy in terms of hearing and graphs
+1. Parts of the ear/body act like filters on the incoming audio signal for localization purposes. The biggest change is a total rise from 1.5kHz - 8kHz peaking at 3kHz
+2. The eardrum acts like a pressure detector measuring amplitude vs frequency. Therefore, the eardrum **does** perceive more 3kHz energy
+3. The brain expects these changes, and "cancels" out these filters. The resulting perceived sound is therefore the same as the original sound
+4. IEMs bypass many of those parts. They should therefore aim to have a resulting sound at the eardrum that includes every single expected changes
+!!!
 
 Grasping the above is important because it explains why IEM measurements and preference targets are **not** flat, and why they have a large rise after 1kHz (commonly referred to as **ear gain**). The couplers used for measurements aim to simulate the eardrum where resulting measurement will reflect the FR at the eardrum after having been influenced by parts of the body. These changes that the brain expects are called Head-Related Transfer Functions (HRTF), and it is this HRTF that is responsible for **sound localization**. Of course, different people will have different HRTFs due to differences in anatomy, and these differences become significant in certain frequency ranges. **While HRTF variation is quite high, there is still value in trying to find a preference target that sounds pleasing to the majority of people, which is why preference research is still ongoing**. The image below is commonly used to explain HRTF; only the concept of the rise and fall of the FR should be noted, as all the other minutiae is **not applicable to IEMs/headphones**.
 
-->![Different changes caused by anatomy on incoming sound and FR. Ignore the angle of incidence part](https://i.postimg.cc/MpJRmYdG/HRTF.png){75%:75%}<-
+![Different changes caused by anatomy on incoming sound and FR. Ignore the angle of incidence part](https://i.postimg.cc/MpJRmYdG/HRTF.png)
 
 
-!!! info Oversimplified summary on preference research
-	- There is a significant correlation between preference and "neutrality"/accuracy in terms of sound reproduction
-	- For loudspeakers, this means that a flat FR in anechoic conditions is preferable
-	- Anechoic conditions are rarely found in everyday life, much less in studios. Most environments are semi-reflective, which introduces a downwards slope (or clockwise tilt) to the loudspeaker FR
-	- IEM (and headphone) preference research usually aims to recreate similar timbre to that of optimal loudspeakers
-	- Significant deviations in bass and treble is normal, and attributable to preference, hearing loss, and other factors
-	- Small changes in FR (<3dB) over relatively small frequency ranges are hard to notice at best, and imperceivable at worst
+!!!info Oversimplified summary on preference research
+- There is a significant correlation between preference and "neutrality"/accuracy in terms of sound reproduction
+- For loudspeakers, this means that a flat FR in anechoic conditions is preferable
+- Anechoic conditions are rarely found in everyday life, much less in studios. Most environments are semi-reflective, which introduces a downwards slope (or clockwise tilt) to the loudspeaker FR
+- IEM (and headphone) preference research usually aims to recreate similar timbre to that of optimal loudspeakers
+- Significant deviations in bass and treble is normal, and attributable to preference, hearing loss, and other factors
+- Small changes in FR (<3dB) over relatively small frequency ranges are hard to notice at best, and imperceivable at worst
+!!!
 
 The most "researched" target comes from Harman, and the latest iteration of their IEM target  is their Harman In-ear (HarmanIE) 2019v2 target. Despite being the most thoroughly researched target, there has been a lot of pushback against this target. Furthermore, many prominent reviewers have also included their own personal preference targets in their databases. Oftentimes these targets are either existing preference targets with tweaks (eg some variation on HarmanIE) or a mix of different FR parts of different IEMs they like (eg combining the bass of X IEM, mid range of Y IEM, and treble of Z IEM).
 
- The following is a brief summary of important preference target curves, as well as other curves that are **not based on preference**. There are also more informative and in-depth explanations of each of them in the [Measurement rigs, curves, and preference targets](https://rentry.co/IEM-EQ-Guide#measurement-rigs-curves-and-preference-targets) section.
+The following is a brief summary of important preference target curves, as well as other curves that are **not based on preference**. There are also more informative and in-depth explanations of each of them in the [Measurement rigs, curves, and preference targets] section.
 
-!!! info Summary on various preference targets and other curves
-	- Harman In-Ear (HarmanIE): Preference target by Harman for IEMs, based on past headphone and loudspeaker preference studies. The most validated target when it comes to targets with proper listening testing
-	- Diffuse Field (DF): FR curve based on a completely "reverberant" listening condition (ie no energy emphasis on any direction). Used mainly as a reference curve, not a preference one
-	- Etymotic Target: DF with an introduced "room tilt" based on outdated preference research (Consumer reports accuracy score) and the X-curve.
-	- IEF 2020: Rudimentary target, mostly used to showcase "proper" HRTF features / ear gain. Bass is completely variable and up to taste, but is shown as flat for ease of use
-	- IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up t taste
-	- DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there's not a singular target. Mostly used in the context of the B&K 5128 rig
-	
+!!!info Summary on various preference targets and other curves
+- Harman In-Ear (HarmanIE): Preference target by Harman for IEMs, based on past headphone and loudspeaker preference studies. The most validated target when it comes to targets with proper listening testing
+- Diffuse Field (DF): FR curve based on a completely "reverberant" listening condition (ie no energy emphasis on any direction). Used mainly as a reference curve, not a preference one
+- Etymotic Target: DF with an introduced "room tilt" based on outdated preference research (Consumer reports accuracy score) and the X-curve.
+- IEF 2020: Rudimentary target, mostly used to showcase "proper" HRTF features / ear gain. Bass is completely variable and up to taste, but is shown as flat for ease of use
+- IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up t taste
+- DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there's not a singular target. Mostly used in the context of the B&K 5128 rig
+!!!	
 
 ***
 ## Human hearing
