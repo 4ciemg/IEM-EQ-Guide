@@ -1,3 +1,6 @@
+---
+order: 100
+---
 # Before getting started
 
 The following sections are ordered in increasing levels of "difficulty", where later sections demand more theoretical and practical background knowledge, some of which **will either not be covered, or only very briefly**. As sections become more "difficult", less and less detailed instructions will be provided: the exercise will be left to the reader to try. Looking at the [Measurement rigs, curves, and preference targets]() section is also useful where using EQ to match FR to a target is necessary.
