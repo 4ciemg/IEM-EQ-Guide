@@ -39,9 +39,13 @@ This does not mean that measurements are infallible. Clone couplers are manufact
 
 !!!warning Rules to consider
 - Measurements between different databases/couplers/standards cannot be mixed
+  
 - Most couplers are only rated to 10kHz, therefore measurements should not be scrutinized >10kHz. High amplitude and narrow peaks/dips above 5kHz should also be ignored
-- Unit variation is a considerable factor, and should be accounted for 
+  
+- Unit variation is a considerable factor, and should be accounted for
+  
 - Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for
+  
 - Normalization should be accounted for, and should be modified to fit actual perception
 !!!
 
