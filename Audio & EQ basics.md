@@ -24,8 +24,8 @@ The FAQ and terminology sections are also worth taking a quick look at.**
 Measurements in the headphone and IEM community often refer to frequency (magnitude) response (FR) plots where the x-axis represents frequency, in this case the audible spectrum band (20 Hz to 20 000 Hz or 20 kHz) in logarithmic scale to match how human hearing work. The y-axis represents amplitude/loudness/SPL, usually in dB, in linear scale. Together, they form a graph that shows **how loud something is at specific frequencies**. An important thing to always check is the scale of each axis; these are commonly modified to skew perception. These measurements are important for two reasons.
 
 !!!info Importance of measurements
-1. FR is by far the most important factor when it comes to sound quality (ignoring factors like comfort, price bias, aesthetics, etc.) and is the main metric that is used both in the audiophile hobby and the acoustic preference research sphere.
-2. Human hearing is **not reliable**. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to.
+1. FR is by far the most important factor when it comes to sound quality (ignoring factors like comfort, price bias, aesthetics, etc.) and is the main metric that is used both in the audiophile hobby and the acoustic preference research sphere
+2. Human hearing is **not reliable**. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to
 !!!
 
 Do note that music can also be represented in such plots, where different frequencies will have different amplitudes. For example, imagine a song where there is only bass music playing, and another that only has a flute: the bass song will have higher amplitudes at lower frequencies, while the flute song will have higher amplitudes at higher frequencies. Of course, music has a time component, meaning that a singular FR graph of music only represents a snapshot of the music at a specific time. Intuitively, one might assume that IEMs also have a time component; this is covered in the [FAQ](https://rentry.co/IEM-EQ-Guide#faq). **All that is important for now is that an IEM's FR is all that really matters when it comes to objective metrics.**
@@ -88,8 +88,9 @@ The following is a brief summary of important preference target curves, as well 
 - Diffuse Field (DF): FR curve based on a completely "reverberant" listening condition (ie no energy emphasis on any direction). Used mainly as a reference curve, not a preference one
 - Etymotic Target: DF with an introduced "room tilt" based on outdated preference research (Consumer reports accuracy score) and the X-curve.
 - IEF 2020: Rudimentary target, mostly used to showcase "proper" HRTF features / ear gain. Bass is completely variable and up to taste, but is shown as flat for ease of use
-- IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up t taste
-- DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there's not a singular target. Mostly used in the context of the B&K 5128 rig  !!!	
+- IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up to taste
+- DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there's not a singular target. Mostly used in the context of the B&K 5128 rig
+- !!!	
 
 ***
 ## Human hearing
@@ -127,7 +128,7 @@ An equalizer (EQ) is a tool used to modify a signal, in this case an audio signa
 - Filter quality/slope Q, which dictates what frequency range will be affected by the filter
 - Filter gain, which dictates the amplitude change, usually in dB
 - Filter type, which dictates how a filter behaves
-	!!!
+!!!
 
 There are different types of EQs, ranging from analog/digital EQs to parametric and graphic ones. Parametric EQs (PEQ) allow the user to change all three parameters, and provide a nice balance between being flexible, and being easy to modify and use. Unless stated otherwise, EQ will refer to PEQ for the rest of the guide. 
 
@@ -185,7 +186,7 @@ For the rest of the guide, EqualizerAPO with the PeaceGUI will be used; differen
 
 !!! note EqualizerAPO/PeaceGUI filter types
 It is important to choose the appropriate filter types when using EQ. The image below contains the main ones; the difference between the shelf filters is that the one with "Q as slope" has adjustable Q values, while the one without has a default Q value of 0.707. Any other app not in the link above might have different filter types with different filter slope derivations that will not match what this guide uses (Robert Bristow-Johnson cookbook).
-![Filter types in EqualizerAPO/PeaceGUI](https://i.postimg.cc/bJS532dZ/EQ-Sliders.png){width=300}	
+![Filter types in EqualizerAPO/PeaceGUI](https://i.postimg.cc/bJS532dZ/EQ-Sliders.png){width=600}	
 !!!
 	
 
