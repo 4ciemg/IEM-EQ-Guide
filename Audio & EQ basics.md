@@ -1,3 +1,6 @@
+---
+order: 99
+---
 # Audio & EQ basics
 ***
 ## Recommended articles and videos
