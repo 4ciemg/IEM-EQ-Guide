@@ -5,8 +5,8 @@ Another guide is available through squig.link databases in the Equalizer tab. Th
 !!!
 
 !!!info Guide Overview
-	The goal of this guide is to provide the necessary, stripped down practical information for equalizers (EQ) when it comes to audio reproduction, and is aimed at most people, from beginners to experienced users. Some basic theory will be summarized, but a general understanding of the hearing system, audio, and waves is useful.
-	This guide will be mainly focused on EQ concerning **IEMs**. Skip the sections you feel comfortable with, or just do whatever you want.
+The goal of this guide is to provide the necessary, stripped down practical information for equalizers (EQ) when it comes to audio reproduction, and is aimed at most people, from beginners to experienced users. Some basic theory will be summarized, but a general understanding of the hearing system, audio, and waves is useful.
+This guide will be mainly focused on EQ concerning **IEMs**. Skip the sections you feel comfortable with, or just do whatever you want.
 !!!
 
 There are 3 main sections in this guide: 
