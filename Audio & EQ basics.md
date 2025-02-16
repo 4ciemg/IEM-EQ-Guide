@@ -15,20 +15,22 @@ The following videos are also fun and intuitive ways of understanding audio and 
 
 
 !!! warning 
-	->**Before continuing, knowing how to read graphs is a crucial skill, and it is essential in using EQ. Knowing how to properly wear IEMs is just as important; getting a proper seal and consistent insertion depth will yield the best results.
-	The FAQ and terminology sections are also worth taking a quick look at.** <-
+**Before continuing, knowing how to read graphs is a crucial skill, and it is essential in using EQ. Knowing how to properly wear IEMs is just as important; getting a proper seal and consistent insertion depth will yield the best results.
+The FAQ and terminology sections are also worth taking a quick look at.**
+!!!
 
 ***
 ## Measurements and warnings
 Measurements in the headphone and IEM community often refer to frequency (magnitude) response (FR) plots where the x-axis represents frequency, in this case the audible spectrum band (20 Hz to 20 000 Hz or 20 kHz) in logarithmic scale to match how human hearing work. The y-axis represents amplitude/loudness/SPL, usually in dB, in linear scale. Together, they form a graph that shows **how loud something is at specific frequencies**. An important thing to always check is the scale of each axis; these are commonly modified to skew perception. These measurements are important for two reasons.
 
-!!! info Importance of measurements
-	1. FR is by far the most important factor when it comes to sound quality (ignoring factors like comfort, price bias, aesthetics, etc.) and is the main metric that is used both in the audiophile hobby and the acoustic preference research sphere
-	2. Human hearing is **not reliable**. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to
+!!!info Importance of measurements
+1. FR is by far the most important factor when it comes to sound quality (ignoring factors like comfort, price bias, aesthetics, etc.) and is the main metric that is used both in the audiophile hobby and the acoustic preference research sphere.
+2. Human hearing is **not reliable**. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to.
+!!!
 
 Do note that music can also be represented in such plots, where different frequencies will have different amplitudes. For example, imagine a song where there is only bass music playing, and another that only has a flute: the bass song will have higher amplitudes at lower frequencies, while the flute song will have higher amplitudes at higher frequencies. Of course, music has a time component, meaning that a singular FR graph of music only represents a snapshot of the music at a specific time. Intuitively, one might assume that IEMs also have a time component; this is covered in the [FAQ](https://rentry.co/IEM-EQ-Guide#faq). **All that is important for now is that an IEM's FR is all that really matters when it comes to objective metrics.**
 
-->![Example of a frequency response graph. ](https://i.postimg.cc/ZKjcq1bh/mic-basics-frequency-response-content-1.png){49%:49%} ![Example of a frequency response graph. ](https://i.postimg.cc/fydyGycD/KZ.png){49%:49%}<-
+![Example of a frequency response graph. ](https://i.postimg.cc/ZKjcq1bh/mic-basics-frequency-response-content-1.png) ![Example of a frequency response graph. ](https://i.postimg.cc/fydyGycD/KZ.png)
 
 
 
