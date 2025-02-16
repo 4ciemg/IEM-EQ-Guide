@@ -6,7 +6,7 @@ links:
 
 
 markdown:
-  lineBreaks: hard
+  lineBreaks: soft
 
 search:
   mode: full
