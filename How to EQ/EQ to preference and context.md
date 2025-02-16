@@ -2,7 +2,9 @@
 order: 96
 ---
 # EQ to preference and context (\*\*)
-Assuming that you're now familiar with EQ, it's time to dive into personal preference targets. While preference targets with small tweaks (eg an added bass or treble shelf) are a good way to start, they might not be the optimal sound that each person is looking for, which is why having an understanding of one's preferences is crucial. At this stage, the possibilities are endless which also means that everything can become overwhelming. What should be modified first? What if it doesn't sound good? What if X or Y is a mistake? 
+Assuming that you're now familiar with EQ, it's time to dive into personal preference targets. While preference targets with small tweaks (eg an added bass or treble shelf) are a good way to start, they might not be the optimal sound that each person is looking for, which is why having an understanding of one's preferences is crucial. 
+
+At this stage, the possibilities are endless which also means that everything can become overwhelming. What should be modified first? What if it doesn't sound good? What if X or Y is a mistake? 
 
 Now that you are hopefully more familiar with your preferences as well as EQ, let's add a few rules and important notes.
 
