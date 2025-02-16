@@ -120,8 +120,7 @@ In the end, the final obtained FR should be ideal to your preferences, and while
 
 
 
-||| === Common ear gain with a bass boost (glide) 	
-	![](https://i.postimg.cc/NFhCkjQZ/zero2.png)
+||| === Common ear gain with a bass boost (glide) 	![](https://i.postimg.cc/NFhCkjQZ/zero2.png)
 
 
 
