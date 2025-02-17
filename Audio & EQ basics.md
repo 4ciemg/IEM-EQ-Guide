@@ -197,7 +197,6 @@ It is important to choose the appropriate filter types when using EQ. The image 
 [!embed](https://owliophile.com/)
 
 ||| [!embed](https://graph.hangout.audio/iem/5128/?share=JM-1_Target,Project_Reference_V2.1&bass=8&tilt=0&treble=-4&ear=0)
-[!embed](https://graph.hangout.audio/iem/5128/)
 |||
 
 ### Measurement databases and tools
