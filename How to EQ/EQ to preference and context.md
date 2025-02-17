@@ -129,8 +129,10 @@ In the end, the final obtained FR should be ideal to your preferences, and while
 === Bass boost (glide) with low ear gain except for a 4.5kHz peak
 ![](https://i.postimg.cc/FFJ2d2h2/CRA.png)
 
-=== Mostly sub bass boost with moderate ear gain
+||| === Mostly sub bass boost with moderate ear gain
 ![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
+===
+
 
 ***
 ## Noise and environment
