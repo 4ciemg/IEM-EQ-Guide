@@ -143,12 +143,13 @@ The guide adheres to what I call **EQ minimalism**, which can be thought of as a
 The following image shows three FRs in three different colors. The red one is the base one with no filters, while the green and blue ones have different filters in order to showcase what each parameter does. The table includes the filters used in increasing order of frequency; the three left columns are for the blue FR, the three right columns for the green one.
 
 ![Peak filters](https://i.postimg.cc/zfY5VpYw/EQ.png)
+
 Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|
 50 | 5 | 3 | 50 | 8 | 3 | 
 1000 | 10 | 3 | 1000 | 10 | 1 |
 9000 | 5 | 3 | 10000 | -10 | 4 | 
-12000 | 5 | 3 |  |  | |
+12000 | 5 | 3 | | | |
 
 
 !!!info A few things to note
@@ -166,6 +167,7 @@ The only parameter that was not discussed is the filter type. In this guide, thr
 !!!
 
 ![Shelf filters](https://i.postimg.cc/bJmwQSQw/Shelves.png)
+
 Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|
 100 | 8 |  0.4| 100 | 8 | 0.707 | 
