@@ -1,3 +1,6 @@
+---
+order: 93
+---
 # More advanced DSP (\*\*\*\*)
 Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio. EQ is a form DSP, but there are many other ones that can change the audio signal in ways that EQ can't. This section will cover some common forms of DSP, as well as some more niche ones. At this stage, there won't necessarily be any improvement in sound; it is yet another experimentation stage. Whether or not you prefer them or regular stereo music will depend on your preferences.
 
