@@ -17,7 +17,8 @@ At this stage, it is important to be more nuanced when it comes to reading measu
 The first main issue arises from **HRTF differences** between individuals. Starting from around 2kHz, the variation in HRTF becomes quite significant, and increases in magnitude proportionally with frequency. For example, looking at the SADIE II database of DFHRTF measurements done at the blocked ear  canal, the patterns described previously can be seen clearly, where amplitude differences of up to 20 dB can be observed above 10 kHz (image on the left). Note that since the HRTF database was measured at the blocked ear canal, it does not include the canal transfer function and potential variations in the frequency range it affects; the variations are therefore even more pronounced and can go down as low ass 1 kHz. What this means is that even if IEMs produced the same FR at the eardrum of two separate people, their perception of the produced sound **will be different** (assuming said perception can be measured, quantified, and compared), despite having the same response at the eardrum. The image on the right shows open and blocked canal measurements of 40 HRTFs for a frontal source: while not directly comparable to the DFHRTF image from the SADIE II database, it does still show the very large deviations in HRTF above 1 kHz depending on the individual. 
 
 
-![SADIE II DFHRTF at the blocked ear canal for 40 people](https://i.postimg.cc/KjC6yPq3/SADIE-DFHRTF.png){width=300} ![HRTF at the open and blocked ear canal for a frontal source ](https://i.postimg.cc/D0S9DjgK/Moller-HRTf.png){width=300}
+|||![SADIE II DFHRTF at the blocked ear canal for 40 people](https://i.postimg.cc/KjC6yPq3/SADIE-DFHRTF.png)
+|||![HRTF at the open and blocked ear canal for a frontal source ](https://i.postimg.cc/D0S9DjgK/Moller-HRTf.png)
 
 
 ### Measurement system accuracy
@@ -43,7 +44,8 @@ Unfortunately, most FR databases of IEMs are currently being done with the old s
 The third reason is related to how FR can vary depending on how an IEM couples and interacts with the ear canal and eardrum. When an IEM is inserted into the ear canal, the transfer function between the IEM and the eardrum can create meaningful peaks throughout the treble range, and for which the amplitude, location, Q, and number of peaks varies considerably with the individual, and depends on many factors, such as ear canal geometry. The images below show such potential transfer functions; notice the variance in terms of peak amplitude and Q. The canal transfer function is highly variable depending on the individual, and the peaks shown on measurements can also be a result of either insertion, driver resonances, or other factors, for which the transfer function will inevitably be masked or mixed with said variables. Furthermore, some IEMs employ forms of damping that try to mitigate such resonances. The interaction between the IEM and the canal of a person is therefore not shown accurately on 711 measurements, where canal geometry is not present, and even on 5128 measurements, the peaks in response will shift around depending on the individual.
 
 
-![Simulated ear canal transfer function  for both a KEMAR rig and human ear geometries from the IHA database](https://i.postimg.cc/65LvsWDf/Canal-Transfer-functions.png){width=300} ![Ear canal transfer functions obtained on various humans](https://i.postimg.cc/W1NJsRVL/Oksanen.png){width=150}
+|||![Simulated ear canal transfer function  for both a KEMAR rig and human ear geometries from the IHA database](https://i.postimg.cc/65LvsWDf/Canal-Transfer-functions.png)
+|||![Ear canal transfer functions obtained on various humans](https://i.postimg.cc/W1NJsRVL/Oksanen.png)
 
 
 ***
