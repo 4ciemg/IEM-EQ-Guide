@@ -1,3 +1,6 @@
+---
+order: 96
+---
 # FAQ
 
 *I can't hear the difference between EQ presets, am I doing something wrong?*
