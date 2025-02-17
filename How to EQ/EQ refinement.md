@@ -19,7 +19,7 @@ The first main issue arises from **HRTF differences** between individuals. Start
 
 |||![SADIE II DFHRTF at the blocked ear canal for 40 people](https://i.postimg.cc/KjC6yPq3/SADIE-DFHRTF.png)
 |||![HRTF at the open and blocked ear canal for a frontal source ](https://i.postimg.cc/D0S9DjgK/Moller-HRTf.png)
-
+|||
 
 ### Measurement system accuracy
 
@@ -46,7 +46,7 @@ The third reason is related to how FR can vary depending on how an IEM couples a
 
 |||![Simulated ear canal transfer function  for both a KEMAR rig and human ear geometries from the IHA database](https://i.postimg.cc/65LvsWDf/Canal-Transfer-functions.png)
 |||![Ear canal transfer functions obtained on various humans](https://i.postimg.cc/W1NJsRVL/Oksanen.png)
-
+|||
 
 ***
 !!!info Summary of measurement misinterpretation
