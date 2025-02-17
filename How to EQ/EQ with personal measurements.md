@@ -73,7 +73,7 @@ It is important to note that while channel imbalances covered so far only refer 
 Insertion depth changes not only the frequency of the canal resonance peak, but also affects the surrounding frequency ranges, and oftentimes significantly. While previously established rules state that measurements shouldn't be scrutinized above 10kHz, there is still some use in looking at insertion depth profiles of an IEM in order to not only see how it reacts to different coupling scenarios, but also to find a match for your own personal experience.
 
 !!!warning
-	A tube resonance is created when IEMs seal the canal/coupler, and changes in frequency (6kHz - 12kHz) depending on insertion depth. Commonly referred to as canal resonance, or length mode, they should **only be modified based on listening tests, and not through graphs**.
+A tube resonance is created when IEMs seal the canal/coupler, and changes in frequency (6kHz - 12kHz) depending on insertion depth. Commonly referred to as canal resonance, or length mode, they should **only be modified based on listening tests, and not through graphs**.
 !!!
 
 The following image is an extreme example of how insertion depth can affect FR. As the insertion depth changes, so do the surrounding frequencies' levels. Depending on the IEM's shape, intended insertion depth, and the ear tips being used, insertion depth location can shift drastically; not only that, there can also be damping, from the ear canal and/or IEM in that region, which can affect both the amplitude and Q of the resonance peak. It is therefore useful to have insertion depth profile done through your own measurement rig.
