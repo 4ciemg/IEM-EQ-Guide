@@ -123,12 +123,17 @@ In the end, the final obtained FR should be ideal to your preferences, and while
 ![](https://i.postimg.cc/FFJ2d2h2/CRA.png)
 === 
 
-||| 
+||| tes
+=== Mostly sub bass boost with moderate ear gain
+![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
+|||
+
+
+||| tes2
 === Mostly sub bass boost with moderate ear gain
 ![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
 ===
 |||
-
 
 ***
 ## Noise and environment
