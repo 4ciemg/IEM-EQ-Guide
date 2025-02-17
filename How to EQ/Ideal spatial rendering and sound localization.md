@@ -1,3 +1,6 @@
+---
+order: 92
+---
 # Ideal spatial rendering and sound localization (\*\*\*\*\*)
 The perfect audio experience with IEMs would be one where actual sound localization is perfected, and where transparency relative to real life has been achieved. Bypassing the regular headphone/IEM stereophonic limitations and crossing into full spatial rendering of audio is arguably the goal, and for what is arguably the best possible audio experience that is accomplishable on IEMs, it will require enormous amounts of ingenuity, as well as a shift in the music production industry. 
 
