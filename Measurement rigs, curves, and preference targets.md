@@ -1,3 +1,6 @@
+---
+order: 95
+---
 # Measurement rigs, curves, and preference targets
 
 !!!info
