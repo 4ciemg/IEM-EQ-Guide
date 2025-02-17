@@ -1,3 +1,6 @@
+---
+order: 97
+---
 # Case study: Tangzu Wan'er
 
 Now that EQ and other forms of DSP have been covered, it is time to apply what was learned; in this guide, the Tangzu Wan'er will be the IEM of choice due to its popularity. Note that the following steps will only use a few of the sections, mainly the ones that have time-efficient steps (ie not ones that require a lot of time). Those included should be relatively easy, accessible, and effective enough for most people. 
