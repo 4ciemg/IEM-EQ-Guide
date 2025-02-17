@@ -9,24 +9,26 @@
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>AutoEQ to targets ( )</title>
-    <meta name="title" content="AutoEQ to targets ( )">
-    <meta name="description" content="The simplest way to use EQ is by using AutoEQ, a project that aims to create automatic EQ presets using measurements and a specific target.">
+    <title>More advanced DSP (****)</title>
+    <meta name="title" content="More advanced DSP (****)">
+    <meta name="description" content="Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="/how-to-eq/autoeq-to-targets/">
+    <link rel="canonical" href="/how-to-eq/more-advanced-dsp/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="/how-to-eq/autoeq-to-targets/">
-    <meta property="og:title" content="AutoEQ to targets ( )">
-    <meta property="og:description" content="The simplest way to use EQ is by using AutoEQ, a project that aims to create automatic EQ presets using measurements and a specific target.">
+    <meta property="og:url" content="/how-to-eq/more-advanced-dsp/">
+    <meta property="og:title" content="More advanced DSP (****)">
+    <meta property="og:description" content="Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio.">
+    <meta property="og:image" content="https://a.fsdn.com/con/app/proj/hesuvi/screenshots/HeSuVi_Virtualization.png/max/max/1">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="/how-to-eq/autoeq-to-targets/">
-    <meta property="twitter:title" content="AutoEQ to targets ( )">
-    <meta property="twitter:description" content="The simplest way to use EQ is by using AutoEQ, a project that aims to create automatic EQ presets using measurements and a specific target.">
+    <meta property="twitter:url" content="/how-to-eq/more-advanced-dsp/">
+    <meta property="twitter:title" content="More advanced DSP (****)">
+    <meta property="twitter:description" content="Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio.">
+    <meta property="twitter:image" content="https://a.fsdn.com/con/app/proj/hesuvi/screenshots/HeSuVi_Virtualization.png/max/max/1">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -149,172 +151,103 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="autoeq-to-targets--" class="break-words">
+<doc-anchor-target id="more-advanced-dsp-" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#autoeq-to-targets--">#</doc-anchor-trigger>
-        <span>AutoEQ to targets ( )</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#more-advanced-dsp-">#</doc-anchor-trigger>
+        <span>More advanced DSP (****)</span>
     </h1>
 </doc-anchor-target>
-<div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
-        <div class="flex items-center ml-4 h-7">
-            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
-                <g fill="currentColor"><g>
-                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
-                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
-                    <path fill="none" d="M0 0h24v24H0z"></path>
-                </g></g>
-            </svg>
-        </div>
-        <div class="pr-5 ml-3 w-full">
-<p>The simplest way to use EQ is by using AutoEQ, a project that aims to create automatic EQ presets using measurements and a specific target. There are various implementations of AutoEQ: in most cases, AutoEQ aims for the HarmanIE 2019 target. The following sections cover most cases, and also have pros/cons added.<br />
-AutoEQ has a wiki that explains how it functions, but in short, it aims to match the FR of a model to a chosen target in the range of 20Hz to 10kHz. For the guide, both the lower and upper limits will be used.</p>
-        </div>
+<p>Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio. EQ is a form DSP, but there are many other ones that can change the audio signal in ways that EQ can&#x27;t. This section will cover some common forms of DSP, as well as some more niche ones. At this stage, there won&#x27;t necessarily be any improvement in sound; it is yet another experimentation stage. Whether or not you prefer them or regular stereo music will depend on your preferences.</p>
+<p>A lot of DSP will be applied through <strong>convolution</strong> (with .flac or .wav files) and/or <strong>VST plugins</strong>, both of which are supported in EqualizerAPO through the &quot;Editor&quot;/&quot;Configuration Editor&quot; app (comes with EqualizerAPO). The explanations will also be brief and only cover the essentials.</p>
+<hr>
+<doc-anchor-target id="crossfeed">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#crossfeed">#</doc-anchor-trigger>
+        <span>Crossfeed</span>
+    </h2>
+</doc-anchor-target>
+<p>When listening to loudspeakers, the signal out of one channel will still reach the opposite ear; with IEMs, there is a lack of such an event. Crossfeed fixes this issue by feeding a &quot;small&quot; signal of each channel into the other. It might seem like crossfeed is a necessary and obvious tool that would result in a consistently better preferred sound, it is definitely not as simple as it seems. For hard panned music (eg early jazz recordings with bass in one channel and the other instruments in the other one), crossfeed can help with creating a more cohesive sound presentation. However, most music uses &quot;soft&quot; panning, where the positioning of elements isn&#x27;t as extreme; crossfeed is indirectly being applied here. It is therefore important to test with crossfeed to see if the change is actually preferred or not. Crossfeed implementation can vary in terms of theory, implementation, customizability, and more, all of which are beyond the scope of this guide. <strong>A few common ones include BS2B, Chu Moy, and Jan Meier crossfeed</strong>.</p>
+<hr>
+<doc-anchor-target id="dynamic-eq">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#dynamic-eq">#</doc-anchor-trigger>
+        <span>Dynamic EQ</span>
+    </h2>
+</doc-anchor-target>
+<p>Dynamic EQ adds another variable into play, which is the incoming signal (in this case being the music); when the signal/music in the specified band passes a loudness threshold, the filter &quot;turns on&quot;. Compared to regular/static EQ, the change is <strong>not applied throughout the whole track</strong>. Using it can add another layer of finetuning as it allows for more precise and less disruptive filters. For example, if there&#x27;s a part in the track that has a substantial amount of sibilance, a regular EQ filter can be used to cut that out, but this also cuts everything including other elements in a track. Using a dynamic EQ, the threshold can be set such that only the loud sibilance triggers the filter while the rest of the track is unaffected. This method is also applicable for improving bass response while minimizing excess lower mid levels.</p>
+<p>While the benefits can be worthwhile, it is important to note that any dynamic EQ presets will <strong>have to be checked and modified depending on the music</strong>. The main difference between regular EQ and this dynamic EQ is that the former focuses on modifying the IEM&#x27;s FR while only slightly considering music; the latter is more related to the music itself, for which the spectral information can change drastically depending on the genre, mastering, release date, and more, which will <strong>inevitably lead to needed modifications in the dynamic EQ preset</strong>.</p>
+<hr>
+<doc-anchor-target id="distortion-compression-and-others">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#distortion-compression-and-others">#</doc-anchor-trigger>
+        <span>Distortion, compression, and others</span>
+    </h2>
+</doc-anchor-target>
+<p>Many effects used in the music production side can be applied in this context as well. Distortion might be preferred for some, so adding a bit of distortion and experimenting with different distortion implementations can be effective without having to rely on external devices. The same applies to compression in cases where dynamic range is too high, track mixing isn&#x27;t up to preference, or for any other reason. A slight delay between channels can also result in a preferred sound presentation. There is a wealth of softwares and DSPs that can change the incoming signal in simple ways like what has been discussed here, or in more extreme ways.</p>
+<hr>
+<doc-anchor-target id="hesuvi-and-hrtfs">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hesuvi-and-hrtfs">#</doc-anchor-trigger>
+        <span>HeSuVi and HRTFs</span>
+    </h2>
+</doc-anchor-target>
+<p><a href="https://sourceforge.net/projects/hesuvi/">HeSuVi</a> is a program that utilizes EqualizerAPO&#x27;s convolution filter to imitate surround sound (5.1/7.1/binaural sound effects) virtualizations for headphones/IEMs. Included with the software are Head related impulse responses (HRIRs), which can be thought of as recordings of a loudspeaker&#x27;s response at a specific direction measured with &quot;head mics&quot; (ie measured response at the eardrum). With multiple HRIRs in different directions, it becomes possible to simulate &quot;virtual loudspeakers&quot; for 5.1/7.1 surround sound virtualization. It therefore becomes possible to listen to 5.1/7.1 recordings without an actual surround sound system; while an interesting proposal, the lack of such recording makes it a niche product. The interesting part comes with adding said HRIRs with stereo recordings, in which case an added level of &quot;spaciousness&quot;.</p>
+<p>The quality of the HRIR varies greatly, and changes depending on how it was made and the intended goal. On the right side, there are common HRIRs, usually from other popular implementations of surround sound virtualization (mainly gaming related), and on the left side, other HRIRs from various databases. The <a href="https://binaural-audio.slite.page/p/i38zsD7728/Binaural-Audio">Binaural Audio</a> and its corresponding <a href="https://airtable.com/appayGNkn3nSuXkaz/shruimhjdSakUPg2m/tbloLjoZKWJDnLtTc">Binaural HRTF Database</a>  are resources that contains many different HRTFs/HRIRs and can be useful for quick testing in order to find a good fit.</p>
+<p><figure class="content-center">
+    <img src="https://a.fsdn.com/con/app/proj/hesuvi/screenshots/HeSuVi_Virtualization.png/max/max/1" alt="HeSuVi" width="600">
+    <figcaption class="caption">HeSuVi</figcaption>
+</figure>
+</p>
+<hr>
+<doc-anchor-target id="hrtf-creation-and-room-virtualizationsimulation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#hrtf-creation-and-room-virtualizationsimulation">#</doc-anchor-trigger>
+        <span>HRTF Creation and room virtualization/simulation</span>
+    </h2>
+</doc-anchor-target>
+<p>Proper HRTF measurements are not feasible for most people, and are usually only conducted for population studies or done with mannequins. Companies like Apple and Final Audio employ different methods to account for HRTF, such as taking quick 3D scans of the ear, or by measuring the canal entrance response with microphones in and around the IEM. However, these solutions are either restricted to their own ecosystem, or are limited in accessibility.  There are however a few projects that try to bridge this gap by offering relatively simpler methods of acquiring said data, although their effectiveness is not ideal and effectiveness remains to be seen.</p>
+<p><a href="https://github.com/davircarvalho/Individualized_HRTF_Synthesis">EAC - Individualized HRTF synthesis</a> is a project that uses ML to recreate an HRTF measurement based on real-life measurements of the ear. The process requires the user to take measurements of their ear - there is a tool to facilitate the task using pictures and a reference length - and inputting them into their software. The final result is an HRTF SOFA file that can be used in room virtualization software. The HRTF file itself is not particularly useful; it needs another program, usually one that attempts to simulate a room with said file. For example, with their HRTF SOFA file, the user can then use another program that simulates a room to the user&#x27;s need, and for which the response of the person&#x27;s HRTF can be had. It is therefore possible to recreate a room that has a diffuse sound field, incorporate the HRTF, and measure the DF HRTF of the user. The author of the paper also has several other projects, such as a Webcam Head Tracker and a Room Auralization, with the latter being able to use SOFA HRTFs.</p>
+<p>The issue with this method is that the synthesized HRTF itself deviated significantly from their actual acoustically measured HRTFs. There is also the lack of ear canal geometry, head/torso dimensions, and finer ear details in the HRTF calculations; all of these factors can lead to synthesized HRTFs that aren&#x27;t ideal. The deviations shown in the image below highlight the large differences in amplitude between the proposed/synthesized response (dotted lines) and the original/measured response (solid lines) as well as the overall smoothed result.</p>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/6px0Gksz/EACsynthesis-HRTF.png" alt="Comparison between synthesized and measured HRTFs on the horizontal plane at various azimuths">
+    <figcaption class="caption">Comparison between synthesized and measured HRTFs on the horizontal plane at various azimuths</figcaption>
+</figure>
+</p>
+<p><a href="https://www.mesh2hrtf.org/">MESH2HRTF</a> is an open-sourced project that uses the same concept as the previous project, except it requires a 3D scan of the whole ear and head. The mesh is then used with modeling software like Blender and the project&#x27;s own calculator to obtain HRTFs for specified angles in a free-field. It is also possible to obtain a SOFA file for the HRTF and to use it in other room simulation softwares. The accessibility of this project is rather low, requiring at the very minimum a modern iPhone which will produce less than ideal results, or a professional 3D scanner. Furthermore, the same problem of not accounting for canal geometry still applies here.</p>
+<p><figure class="content-center">
+    <img src="https://raw.githubusercontent.com/Any2HRTF/Mesh2HRTF/master/docs/figures/graphical_abstract-01.png" alt="Mesh2HRTF">
+    <figcaption class="caption">Mesh2HRTF</figcaption>
+</figure>
+</p>
+<p>For room simulation, there are a few projects that have SOFA implementation. <a href="http://anaglyph.dalembert.upmc.fr/">Anaglyph</a> and <a href="https://robaru.github.io/sofamyroom/">SofaMyRoom</a> are both programs that allow for localization customization based on various parameters; Anaglyph is focused on ILD and ITD changes with simplified localization modifiers, while SofaMyRoom is focused on room emulation with different room and loudspeaker parameters. As mentioned previously, there is also the <a href="https://github.com/davircarvalho/Auralization_Engine">Auralization Engine</a> project that aims to create virtual audio scenes; this program only works with one track at a time, but is worth taking a look at as it includes head tracking and is relatively accessible.</p>
+<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white border-r">
+        <span><figure class="content-center">
+    <img src="https://raw.githubusercontent.com/davircarvalho/Auralization_Engine/master/Images/1.PNG" alt="Auralization engine">
+    <figcaption class="caption">Auralization engine</figcaption>
+</figure>
+</span>
+    </div>
+    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white">
+        <span><figure class="content-center">
+    <img src="https://i.postimg.cc/cC3B6SmR/Anaglyph.jpg" alt="Anaglyph">
+    <figcaption class="caption">Anaglyph</figcaption>
+</figure>
+</span>
+    </div>
+    <div class="px-5 py-3 docs-columns-content border-r border-gray-200 dark:border-dark-650">
+    </div>
+    <div class="px-5 py-3 docs-columns-content">
     </div>
 </div>
-<doc-anchor-target id="autoeq-website">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#autoeq-website">#</doc-anchor-trigger>
-        <span>AutoEQ website</span>
-    </h2>
-</doc-anchor-target>
-<p>AutoEQ.app is a web application for the AutoEQ project, and has additional features for further tweaking and customization.</p>
-<ol>
-<li>Find your IEM model</li>
-<li>Select the EQ app you plan on using<br />
-2*. Under the Advanced option in the Profiles tab, select your target of choice</li>
-<li>Download the file</li>
-<li>Import/use the file in your EQ app of choice.</li>
-</ol>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th style="text-align: center;">Pros</th>
-<th style="text-align: center;">Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">Live demo&#x27;ing</td>
-<td style="text-align: center;">Somewhat overwhelming/convoluted at first</td>
-</tr>
-<tr>
-<td style="text-align: center;">Customization available</td>
-<td style="text-align: center;">Customization can lead to bad results</td>
-</tr>
-<tr>
-<td style="text-align: center;">Wide EQ app support</td>
-<td style="text-align: center;">Somewhat limited model selection</td>
-</tr>
-</tbody>
-</table>
-</div>
 <hr>
-<doc-anchor-target id="eq-app">
+<doc-anchor-target id="custom-dsp">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#eq-app">#</doc-anchor-trigger>
-        <span>EQ app</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#custom-dsp">#</doc-anchor-trigger>
+        <span>Custom DSP</span>
     </h2>
 </doc-anchor-target>
-<p>Several EQ apps have also implemented the AutoEQ project, such as Poweramp on Android and PeaceGUI on Windows. In this case, simply pick the IEM model you have and the preset should apply automatically.</p>
-<ol>
-<li>Find your IEM model and apply the preset</li>
-</ol>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th style="text-align: center;">Pros</th>
-<th style="text-align: center;">Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">Easy to use</td>
-<td style="text-align: center;">Somewhat limited model selection</td>
-</tr>
-<tr>
-<td style="text-align: center;">No additional installation</td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
-</div>
-<hr>
-<doc-anchor-target id="squigs">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#squigs">#</doc-anchor-trigger>
-        <span>Squigs</span>
-    </h2>
-</doc-anchor-target>
-<p>Squig databases also have an Equalizer tab that implements AutoEQ. To use it, select the target that you want (under the FR graph), then select your IEM model in the Models tab, ensuring that only the chosen target and IEM are on the FR graph. In the Equalizer tab, find the AutoEQ option, adjust the range (maximum upper limit around 10kHz as specified by the AutoEQ project), generate the preset, then export it accordingly.</p>
-<ol>
-<li>Select the wanted target under the FR graph</li>
-<li>Select the IEM model in the Models tab, ensuring that only the chosen target and IEM are on the FR graph</li>
-<li>Find the AutoEQ option in the Equalizer tab</li>
-<li>Adjust the range (maximum upper limit around 10kHz as specified by the AutoEQ project)</li>
-<li>Generate the preset</li>
-<li>Export the preset accordingly</li>
-</ol>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th style="text-align: center;">Pros</th>
-<th style="text-align: center;">Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">Extensive selection of models and targets</td>
-<td style="text-align: center;">Export only exports the filter values which need to be manually re-input in whatever EQ app is being used</td>
-</tr>
-<tr>
-<td style="text-align: center;">Customization available</td>
-<td style="text-align: center;">Default range extends to 15kHz, far above what is recommended</td>
-</tr>
-<tr>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">Can be inefficient since it only uses peak filters</td>
-</tr>
-</tbody>
-</table>
-</div>
-<hr>
-<doc-anchor-target id="wavelet">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#wavelet">#</doc-anchor-trigger>
-        <span>Wavelet</span>
-    </h2>
-</doc-anchor-target>
-<p>Wavelet is an Android app that has AutoEQ implementation and allows for system-wide equalization.</p>
-<ol>
-<li>Enable Wavelet</li>
-<li>Choose your IEM model in the AutoEQ section<br />
-2*. If needed, import presets made in squig.link or AutoEQ.app</li>
-</ol>
-<div class="table-wrapper scrollbar overflow-hidden">
-<table class="comfortable">
-<thead>
-<tr>
-<th style="text-align: center;">Pros</th>
-<th style="text-align: center;">Cons</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: center;">Easy to install and use</td>
-<td style="text-align: center;">No customization possible</td>
-</tr>
-<tr>
-<td style="text-align: center;">Presets available from other sources</td>
-<td style="text-align: center;">Hassle when making a new preset</td>
-</tr>
-</tbody>
-</table>
-</div>
+<p>It is of course possible to create your own DSP if any of the current offerings are not enough. EqualizerAPO itself is a very powerful tool that allows for a lot of customization and signal mapping/processing, and combined with its convolution filter, it is overall an excellent method of experimenting. Both this method as well as creating a DSP is way beyond the scope of this guide, and should only be attempted by the curious. Most solutions are already available for way less effort.</p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -324,23 +257,16 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/before-getting-started/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/eq-refinement/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Before getting started</span>
+                                                <span class="block mt-1">EQ refinement (****)</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/custom-eq-presets-to-targets-with-small-tweaks/">
-                                            <span>
-                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">Custom EQ presets to targets with small tweaks (*)</span>
-                                            </span>
-                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
-                                        </a>
                                     </div>
                                 </nav>
                             </footer>
@@ -381,6 +307,6 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "AutoEQ to targets ( )", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "More advanced DSP (****)", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
