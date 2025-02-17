@@ -73,7 +73,7 @@ It might seem logical to reason that because the brain applies the inverse of th
 Unfortunately, **the human hearing mechanism is not a simple pressure detector**. While the eardrum is one, the overall human hearing mechanism has to account for localization: HRTF aids in **sound localization** and so simply accounting for amplitude isn't enough for achieving accurate timbre. If loudspeakers and IEMs functioned the same in terms of sound localization, then the previous assumption would be true. However, IEMs and loudspeakers (or other localizable sound sources) are inherently different audio reproduction systems, and do not have the same "spatial rendering" features as loudspeakers.
 
 
-!!!note Summary of loudspeakers
+!!! Summary of loudspeakers
 Loudspeakers, by design, create an eardrum response that has the correct HRTF contributions. The brain then goes through a **localization process** which transmits spatial perception through hearing. The brain then applies the inverse filters to the HRTF response as it expects; the resulting perceived sound is therefore flat/neutral with no coloration. In the end, two pieces of information are obtained: the spatial cues of the loudspeakers and room, and the spectral and tonal balance of the loudspeakers and room. For IEMs, both the HRTF contributions and localization process from listening with loudspeakers are incorrect and incompatible. Another method has to be used.
 !!!
 
