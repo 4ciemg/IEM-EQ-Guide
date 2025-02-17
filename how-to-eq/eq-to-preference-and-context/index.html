@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793063105459">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793065937278">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.793063105459" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.793065937278" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.793063105459" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.793065937278" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.793063105459" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.793065937278" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -425,46 +425,54 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white border-r">
-        <span><figure class="content-center">
+   </doc-panel>
+   <doc-panel id="common-ear-gain-with-flat-bass">
+       <template #title>Common ear gain with flat bass</template>
+<p><figure class="content-center">
     <img src="https://i.postimg.cc/NjbVvtxr/Proxima.png" alt="">
     <figcaption class="caption"></figcaption>
 </figure>
-</span>
-    </div>
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white">
-        <span><figure class="content-center">
-    <img src="https://i.postimg.cc/15hbpJt4/MEST2.png" alt="Sub bass boost with very little to no ear gain">
-    <figcaption class="caption">Sub bass boost with very little to no ear gain</figcaption>
-</figure>
-</span>
-    </div>
-    <div class="px-5 py-3 docs-columns-content border-r border-gray-200 dark:border-dark-650">
+</p>
+   </doc-panel>
+   <doc-panel id="bass-boost-followed-by-a-mid-bass-dip-with-forward-ear-gain">
+       <template #title>bass boost followed by a mid bass dip with forward ear gain</template>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/bJSFntfQ/Variations.png" alt="Sub bass boost followed by a mid bass dip with forward ear gain">
-    <figcaption class="caption">Sub bass boost followed by a mid bass dip with forward ear gain</figcaption>
-</figure>
-<br />
-<figure class="content-center">
-    <img src="https://i.postimg.cc/5NBTpLYg/P5.png" alt="Bass boost (glide) with moderate plateau ear gain">
-    <figcaption class="caption">Bass boost (glide) with moderate plateau ear gain</figcaption>
+    <img src="https://i.postimg.cc/bJSFntfQ/Variations.png" alt="">
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-    </div>
-    <div class="px-5 py-3 docs-columns-content">
+   </doc-panel>
+   <doc-panel id="bass-boost-glide-with-moderate-plateau-ear-gain">
+       <template #title>Bass boost (glide) with moderate plateau ear gain</template>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/FFJ2d2h2/CRA.png" alt="Bass boost (glide) with low ear gain except for a 4.5kHz peak">
-    <figcaption class="caption">Bass boost (glide) with low ear gain except for a 4.5kHz peak</figcaption>
-</figure>
-<br />
-<figure class="content-center">
-    <img src="https://i.postimg.cc/Bv6zqzh7/5EST.png" alt="Mostly sub bass boost with moderate ear gain">
-    <figcaption class="caption">Mostly sub bass boost with moderate ear gain</figcaption>
+    <img src="https://i.postimg.cc/5NBTpLYg/P5.png" alt="">
+    <figcaption class="caption"></figcaption>
 </figure>
 </p>
-    </div>
-</div>
+   </doc-panel>
+   <doc-panel id="sub-bass-boost-with-very-little-to-no-ear-gain">
+       <template #title>Sub bass boost with very little to no ear gain</template>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/15hbpJt4/MEST2.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="bass-boost-glide-with-low-ear-gain-except-for-a-4-5khz-peak">
+       <template #title>Bass boost (glide) with low ear gain except for a 4.5kHz peak</template>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/FFJ2d2h2/CRA.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+   </doc-panel>
+   <doc-panel id="mostly-sub-bass-boost-with-moderate-ear-gain">
+       <template #title>Mostly sub bass boost with moderate ear gain</template>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/Bv6zqzh7/5EST.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 <hr>
 <doc-anchor-target id="noise-and-environment">
     <h2>
