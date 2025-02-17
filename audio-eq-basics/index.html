@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793123648076">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793127012627">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.6.0.793123648076" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.793127012627" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793123648076" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793127012627" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793123648076" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793127012627" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -503,13 +503,55 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
     <img src="https://i.postimg.cc/zfY5VpYw/EQ.png" alt="Peak filters">
     <figcaption class="caption">Peak filters</figcaption>
 </figure>
-<br />
-Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |<br />
-:-:|:-:|:-:|:-:|:-:|:-:|<br />
-50 | 5 | 3 | 50 | 8 | 3 |<br />
-1000 | 10 | 3 | 1000 | 10 | 1 |<br />
-9000 | 5 | 3 | 10000 | -10 | 4 |<br />
-12000 | 5 | 3 |  |  | |</p>
+</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">9000</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">10000</td>
+<td style="text-align: center;">-10</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">12000</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -559,11 +601,39 @@ Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |<br />
     <img src="https://i.postimg.cc/bJmwQSQw/Shelves.png" alt="Shelf filters">
     <figcaption class="caption">Shelf filters</figcaption>
 </figure>
-<br />
-Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |<br />
-:-:|:-:|:-:|:-:|:-:|:-:|<br />
-100 | 8 |  0.4| 100 | 8 | 0.707 |<br />
-9000 | 5 | 1 | 9000 | -3 | 3 |</p>
+</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0.707</td>
+</tr>
+<tr>
+<td style="text-align: center;">9000</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">9000</td>
+<td style="text-align: center;">-3</td>
+<td style="text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+</div>
 <p>Shelf filters are useful for large changes for which precision is not needed, and are often used for customizing preference targets. For example, if the HarmanIE 2019 target sounded too bassy, simply adding a bass shelf filter with negative gain can be a simple yet effective fix. Same thing for treble: if there is too much or too little of it, use a high shelf filter to change the whole range. Shelf filters are generally used only for the two ends of the frequency range because of their nature, with <strong>Q values of 0.5, 0.71, or 1</strong>. More will be covered in relevant sections.</p>
 <p>When using EQ, there is also preamplification that has to be taken into account. In the digital domain - computer, phone, etc - volume has an upper limit. Exceeding this limit results in <a href="https://www.youtube.com/watch?v=W34SG5QO3Q0">digital clipping</a>, which can happen when an EQ preset has large boosts. To avoid this, a preamp is used which reduces the digital volume. Preamp values should always be negative dB values, and should correspond to the highest amplitude change of the EQ preset. For example, taking the blue FR in the first image with peak filters, the preamp would have to be -10 dB. If only the last two filters are considered, then the preamp would have to be -7 dB; the preamp does not necessarily correspond to the highest gain value of a filter, <strong>but rather the highest gain value overall, since summed filters can result in larger amplitudes/gain.</strong></p>
 <hr>
