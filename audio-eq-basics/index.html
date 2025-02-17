@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793129908421">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 3.6.0">
+
+    <!-- Primary Meta Tags -->
+    <title>Audio &amp; EQ basics</title>
+    <meta name="title" content="Audio & EQ basics">
+    <meta name="description" content="While not necessary to the guide, the readings from Dale's Music Stuff from HE1 up to HE7 are good, easy-to-digest yet in-depth articles that explain...">
+
+    <!-- Canonical -->
+    <link rel="canonical" href="/audio-eq-basics/">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/audio-eq-basics/">
+    <meta property="og:title" content="Audio & EQ basics">
+    <meta property="og:description" content="While not necessary to the guide, the readings from Dale's Music Stuff from HE1 up to HE7 are good, easy-to-digest yet in-depth articles that explain...">
+    <meta property="og:image" content="https://i.postimg.cc/ZKjcq1bh/mic-basics-frequency-response-content-1.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="/audio-eq-basics/">
+    <meta property="twitter:title" content="Audio & EQ basics">
+    <meta property="twitter:description" content="While not necessary to the guide, the readings from Dale's Music Stuff from HE1 up to HE7 are good, easy-to-digest yet in-depth articles that explain...">
+    <meta property="twitter:image" content="https://i.postimg.cc/ZKjcq1bh/mic-basics-frequency-response-content-1.png">
+
+    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="../resources/css/retype.css?v=3.6.0.793129908421" rel="stylesheet">
+
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793129908421" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793129908421" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between pr-6 grow md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="../" class="flex items-center leading-snug text-2xl">
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">IEM EQ Guide</span>
+                        </a>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+                            <input class="w-full h-10 placeholder-gray-400 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 dark:placeholder-dark-400" style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search">
+                        </div>
+        
+                        <!-- Mobile search button -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placeholder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter">
+                </div>
+            
+                <div class="pl-6 mt-1 mb-4">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="min-w-0 p-4 grow md:px-16">
+                        <main class="relative pb-12 lg:pt-2">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                                <!-- Page content  -->
+<doc-anchor-target id="audio--eq-basics" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#audio--eq-basics">#</doc-anchor-trigger>
+        <span>Audio &amp; EQ basics</span>
+    </h1>
+</doc-anchor-target>
+<hr>
+<doc-anchor-target id="recommended-articles-and-videos">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#recommended-articles-and-videos">#</doc-anchor-trigger>
+        <span>Recommended articles and videos</span>
+    </h2>
+</doc-anchor-target>
+<p>While not necessary to the guide, the readings from <a href="https://daystarvisions.com/Music/index.html">Dale&#x27;s Music Stuff</a> from HE1 up to HE7 are good, easy-to-digest yet in-depth articles that explain a lot of concepts and ideas that are immediately relevant to the task. It is focused on headphones, but the same general rules and suggestions also apply to IEMs. Reading them will provide much more information than what is given here in terms of audio and the hobby as a whole, while this guide is for the most part solely dedicated to EQ. Crinacle&#x27;s <a href="https://crinacle.com/2020/04/08/graphs-101-how-to-read-headphone-measurements/">Graphs 101: How to Read Headphone Measurements</a> is also an interesting read that dives into measurements and how to read them.</p>
+<p>The following videos are also fun and intuitive ways of understanding audio and EQ.<br />
+<a href="https://www.youtube.com/watch?v=Sn07AMCfaAI">How Audio Illusions Trick Our Brains</a><br />
+<a href="https://www.youtube.com/watch?v=UrBZsUBibtk">Every sound is SINE</a><br />
+<a href="https://www.youtube.com/watch?v=PsijHAVLbuY">How to TUNE your headphones (the easy way!)</a><br />
+<a href="https://www.youtube.com/watch?v=FRm9qTmQHKo">EQ Basics - Watch BEFORE you get started!</a><br />
+<a href="https://www.youtube.com/watch?v=FD_s2s8Mw9k">The Limits of EQ - A case against using EQ profiles for headphones</a></p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<p><strong>Before continuing, knowing how to read graphs is a crucial skill, and it is essential in using EQ. Knowing how to properly wear IEMs is just as important; getting a proper seal and consistent insertion depth will yield the best results.<br />
+The FAQ and terminology sections are also worth taking a quick look at.</strong></p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="measurements-and-warnings">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#measurements-and-warnings">#</doc-anchor-trigger>
+        <span>Measurements and warnings</span>
+    </h2>
+</doc-anchor-target>
+<p>Measurements in the headphone and IEM community often refer to frequency (magnitude) response (FR) plots where the x-axis represents frequency, in this case the audible spectrum band (20 Hz to 20 000 Hz or 20 kHz) in logarithmic scale to match how human hearing work. The y-axis represents amplitude/loudness/SPL, usually in dB, in linear scale. Together, they form a graph that shows <strong>how loud something is at specific frequencies</strong>. An important thing to always check is the scale of each axis; these are commonly modified to skew perception. These measurements are important for two reasons.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Importance of measurements</h5>
+<ol>
+<li>FR is by far the most important factor when it comes to sound quality (ignoring factors like comfort, price bias, aesthetics, etc.) and is the main metric that is used both in the audiophile hobby and the acoustic preference research sphere</li>
+<li>Human hearing is <strong>not reliable</strong>. There are many pitfalls and flaws in our hearing, so it is usually recommended to use graphs and measurements as a foundation. It allows for efficient detection of flaws, and it also gives a visual aspect to latch on to</li>
+</ol>
+        </div>
+    </div>
+</div>
+<p>Do note that music can also be represented in such plots, where different frequencies will have different amplitudes. For example, imagine a song where there is only bass music playing, and another that only has a flute: the bass song will have higher amplitudes at lower frequencies, while the flute song will have higher amplitudes at higher frequencies. Of course, music has a time component, meaning that a singular FR graph of music only represents a snapshot of the music at a specific time. Intuitively, one might assume that IEMs also have a time component; this is covered in the <a href="https://rentry.co/IEM-EQ-Guide#faq">FAQ</a>. <strong>All that is important for now is that an IEM&#x27;s FR is all that really matters when it comes to objective metrics.</strong></p>
+<p><img src="https://i.postimg.cc/ZKjcq1bh/mic-basics-frequency-response-content-1.png" alt="Example of a frequency response graph. " /> <img src="https://i.postimg.cc/fydyGycD/KZ.png" alt="Example of a frequency response graph. " /></p>
+<p>IEM measurements are significantly more prominent than others because they are devices that are easy to measure compared to headphones and loudspeakers. Further more, the prevalence of affordable clone couplers - coupler in this case referring to the measurement device - made it so that IEM measurements have become widespread in a very short amount of time while still <em>somewhat</em> adhering to the established standard for measuring such devices. This widespread prevalence of high quality measurements is very useful for EQ purposes as well as for getting a rough idea of how an IEM will sound like.</p>
+<p>This does not mean that measurements are infallible. Clone couplers are manufactured by unknown companies/groups in dubious conditions, and while they <strong>might</strong> comply with the relevant standards, they are not nearly as precise and/or as consistent as official gear. Not only that, <strong>measurements might not match what the user/listener is hearing</strong>. This topic is addressed later; for now, note that having a <strong>proper seal is important for bass frequencies</strong>. It is therefore important to understand the following rules in order to avoid problems with regards to FR graphs and measurements.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Rules to consider</h5>
+<ul>
+<li>Measurements between different databases/couplers/standards cannot be mixed</li>
+<li>Most couplers are only rated to 10kHz, therefore measurements should not be scrutinized &gt;10kHz. High amplitude and narrow peaks/dips above 5kHz should also be ignored</li>
+<li>Unit variation is a considerable factor, and should be accounted for</li>
+<li>Most couplers have a better seal with IEMs than IEMs with human ears, so proper fit/seal should be accounted for</li>
+<li>Normalization should be accounted for, and should be modified to fit actual perception</li>
+</ul>
+        </div>
+    </div>
+</div>
+<p>Another aspect that should considered is compensation, which is used in two ways in the community. The first one uses compensation as a way to more easily see the error/deviation of an FR curve to another. Compensation in this manner improves &quot;readability&quot;, and makes the EQ process easier.</p>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/FKBZ5DL4/Compensation-target.png" alt="Compensation of the Truthear Zero to the HarmanIE 2019 target, normalized at 1kHz">
+    <figcaption class="caption">Compensation of the Truthear Zero to the HarmanIE 2019 target, normalized at 1kHz</figcaption>
+</figure>
+</p>
+<p>The second way aims to correct/remove the errors introduced by the coupler. It can also be used to correct the coupler to a reference coupler, which can theoretically mean that measurements done on different couplers can be exchanged, provided they have been compensated properly. A full explanation of proper coupler compensation is beyond the scope of this guide; just know that it is complicated and requires a lot of data to work properly.</p>
+<p>The 5128∆ project aims to create such compensations for various different databases on squig.link; more precisely, the compensations use Crinacle&#x27;s coupler as a reference (more information about databases in the <a href="https://rentry.co/IEM-EQ-Guide#measurement-databases-and-tools">Measurement databases and tools</a> section). Therefore, compensated measurements in databases that are a part of the 5128∆ project can be compared to those in Crinacle&#x27;s database, and by extension to other 5128∆-compliant squig databases as well.</p>
+<hr>
+<doc-anchor-target id="targets-and-preferences">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#targets-and-preferences">#</doc-anchor-trigger>
+        <span>Targets and preferences</span>
+    </h2>
+</doc-anchor-target>
+<p>While a lot of research in terms of sound preference has been done on loudspeakers and headphones, what has been done with IEMs has been less thorough. To better understand measurements, it is important to understand the intersectionality between preference, perceived accuracy, and anatomy.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Oversimplified summary on the role of anatomy in terms of hearing and graphs</h5>
+<ol>
+<li>Parts of the ear/body act like filters on the incoming audio signal for localization purposes. The biggest change is a total rise from 1.5kHz - 8kHz peaking at 3kHz</li>
+<li>The eardrum acts like a pressure detector measuring amplitude vs frequency. Therefore, the eardrum <strong>does</strong> perceive more 3kHz energy</li>
+<li>The brain expects these changes, and &quot;cancels&quot; out these filters. The resulting perceived sound is therefore the same as the original sound</li>
+<li>IEMs bypass many of those parts. They should therefore aim to have a resulting sound at the eardrum that includes every single expected changes</li>
+</ol>
+        </div>
+    </div>
+</div>
+<p>Grasping the above is important because it explains why IEM measurements and preference targets are <strong>not</strong> flat, and why they have a large rise after 1kHz (commonly referred to as <strong>ear gain</strong>). The couplers used for measurements aim to simulate the eardrum where resulting measurement will reflect the FR at the eardrum after having been influenced by parts of the body. These changes that the brain expects are called Head-Related Transfer Functions (HRTF), and it is this HRTF that is responsible for <strong>sound localization</strong>. Of course, different people will have different HRTFs due to differences in anatomy, and these differences become significant in certain frequency ranges. <strong>While HRTF variation is quite high, there is still value in trying to find a preference target that sounds pleasing to the majority of people, which is why preference research is still ongoing</strong>. The image below is commonly used to explain HRTF; only the concept of the rise and fall of the FR should be noted, as all the other minutiae is <strong>not applicable to IEMs/headphones</strong>.</p>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/MpJRmYdG/HRTF.png" alt="Different changes caused by anatomy on incoming sound and FR. Ignore the angle of incidence part">
+    <figcaption class="caption">Different changes caused by anatomy on incoming sound and FR. Ignore the angle of incidence part</figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Oversimplified summary on preference research</h5>
+<ul>
+<li>There is a significant correlation between preference and &quot;neutrality&quot;/accuracy in terms of sound reproduction</li>
+<li>For loudspeakers, this means that a flat FR in anechoic conditions is preferable</li>
+<li>Anechoic conditions are rarely found in everyday life, much less in studios. Most environments are semi-reflective, which introduces a downwards slope (or clockwise tilt) to the loudspeaker FR</li>
+<li>IEM (and headphone) preference research usually aims to recreate similar timbre to that of optimal loudspeakers</li>
+<li>Significant deviations in bass and treble is normal, and attributable to preference, hearing loss, and other factors</li>
+<li>Small changes in FR (&lt;3dB) over relatively small frequency ranges are hard to notice at best, and imperceivable at worst</li>
+</ul>
+        </div>
+    </div>
+</div>
+<p>The most &quot;researched&quot; target comes from Harman, and the latest iteration of their IEM target  is their Harman In-ear (HarmanIE) 2019v2 target. Despite being the most thoroughly researched target, there has been a lot of pushback against this target. Furthermore, many prominent reviewers have also included their own personal preference targets in their databases. Oftentimes these targets are either existing preference targets with tweaks (eg some variation on HarmanIE) or a mix of different FR parts of different IEMs they like (eg combining the bass of X IEM, mid range of Y IEM, and treble of Z IEM).</p>
+<p>The following is a brief summary of important preference target curves, as well as other curves that are <strong>not based on preference</strong>. There are also more informative and in-depth explanations of each of them in the [Measurement rigs, curves, and preference targets] section.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Summary on various preference targets and other curves</h5>
+<ul>
+<li>Harman In-Ear (HarmanIE): Preference target by Harman for IEMs, based on past headphone and loudspeaker preference studies. The most validated target when it comes to targets with proper listening testing</li>
+<li>Diffuse Field (DF): FR curve based on a completely &quot;reverberant&quot; listening condition (ie no energy emphasis on any direction). Used mainly as a reference curve, not a preference one</li>
+<li>Etymotic Target: DF with an introduced &quot;room tilt&quot; based on outdated preference research (Consumer reports accuracy score) and the X-curve.</li>
+<li>IEF 2020: Rudimentary target, mostly used to showcase &quot;proper&quot; HRTF features / ear gain. Bass is completely variable and up to taste, but is shown as flat for ease of use</li>
+<li>IEF 2023: Target based on DF + tilt for IEC 60318-4 compliant rigs. Bass is also completely variable and up to taste</li>
+<li>DF + tilt (Δ and JM-1): Popularized by the Headphone show and Crinacle. Essentially a DF curve with varying levels of tilt across the whole response. Used with preference bounds from Harman research, so there&#x27;s not a singular target. Mostly used in the context of the B&amp;K 5128 rig</li>
+</ul>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="human-hearing">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#human-hearing">#</doc-anchor-trigger>
+        <span>Human hearing</span>
+    </h2>
+</doc-anchor-target>
+<p>The human hearing mechanism is complex, and can only be summarized in an almost-vulgar, oversimplified manner. A few more of the relevant concepts to this guide are discussed.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Auditory masking</h5>
+<p>Auditory masking is a phenomena where a signal can affect the perception of another signal, usually one in proximity in terms of frequency. The following image illustrate the concept: a simple tone at one frequency (masker) can create a masking threshold on the surrounding frequency range whose shape and amplitude depends on the masker&#x27;s own loudness. Any other signal that falls &quot;under&quot; the threshold is masked and inaudible.</p>
+        </div>
+    </div>
+</div>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/rFPm0wjt/1706913375313.png" alt="Auditory masking">
+    <figcaption class="caption">Auditory masking</figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Auditory memory</h5>
+<p>Auditory memory is <strong>especially fragile and short</strong> for humans. Relying entirely on memory when it comes to sound is not possible. It is therefore recommended to take notes of sound impressions, do ABX tests, and use measurements when it comes to describing and/or modifying IEMs and audio. <strong>It doesn&#x27;t mean that our hearing is useless</strong>, but rather that it is <strong>very fickle</strong> and should be used as a &quot;measuring tool&quot; conservatively.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Equal-Loudness Contours</h5>
+<p>Equal-loudness contours show the required loudness level (in this case phons) for perceived equal loudness at various frequencies. The image below shows a rise in lower and higher frequencies in the curve, indicating that those regions need more phons in order to be perceived the same as the middle frequencies (ie human hearing is more sensitive to the middle frequency range). Another important aspect is how this rise in low/high frequencies <strong>reduces</strong> as SPL goes up, indicating that those regions require less phons in order to be perceived in equal loudness (ie human hearing becomes more sensitive to low/high frequency range with increases in listening volume). The effect over normal listening volumes is somewhat negligible, but it should still be considered throughout the guide.&lt;-</p>
+        </div>
+    </div>
+</div>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/QMczSpWq/ELC.jpg" alt="Equal-Loudness Contours">
+    <figcaption class="caption">Equal-Loudness Contours</figcaption>
+</figure>
+</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Distortion and audibility</h5>
+<p>Distortion at a frequency increases/decreases when the amplitude at said frequency increases/decreases. Therefore, using EQ to boost the level of certain frequencies will also increase distortion. For IEMs, distortion is <strong>negligible</strong>, and even more so when considering distortion audibility with music. Only severe flaws with the IEM will lead to distortion being a relevant metric to consider.</p>
+        </div>
+    </div>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Brain Burn-in</h5>
+<p>Brain burn-in refers to how our perception of sound can change with time as we get acclimated to a particular sound, and often occurs (in the context of IEMs) when the FR of a new IEM is significantly different than another one that was used before it. Preference for the new one is then taken to the extreme (positively or negatively), and this disparity in preference averages out and lessens with time as the user gets used to the sound presentation. For this guide where comparisons and constant subjective evaluation are needed, brain burn-in should be isolated and/or removed from the process.</p>
+        </div>
+    </div>
+</div>
+<hr>
+<doc-anchor-target id="equalizer-basics">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#equalizer-basics">#</doc-anchor-trigger>
+        <span>Equalizer basics</span>
+    </h2>
+</doc-anchor-target>
+<p>An equalizer (EQ) is a tool used to modify a signal, in this case an audio signal. In most cases, it is used as a way to change the amplitude for a specific frequency range/band.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Four relevant filter parameters</h5>
+<ul>
+<li>Filter frequency, which dictates where the center of the filter is</li>
+<li>Filter quality/slope Q, which dictates what frequency range will be affected by the filter</li>
+<li>Filter gain, which dictates the amplitude change, usually in dB</li>
+<li>Filter type, which dictates how a filter behaves</li>
+</ul>
+        </div>
+    </div>
+</div>
+<p>There are different types of EQs, ranging from analog/digital EQs to parametric and graphic ones. Parametric EQs (PEQ) allow the user to change all three parameters, and provide a nice balance between being flexible, and being easy to modify and use. Unless stated otherwise, EQ will refer to PEQ for the rest of the guide.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>EQ minimalism</h5>
+<p>The guide adheres to what I call <strong>EQ minimalism</strong>, which can be thought of as an approach to how EQ is used and developed. In this context, it means that ideally, an EQ preset should have <strong>as few filters as possible</strong>, for which each filter should have <strong>low gain and Q values</strong>. Aiming for few but broad changes is a good rule of thumb to follow; for more complex sections, deviation from this rule will be normal, even necessary.</p>
+        </div>
+    </div>
+</div>
+<p>The following image shows three FRs in three different colors. The red one is the base one with no filters, while the green and blue ones have different filters in order to showcase what each parameter does. The table includes the filters used in increasing order of frequency; the three left columns are for the blue FR, the three right columns for the green one.</p>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/zfY5VpYw/EQ.png" alt="Peak filters">
+    <figcaption class="caption">Peak filters</figcaption>
+</figure>
+</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">50</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">1000</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr>
+<td style="text-align: center;">9000</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">10000</td>
+<td style="text-align: center;">-10</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr>
+<td style="text-align: center;">12000</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>A few things to note</h5>
+<ul>
+<li>Increasing gain also widens the filter</li>
+<li>Overlapping filters are summed. For the last two filters for the blue FR, the gain is 5 dB, but the overlap make the peaks land at around 7 dB</li>
+<li>Negative gain is also possible. If two filters with the same frequency and Q values have &quot;opposite&quot; gain (eg 4 and -4 dB), they will be canceled</li>
+</ul>
+        </div>
+    </div>
+</div>
+<p>The only parameter that was not discussed is the filter type. In this guide, three types are used the most often.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Filter types</h5>
+<ol>
+<li>Peak filters, which are the ones shown above</li>
+<li>Low-shelf filters, which boosts every frequency <strong>below</strong> the specified one (first row). The Q changes the shape of the filter</li>
+<li>High-shelf filters, which boosts every frequency <strong>above</strong> the specified one (second row). The Q changes the shape of the filter</li>
+</ol>
+        </div>
+    </div>
+</div>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/bJmwQSQw/Shelves.png" alt="Shelf filters">
+    <figcaption class="caption">Shelf filters</figcaption>
+</figure>
+</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+<th style="text-align: center;">Frequency (Hz)</th>
+<th style="text-align: center;">Gain (dB)</th>
+<th style="text-align: center;">Q</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;">100</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: center;">0.707</td>
+</tr>
+<tr>
+<td style="text-align: center;">9000</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">9000</td>
+<td style="text-align: center;">-3</td>
+<td style="text-align: center;">3</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Shelf filters are useful for large changes for which precision is not needed, and are often used for customizing preference targets. For example, if the HarmanIE 2019 target sounded too bassy, simply adding a bass shelf filter with negative gain can be a simple yet effective fix. Same thing for treble: if there is too much or too little of it, use a high shelf filter to change the whole range. Shelf filters are generally used only for the two ends of the frequency range because of their nature, with <strong>Q values of 0.5, 0.71, or 1</strong>. More will be covered in relevant sections.</p>
+<p>When using EQ, there is also preamplification that has to be taken into account. In the digital domain - computer, phone, etc - volume has an upper limit. Exceeding this limit results in <a href="https://www.youtube.com/watch?v=W34SG5QO3Q0">digital clipping</a>, which can happen when an EQ preset has large boosts. To avoid this, a preamp is used which reduces the digital volume. Preamp values should always be negative dB values, and should correspond to the highest amplitude change of the EQ preset. For example, taking the blue FR in the first image with peak filters, the preamp would have to be -10 dB. If only the last two filters are considered, then the preamp would have to be -7 dB; the preamp does not necessarily correspond to the highest gain value of a filter, <strong>but rather the highest gain value overall, since summed filters can result in larger amplitudes/gain.</strong></p>
+<hr>
+<doc-anchor-target id="tools-and-software">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#tools-and-software">#</doc-anchor-trigger>
+        <span>Tools and software</span>
+    </h2>
+</doc-anchor-target>
+<p>Now that the basics are done with, here is what&#x27;s needed for using EQ.</p>
+<doc-anchor-target id="eq-app">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#eq-app">#</doc-anchor-trigger>
+        <span>EQ App</span>
+    </h3>
+</doc-anchor-target>
+<p>The following link is useful for finding what EQ software is best for a specific OS or device. Do note that these are options that are compatible with AutoEQ; there are other software/hardware that also do EQ, such as VST plugins and more, but they might have different ways of calculating filter slopes.<br />
+<a href="https://github.com/jaakkopasanen/AutoEq/wiki/Choosing-an-Equalizer-App">Choosing an Equalizer app</a><br />
+Do note that because of how the Android audio stack works, there are slight differences in how different apps implement their EQ.<br />
+<a href="https://www.reddit.com/r/oratory1990/comments/10abm9k/measurements_of_wavelet_and_poweramp_eq/?rdt=48624">Measurements of Wavelet and Poweramp EQ system-wide PEQ on Android</a><br />
+For the rest of the guide, EqualizerAPO with the PeaceGUI will be used; differences between different apps that have PEQ are very minor. Depending on the complexity of how EQ is being used, additional software and tools might be required.</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-gray-500 dark:bg-dark-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-gray-500 dark:text-dark-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>EqualizerAPO/PeaceGUI filter types</h5>
+<p>It is important to choose the appropriate filter types when using EQ. The image below contains the main ones; the difference between the shelf filters is that the one with &quot;Q as slope&quot; has adjustable Q values, while the one without has a default Q value of 0.707. Any other app not in the link above might have different filter types with different filter slope derivations that will not match what this guide uses (Robert Bristow-Johnson cookbook).<br />
+<figure class="content-center">
+    <img src="https://i.postimg.cc/bJS532dZ/EQ-Sliders.png" alt="Filter types in EqualizerAPO/PeaceGUI" width="600">
+    <figcaption class="caption">Filter types in EqualizerAPO/PeaceGUI</figcaption>
+</figure>
+</p>
+        </div>
+    </div>
+</div>
+<p>
+<figure>
+    <div class="relative w-full mb-6 overflow-hidden pt-9/16">
+        <iframe class="w-full h-full border-0 absolute inset-0" src="https://owliophile.com/" allowfullscreen></iframe>
+    </div>
+</figure>
+</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results></doc-toolbar-member-filter-no-results>
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../">
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                            <span>
+                                                <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
+                                                <span class="block mt-1">EQ Guide for IE​Ms</span>
+                                            </span>
+                                        </a>
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../how-to-eq/before-getting-started/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">Before getting started</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Audio & EQ basics", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+</body>
+</html>
