@@ -189,11 +189,12 @@ Do note that because of how the Android audio stack works, there are slight diff
 [Measurements of Wavelet and Poweramp EQ system-wide PEQ on Android](https://www.reddit.com/r/oratory1990/comments/10abm9k/measurements_of_wavelet_and_poweramp_eq/?rdt=48624)
 For the rest of the guide, EqualizerAPO with the PeaceGUI will be used; differences between different apps that have PEQ are very minor. Depending on the complexity of how EQ is being used, additional software and tools might be required.
 
-!!! note EqualizerAPO/PeaceGUI filter types
+!!!note EqualizerAPO/PeaceGUI filter types
 It is important to choose the appropriate filter types when using EQ. The image below contains the main ones; the difference between the shelf filters is that the one with "Q as slope" has adjustable Q values, while the one without has a default Q value of 0.707. Any other app not in the link above might have different filter types with different filter slope derivations that will not match what this guide uses (Robert Bristow-Johnson cookbook).
 ![Filter types in EqualizerAPO/PeaceGUI](https://i.postimg.cc/bJS532dZ/EQ-Sliders.png){width=600}	
 !!!
-	
+
+[!embed](https://owliophile.com/)
 
 ### Measurement databases and tools
 For IEMs specifically, the most comprehensive database is a collection of individual databases (commonly referred to as squigs) all under the squiglink group. While it does contain the most measurements out of any other database, measurement quality can vary between different individual databases, and each individual might not have the same measurements as others. It also has many features such as an in-built Equalizer that provides immediate visual feedback, measurement importing, and more. There are instructions and explanations when clicking on the yellow question marks, one for navigation and the other for the 5128∆ project.
