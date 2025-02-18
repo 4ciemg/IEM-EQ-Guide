@@ -1,5 +1,6 @@
 ---
 order: 100
+icon: home
 ---
 # EQ Guide for IEMs
 
