@@ -2,7 +2,7 @@
 order: 96
 icon: graph
 ---
-# Measurement rigs, curves, and preference targets
+# Rigs, curves, and targets
 
 !!!info
 The following section is dedicated to explaining and detailing the different FR curves that are prominent nowadays, as well as the different measurement rigs and standards that are being used. Preference target curves by reviewers will be mostly ignored as they are usually based entirely on subjective preference.
