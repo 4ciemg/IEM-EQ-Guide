@@ -1,5 +1,6 @@
 ---
 order: 96
+icon: graph
 ---
 # Measurement rigs, curves, and preference targets
 
