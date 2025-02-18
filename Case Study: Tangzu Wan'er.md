@@ -1,5 +1,6 @@
 ---
 order: 97
+icon: sliders
 ---
 # Case study: Tangzu Wan'er
 
