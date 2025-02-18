@@ -123,6 +123,20 @@ In the end, the final obtained FR should be ideal to your preferences, and while
 ![](https://i.postimg.cc/FFJ2d2h2/CRA.png)
 === 
 
+
++++ Mostly sub bass boost with moderate ear gain
+![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
++++ Mostly sub bass boost with moderate ear gain
+![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
++++ Mostly sub bass boost with moderate ear gain
+![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
++++ Mostly sub bass boost with moderate ear gain
+![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
++++ Mostly sub bass boost with moderate ear gain
+![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
++++
+
+
 ||| Every part of the FR is interdependent.
 === Mostly sub bass boost with moderate ear gain
 ![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
