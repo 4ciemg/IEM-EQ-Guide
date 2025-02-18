@@ -1,5 +1,6 @@
 ---
 order: 99
+icon: mortar-board
 ---
 # Audio & EQ basics
 ***
