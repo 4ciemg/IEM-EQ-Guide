@@ -72,7 +72,11 @@ Mid range is a tough region to tweak because it is wide in range and also contai
 
 Mid range has a lot of variation between different IEMs, so much so that it becomes rather hard to demonstrate these different aspects independently. Aiming for a similar mid range as ones found in preference targets should be the goal, but don't be afraid to make big changes if it sounds better to you. The following pics shows different mid range responses and how variable they can also be. Also notice how different normalization can skew visual perception of mid range, which is why listening to the EQ changes is recommended.
 
-![Different mid range responses (normalized at 1kHz)](https://i.postimg.cc/VvV30YxS/mids-1khz.png){width=400} ![Different mid range responses (normalized at 300Hz)](https://i.postimg.cc/WpYRHnd2/mids-300hz.png)
++++ Normalized at 1kHz
+![Different mid range responses (normalized at 1kHz)](https://i.postimg.cc/VvV30YxS/mids-1khz.png)
++++ Normalized at 300Hz
+![Different mid range responses (normalized at 300Hz)](https://i.postimg.cc/WpYRHnd2/mids-300hz.png)
++++
 
 
 ***
