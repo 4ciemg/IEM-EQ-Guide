@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793316484740">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793316777784">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.793316484740" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.793316777784" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.793316484740" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.793316777784" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.793316484740" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.793316777784" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -208,26 +208,24 @@
 </figure>
 </p>
 <p>The image above includes a 711 and 5128 measurement of the Etymotic ER2XR with somewhat similar coupler resonances at around 13.5 kHz. All the differences mentioned previously are visible: the 5128 measurement has noticeably less bass and mid range compared to the 711 and relative to the rest of the FR, the more accurate acoustic impedance from 1-5 kHz doesn&#x27;t seem to result in as substantial of changes, and the treble above 5 kHz looks drastically different despite the very close coupler resonance. It is important to note that direct comparisons are <strong>not valid</strong>, and that notions conceived for 711 measurements (eg bass to ear gain balance, bass levels relative to FR, etc) <strong>cannot be applied for 5128 measurements</strong>.</p>
-<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white border-r">
-        <span><figure class="content-center">
+<doc-tabs>
+<doc-tab v-cloak id="5128-measurement">
+<template #title>5128 Measurement</template>
+<p><figure class="content-center">
     <img src="https://i.postimg.cc/NfNbDqLL/5128bass.png" alt="Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a 5128 measurement system">
     <figcaption class="caption">Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a 5128 measurement system</figcaption>
 </figure>
-</span>
-    </div>
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white">
-        <span><figure class="content-center">
+</p>
+</doc-tab>
+<doc-tab v-cloak id="711-measurement">
+<template #title>711 Measurement</template>
+<p><figure class="content-center">
     <img src="https://i.postimg.cc/DyfB1yvt/711Bass.png" alt="Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a IEC 60318-4 compliant (711) measurement system">
     <figcaption class="caption">Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a IEC 60318-4 compliant (711) measurement system</figcaption>
 </figure>
-</span>
-    </div>
-    <div class="px-5 py-3 docs-columns-content border-r border-gray-200 dark:border-dark-650">
-    </div>
-    <div class="px-5 py-3 docs-columns-content">
-    </div>
-</div>
+</p>
+</doc-tab>
+</doc-tabs>
 <p>The two images above highlight the noticeable difference in leakage tolerance, the right being measurements done on the 5128, and the left the 711 (both normalized at 1 kHz). For high output acoustic impedance drivers (in this case the balanced armatures in the Orchestra), leakage plays a bigger role, and so the difference in bass compared to an IEM with a relatively low output acoustic impedance (in this case the dynamic driver in the Oxygen) will be more pronounced on 5128 measurements compared to 711 ones. All of this is important to consider because 5128 measurements are done with an attached pinna which is much harder to have a proper seal with compared to 711 measurements which are taken with a bare coupler (ie a straight metal tube which allows for much better seal).</p>
 <p>Unfortunately, most FR databases of IEMs are currently being done with the old standard, while ones done on the new standard are limited in scope. It is therefore important to understand the differences discussed previously, and how they can muddy the waters when it comes to reading FR measurements and correlating them with personal experience.</p>
 <doc-anchor-target id="iem-and-canal-interactions">
