@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793315679391">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793315843273">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../resources/css/retype.css?v=3.6.0.793315679391" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.6.0.793315843273" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.793315679391" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.6.0.793315843273" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.793315679391" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.6.0.793315843273" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -220,26 +220,24 @@
 </figure>
 </p>
 <p>For room simulation, there are a few projects that have SOFA implementation. <a href="http://anaglyph.dalembert.upmc.fr/">Anaglyph</a> and <a href="https://robaru.github.io/sofamyroom/">SofaMyRoom</a> are both programs that allow for localization customization based on various parameters; Anaglyph is focused on ILD and ITD changes with simplified localization modifiers, while SofaMyRoom is focused on room emulation with different room and loudspeaker parameters. As mentioned previously, there is also the <a href="https://github.com/davircarvalho/Auralization_Engine">Auralization Engine</a> project that aims to create virtual audio scenes; this program only works with one track at a time, but is worth taking a look at as it includes head tracking and is relatively accessible.</p>
-<div class="mb-6 overflow-hidden border rounded-md docs-columns dark:border-dark-650" style="grid-template-columns: repeat(2, minmax(0, 1fr));">
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white border-r">
-        <span><figure class="content-center">
-    <img src="https://raw.githubusercontent.com/davircarvalho/Auralization_Engine/master/Images/1.PNG" alt="Auralization engine">
-    <figcaption class="caption">Auralization engine</figcaption>
+<doc-tabs>
+<doc-tab v-cloak id="auralization-engine">
+<template #title>Auralization engine</template>
+<p><figure class="content-center">
+    <img src="https://raw.githubusercontent.com/davircarvalho/Auralization_Engine/master/Images/1.PNG" alt="">
+    <figcaption class="caption"></figcaption>
 </figure>
-</span>
-    </div>
-    <div class="flex items-center px-5 py-3 font-medium leading-snug text-gray-900 border-b border-gray-200 dark:border-dark-650 dark:text-white">
-        <span><figure class="content-center">
-    <img src="https://i.postimg.cc/cC3B6SmR/Anaglyph.jpg" alt="Anaglyph">
-    <figcaption class="caption">Anaglyph</figcaption>
+</p>
+</doc-tab>
+<doc-tab v-cloak id="anaglyph">
+<template #title>Anaglyph</template>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/cC3B6SmR/Anaglyph.jpg" alt="">
+    <figcaption class="caption"></figcaption>
 </figure>
-</span>
-    </div>
-    <div class="px-5 py-3 docs-columns-content border-r border-gray-200 dark:border-dark-650">
-    </div>
-    <div class="px-5 py-3 docs-columns-content">
-    </div>
-</div>
+</p>
+</doc-tab>
+</doc-tabs>
 <hr>
 <doc-anchor-target id="custom-dsp">
     <h2>
