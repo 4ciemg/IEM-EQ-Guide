@@ -37,12 +37,12 @@ There are two aspects to consider: preference and context. Preference as describ
 Fortunately for IEMs, bass output is usually not a problem provided there's a good seal between the canal and IEM. The differences in bass between different IEMs can be simplified to two aspects that can be tweaked to preference. 
 
 !!!info Bass 
-	- Bass level, which refers to the overall average bass response loudness relative to the rest of the response. It can be high, low, or anything in between
-	- Bass shape, which refers to the relative balance between sub and mid bass. Useful for different bass "presentations"
-		1. Bass glide: Generally refers to bass that has a "good balance" between sub and mid bass. Can be a a straight line as shown, or more contoured
-		2. Flat bass: Equal levels of sub and mid bass
-		3. "Subwoofer" / Tucked bass: Heavy emphasis on sub bass, with much lower relative mid bass level
-		4. Rolled off: Emphasis on mid bass, with sub bass levels that are decreasing and lower than mid bass
+- Bass level, which refers to the overall average bass response loudness relative to the rest of the response. It can be high, low, or anything in between
+- Bass shape, which refers to the relative balance between sub and mid bass. Useful for different bass "presentations"
+	1. Bass glide: Generally refers to bass that has a "good balance" between sub and mid bass. Can be a a straight line as shown, or more contoured
+	2. Flat bass: Equal levels of sub and mid bass
+	3. "Subwoofer" / Tucked bass: Heavy emphasis on sub bass, with much lower relative mid bass level
+	4. Rolled off: Emphasis on mid bass, with sub bass levels that are decreasing and lower than mid bass
 !!!
 
 The following pic shows the different bass shapes in order. Note that this is just a very small sample of what bass can look like on IEMs. The number of variations and small tweaks that are possible can also muddy the waters and create differently perceived bass presentations despite looking mostly similar on graphs.
@@ -80,8 +80,8 @@ Mid range has a lot of variation between different IEMs, so much so that it beco
 Treble is the trickiest and most difficult region to tweak because of measurement variance, insertion depth, HRTF differences, and more. At this stage, only two aspects are considered.
 
 !!!info Treble
-	- Treble level, which refers to the level of treble relative to the rest of the response
-	- Treble peaky-ness, which refers to the presence and/or absence of large, noticeable peaks
+- Treble level, which refers to the level of treble relative to the rest of the response
+- Treble peaky-ness, which refers to the presence and/or absence of large, noticeable peaks
 !!!
 
 Doing any changes in treble should, in most cases, only rely on listening tests and not graphs. If there is a treble flaw attributable to the IEM, only then should EQ be considered. For now, treble modifications should optimally only involve shelf filters and/or low-Q/wide peak filters to change treble and upper treble levels. Depending on taste and the IEM's FR, boosting or reducing with these filters should improve overall tonal balance without much effort. 
