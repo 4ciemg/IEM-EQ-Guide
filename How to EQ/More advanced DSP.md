@@ -47,9 +47,11 @@ The issue with this method is that the synthesized HRTF itself deviated signific
 
 For room simulation, there are a few projects that have SOFA implementation. [Anaglyph](http://anaglyph.dalembert.upmc.fr/) and [SofaMyRoom](https://robaru.github.io/sofamyroom/) are both programs that allow for localization customization based on various parameters; Anaglyph is focused on ILD and ITD changes with simplified localization modifiers, while SofaMyRoom is focused on room emulation with different room and loudspeaker parameters. As mentioned previously, there is also the [Auralization Engine](https://github.com/davircarvalho/Auralization_Engine) project that aims to create virtual audio scenes; this program only works with one track at a time, but is worth taking a look at as it includes head tracking and is relatively accessible.
 
-|||![Auralization engine](https://raw.githubusercontent.com/davircarvalho/Auralization_Engine/master/Images/1.PNG)
-|||![Anaglyph](https://i.postimg.cc/cC3B6SmR/Anaglyph.jpg)
-|||
++++ Auralization engine
+![](https://raw.githubusercontent.com/davircarvalho/Auralization_Engine/master/Images/1.PNG)
++++ Anaglyph
+![](https://i.postimg.cc/cC3B6SmR/Anaglyph.jpg)
++++
 
 ***
 ## Custom DSP
