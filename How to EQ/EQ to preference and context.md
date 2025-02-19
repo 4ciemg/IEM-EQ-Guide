@@ -1,4 +1,4 @@
----
+![image](https://github.com/user-attachments/assets/f3108dda-2c6f-474f-a0a8-4a969170291a)---
 order: 96
 ---
 # EQ to preference and context (\*\*)
@@ -113,7 +113,7 @@ In the end, the final obtained FR should be ideal to your preferences, and while
 ![](https://i.postimg.cc/KYHH45wG/Andro.png)
 === Common ear gain with flat bass
 ![](https://i.postimg.cc/NjbVvtxr/Proxima.png)
-===Sub bass boost followed by a mid bass dip with forward ear gain
+=== Sub bass boost followed by a mid bass dip with forward ear gain
 ![](https://i.postimg.cc/bJSFntfQ/Variations.png)
 === Bass boost (glide) with moderate plateau ear gain
 ![](https://i.postimg.cc/5NBTpLYg/P5.png)
@@ -121,37 +121,35 @@ In the end, the final obtained FR should be ideal to your preferences, and while
 ![](https://i.postimg.cc/15hbpJt4/MEST2.png)
 === Bass boost (glide) with low ear gain except for a 4.5kHz peak
 ![](https://i.postimg.cc/FFJ2d2h2/CRA.png)
-=== 
-
-
-+++ Mostly sub bass boost with moderate ear gain
+=== Mostly sub bass boost with moderate ear gain
 ![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
-+++ Mostly sub bass boost with moderate ear gain
-![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
+===
+
++++ Common ear gain with a bass boost (glide) 	
+![](https://i.postimg.cc/NFhCkjQZ/zero2.png)
++++ Forward mids and ear gain with bass boost; emphasis on mid bass by rolling off the sub bass
+![](https://i.postimg.cc/8zT3YcLS/Origin.png)
++++ Somewhat flat or rolled off bass with a lot of lower mids (warmth), with low plateau ear gain
+![](https://i.postimg.cc/KYHH45wG/Andro.png)
++++
+
++++ Common ear gain with flat bass
+![](https://i.postimg.cc/NjbVvtxr/Proxima.png)
++++ Sub bass boost followed by a mid bass dip with forward ear gain
+![](https://i.postimg.cc/bJSFntfQ/Variations.png)
++++ Bass boost (glide) with moderate plateau ear gain
+![](https://i.postimg.cc/5NBTpLYg/P5.png)
++++
+
++++ Sub bass boost with very little to no ear gain
+![](https://i.postimg.cc/15hbpJt4/MEST2.png)
++++ Bass boost (glide) with low ear gain except for a 4.5kHz peak
+![](https://i.postimg.cc/FFJ2d2h2/CRA.png)
 +++ Mostly sub bass boost with moderate ear gain
 ![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
 +++
 
-+++ Mostly sub bass boost with moderate ear gain
-![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
-+++ Mostly sub bass boost with moderate ear gain
-![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
-+++
 
-
-||| Every part of the FR is interdependent.
-=== Mostly sub bass boost with moderate ear gain
-![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
-=== Mostly sub bass boost with moderate ear gain
-![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
-===
-||| It is crucial that you experiment and play around at this stage.
-=== Mostly sub bass boost with moderate ear gain
-![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
-=== Mostly sub bass boost with moderate ear gain
-![](https://i.postimg.cc/Bv6zqzh7/5EST.png)
-===
-|||
 
 ***
 ## Noise and environment
