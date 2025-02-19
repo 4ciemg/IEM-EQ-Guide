@@ -18,6 +18,7 @@ The first main issue arises from **HRTF differences** between individuals. Start
 
 
 ![SADIE II DFHRTF at the blocked ear canal for 40 people](https://i.postimg.cc/KjC6yPq3/SADIE-DFHRTF.png) | ![HRTF at the open and blocked ear canal for a frontal source ](https://i.postimg.cc/D0S9DjgK/Moller-HRTf.png)
+--- | ---
 
 
 ### Measurement system accuracy
