@@ -61,7 +61,8 @@ The image shows two IEM units, for which both their channels have been measured.
 
 The following images shows an IEM for which there is a channel imbalance in the ear gain region. At first glance, the small peaks are not only different in level,  but also not aligned between the two sides. Fixing this with the left image isn't so straightforward; the second image, with side 1 being compensated to side 2 offers a better look at what the differences are, and how to fix them.
 
-![Uncompensated graph](https://i.postimg.cc/nzDrWpDv/channel.png){49%:49%} ![Compensated graph](https://i.postimg.cc/vTyYS9Ms/Compens.png)
+![Uncompensated graph](https://i.postimg.cc/nzDrWpDv/channel.png)
+![Compensated graph](https://i.postimg.cc/vTyYS9Ms/Compens.png)
 
 !!!warning IEM or hearing?
 It is important to note that while channel imbalances covered so far only refer to those caused by the IEMs themselves, **your hearing can also be responsible**. High frequency roll-off is particularly frequent as age progresses, and slight sealing issues can also cause differences in bass. It's why **listening tests are always recommended** and why measurements might not be enough to cover all bases. If imbalances occurs consistently in the same regions, it is safe to assume they are hearing related. For hearing-related imbalances, use a tone generator and sine sweeps, and use EQ until perceived sound is centered (ie sounds like mono).
