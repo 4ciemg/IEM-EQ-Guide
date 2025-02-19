@@ -55,6 +55,6 @@ PK | 1500 | -2.5 | 1 |
 **PK** | 10300 | -6 | 4 |
 **PK** | 14200 | -2 | 4 |
 
-!!!note
+!!!
 **Of course, this is just a small example and doesn't include a lot of what was discussed throughout the guide. From just these small judgments and steps, the sound has been improved considerably without having needed to spend more than an hour to come up with this preset. Further improvements can be had in terms of bass quality and treble refinement, but stopping here would be perfectly fine as well.**
 !!!
