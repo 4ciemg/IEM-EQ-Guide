@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f3108dda-2c6f-474f-a0a8-4a969170291a)---
+---
 order: 96
 ---
 # EQ to preference and context (\*\*)
