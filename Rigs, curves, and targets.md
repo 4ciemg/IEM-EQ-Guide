@@ -62,9 +62,9 @@ HarmanIE 2019 compared to the average MOA target shows two main differences: a d
 
 
 
-!!!note Notes on HarmanIE
-	- Bass level is based on a segmentation study by Harman, and is highly variable
-	- Ear gain and treble regions are heavily smoothed for various reasons. Treble also drops off heavily past 10 kHz, and probably shouldn't be considered
+!!! Notes on HarmanIE
+- Bass level is based on a segmentation study by Harman, and is highly variable
+- Ear gain and treble regions are heavily smoothed for various reasons. Treble also drops off heavily past 10 kHz, and probably shouldn't be considered
 !!!	
 
 ***
@@ -98,7 +98,7 @@ The ISO 11904-1/-2 standards propose two methods of measuring DF response; 11904
 
 It is important to note that while DF seems to fit the idea of localization with headphones/IEMs, studies have consistently shown that a "pure" DF response is **not preferred or liked**. Instead, it is used as a foundation for which modifications can be had. Harman's research somewhat validated this - in their recent preliminary test, additional speakers were used to obtain a reference response in their room, which correlated very much with the DF response of the same HATS - and by adding a few modifications, they have made a highly preferred curve for headphones/IEMs. Other curves built upon DF have also resulted in high preference as well. The two main modifications include bass adjustments to compensate for lack of body interaction, and overall response tilt, usually a downwards/clockwise tilt. The latter can be thought of and argued as being the same the inherent tilt of loudspeakers in a room: much like how loudspeakers should have a flat response in an anechoic sound field with a downwards tilt when placed in a room, headphones/IEMs should also have a flat response in their sound field (in this case DF) with a similar downwards tilt when listening to them.
 
-!!!note Notes on DF
+!!! Notes on DF
 - DF seems to be the appropriate sound field when considering headphones/IEMs and the localization process from the association model
 - Raw/pure DF is not preferred or liked, and should only be used with modifications 
 !!!
@@ -117,6 +117,11 @@ Made by Crinacle as a basic target, the 2020 target contains only a very smoothe
 The newer 2023 target based on a tilted DF response for the 5128 rigs, translated to 711 systems. The biggest difference with the DF response is that the ear gain and most HRTF features are smoothed over, akin to the ear gain in IEF 2020. Compared to IEF 2020, the major difference is an increase in low frequency energy, as well as the subtle dip at 1.5 kHz. Customization includes bass level with a shelf starting at 105 Hz, and tilting of the whole response by dB/oct. 
 
 ![IEF 2020 and 2023](https://i.postimg.cc/NjNGgjj6/IEF-Neutral.png)
+
+***
+## IEF 2025 Preference curve (711 & 5128)
+The newest IEF 2025 Preference curve is based on the JM-1 curve, but with separate treble and bass adjustments rather than full spectrum tilts. The non-tilted JM-1 curve is modified with the following changes: a -4 dB high shelf filter with a Q of 0.4 starting at 2500 Hz (used by Harman in their preference testing), and a +10 dB low shelf filter with Q of 0.71 at 80 Hz (similar to Harman's 105 Hz filter). The target was developed for the 5128, and subsequently translated to the 711 systems using Crinacle's own IEM projects, which adhere to the curve on the 5128 but not perfectly so on the 711's JM-1 curve equivalent with the same filter changes. 
+
 
 ***
 ## Δ and JM-1 curve (711 & 5128)
