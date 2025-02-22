@@ -126,7 +126,7 @@ The newest IEF 2025 Preference curve is based on the JM-1 curve, but with separa
 ![](https://i.postimg.cc/HsstYHFd/IEF-Preference-2025.png)
 +++ 711 version
 ![](https://crinacle.com/wp-content/uploads/2025/02/graph25.png)
-
++++
 
 ***
 ## Δ and JM-1 curve (711 & 5128)
