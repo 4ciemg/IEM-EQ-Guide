@@ -6,7 +6,7 @@ The perfect audio experience with IEMs would be one where actual sound localizat
 
 We can only wait until more studies, discoveries, and innovations happen before such a goal becomes accessible, easy-to-use, and effective. For now, there are a few key elements that have to be perfected, as well as a few others that will have to be studied to better understand their possible effects.
 
-!!!note Key elements
+!!! Key elements
 - Full in-situ response at the eardrum will have to be mapped out and corrected properly
 - Extensive HRTF data of the user will have to be measured to a high enough accuracy for proper response calibration
 - ITD/ILD factors will have to be considered and implemented correctly for the user
