@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793317655835">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793514989503">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.6.0.793317655835" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.793514989503" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793317655835" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793514989503" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793317655835" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793514989503" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -264,11 +264,11 @@ bands of the target curve can produce equivalent satisfaction and listener prefe
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>note Notes on HarmanIE</h5>
-<div class="codeblock-wrapper"><doc-codeblock>
-<pre class="language-none"><code v-pre class="language-none">- Bass level is based on a segmentation study by Harman, and is highly variable
-- Ear gain and treble regions are heavily smoothed for various reasons. Treble also drops off heavily past 10 kHz, and probably shouldn't be considered</code></pre>
-</doc-codeblock></div>
+            <h5>Notes on HarmanIE</h5>
+<ul>
+<li>Bass level is based on a segmentation study by Harman, and is highly variable</li>
+<li>Ear gain and treble regions are heavily smoothed for various reasons. Treble also drops off heavily past 10 kHz, and probably shouldn&#x27;t be considered</li>
+</ul>
         </div>
     </div>
 </div>
@@ -354,7 +354,7 @@ With the observation that headphones (and earphones) do not present particular s
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>note Notes on DF</h5>
+            <h5>Notes on DF</h5>
 <ul>
 <li>DF seems to be the appropriate sound field when considering headphones/IEMs and the localization process from the association model</li>
 <li>Raw/pure DF is not preferred or liked, and should only be used with modifications</li>
@@ -389,6 +389,14 @@ With the observation that headphones (and earphones) do not present particular s
     <figcaption class="caption">IEF 2020 and 2023</figcaption>
 </figure>
 </p>
+<hr>
+<doc-anchor-target id="ief-2025-preference-curve-711--5128">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ief-2025-preference-curve-711--5128">#</doc-anchor-trigger>
+        <span>IEF 2025 Preference curve (711 &amp; 5128)</span>
+    </h2>
+</doc-anchor-target>
+<p>The newest IEF 2025 Preference curve is based on the JM-1 curve, but with separate treble and bass adjustments rather than full spectrum tilts. The non-tilted JM-1 curve is modified with the following changes: a -4 dB high shelf filter with a Q of 0.4 starting at 2500 Hz (used by Harman in their preference testing), and a +10 dB low shelf filter with Q of 0.71 at 80 Hz (similar to Harman&#x27;s 105 Hz filter). The target was developed for the 5128, and subsequently translated to the 711 systems using Crinacle&#x27;s own IEM projects, which adhere to the curve on the 5128 but not perfectly so on the 711&#x27;s JM-1 curve equivalent with the same filter changes.</p>
 <hr>
 <doc-anchor-target id="δ-and-jm-1-curve-711--5128">
     <h2>
