@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793515410801">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793516166777">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.6.0.793515410801" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.793516166777" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793515410801" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793516166777" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793515410801" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793516166777" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -196,7 +196,7 @@
         <span>ITU-T P.57 Type 4.3 (B&amp;K 4620/5128) ear simulators</span>
     </h3>
 </doc-anchor-target>
-<p>ITU-T P.57 type 4.3 specifies both the pinna and the occluded ear simulator, and compliant systems for this standard are also usually compliant with IEC 60318-7. For the pinna, the ITU-T P.57 Type 3.3 pinna is used with a small change at the base for attachment purposes as well as better transfer impedance matching. The occluded ear simulator is based on a study where researchers analyzed and measured the transfer impedance of 32 subjects in order to create an anatomically correct and more accurate occluded ear canal: the important change here is the presence of ear canal geometry. This results in better transfer impedance matching to the average, more accurate canal resonance location, and other changes, of which the relevant parts are discussed in <a href="https://rentry.co/IEM-EQ-Guide#measurements-and-misinterpretation">Measurements and misinterpretation</a>. The most prominent compliant system is the B&amp;K 4620/5128, where the 4620 only includes the pinna and ear simulator while the 5128 includes the head and torso simulator. ITU-T P.57 type 4.4 utilizes the same pinna as type 4.3, but instead terminates with an IEC 60318-4 coupler for the ear canal from the reference plane to DRP. The important part of this new standard is that the increased accuracy in low frequency transfer impedance should theoretically allow for direct headphone-to-IEM measurement comparisons: this is especially interesting when considering the preference research for both, where large discrepancy in bass was observed.</p>
+<p>ITU-T P.57 type 4.3 specifies both the pinna and the occluded ear simulator, and compliant systems for this standard are also usually compliant with IEC 60318-7. For the pinna, the ITU-T P.57 Type 3.3 pinna is used with a small change at the base for attachment purposes as well as better transfer impedance matching. The occluded ear simulator is based on a study where researchers analyzed and measured the transfer impedance of 32 subjects in order to create an anatomically correct and more accurate occluded ear canal: the important change here is the presence of ear canal geometry. This results in better transfer impedance matching to the average, more accurate canal resonance location, and other changes, of which the relevant parts are discussed in the <a href="">Measurements and misinterpretation</a> section. The most prominent compliant system is the B&amp;K 4620/5128, where the 4620 only includes the pinna and ear simulator while the 5128 includes the head and torso simulator. ITU-T P.57 type 4.4 utilizes the same pinna as type 4.3, but instead terminates with an IEC 60318-4 coupler for the ear canal from the reference plane to DRP. The important part of this new standard is that the increased accuracy in low frequency transfer impedance should theoretically allow for direct headphone-to-IEM measurement comparisons: this is especially interesting when considering the preference research for both, where large discrepancy in bass was observed.</p>
 <hr>
 <doc-anchor-target id="preference-target-or-not">
     <h2>
@@ -397,6 +397,22 @@ With the observation that headphones (and earphones) do not present particular s
     </h2>
 </doc-anchor-target>
 <p>The newest IEF 2025 Preference curve is based on the JM-1 curve, but with separate treble and bass adjustments rather than full spectrum tilts. The non-tilted JM-1 curve is modified with the following changes: a -4 dB high shelf filter with a Q of 0.4 starting at 2500 Hz (used by Harman in their preference testing), and a +10 dB low shelf filter with Q of 0.71 at 80 Hz (similar to Harman&#x27;s 105 Hz filter). The target was developed for the 5128, and subsequently translated to the 711 systems using Crinacle&#x27;s own IEM projects, which adhere to the curve on the 5128 but not perfectly so on the 711&#x27;s JM-1 curve equivalent with the same filter changes.</p>
+<doc-tabs>
+<doc-tab v-cloak id="5128-version">
+<template #title>5128 version</template>
+<p><figure class="content-center">
+    <img src="https://i.postimg.cc/HsstYHFd/IEF-Preference-2025.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab v-cloak id="711-version">
+<template #title>711 version</template>
+<p><figure class="content-center">
+    <img src="https://crinacle.com/wp-content/uploads/2025/02/graph25.png" alt="">
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 <hr>
 <doc-anchor-target id="δ-and-jm-1-curve-711--5128">
     <h2>
@@ -422,6 +438,7 @@ With the observation that headphones (and earphones) do not present particular s
     <figcaption class="caption">SoundGuys target</figcaption>
 </figure>
 </p>
+</doc-tab>
 
                                 
                                 <!-- Required only on API pages -->
