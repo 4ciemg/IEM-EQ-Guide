@@ -19,7 +19,7 @@ These couplers only have a metallic tube where the IEM can be inserted, which af
 
 
 ### ITU-T P.57 Type 4.3 (B&K 4620/5128) ear simulators
-ITU-T P.57 type 4.3 specifies both the pinna and the occluded ear simulator, and compliant systems for this standard are also usually compliant with IEC 60318-7. For the pinna, the ITU-T P.57 Type 3.3 pinna is used with a small change at the base for attachment purposes as well as better transfer impedance matching. The occluded ear simulator is based on a study where researchers analyzed and measured the transfer impedance of 32 subjects in order to create an anatomically correct and more accurate occluded ear canal: the important change here is the presence of ear canal geometry. This results in better transfer impedance matching to the average, more accurate canal resonance location, and other changes, of which the relevant parts are discussed in [Measurements and misinterpretation](https://rentry.co/IEM-EQ-Guide#measurements-and-misinterpretation). The most prominent compliant system is the B&K 4620/5128, where the 4620 only includes the pinna and ear simulator while the 5128 includes the head and torso simulator. ITU-T P.57 type 4.4 utilizes the same pinna as type 4.3, but instead terminates with an IEC 60318-4 coupler for the ear canal from the reference plane to DRP. The important part of this new standard is that the increased accuracy in low frequency transfer impedance should theoretically allow for direct headphone-to-IEM measurement comparisons: this is especially interesting when considering the preference research for both, where large discrepancy in bass was observed.
+ITU-T P.57 type 4.3 specifies both the pinna and the occluded ear simulator, and compliant systems for this standard are also usually compliant with IEC 60318-7. For the pinna, the ITU-T P.57 Type 3.3 pinna is used with a small change at the base for attachment purposes as well as better transfer impedance matching. The occluded ear simulator is based on a study where researchers analyzed and measured the transfer impedance of 32 subjects in order to create an anatomically correct and more accurate occluded ear canal: the important change here is the presence of ear canal geometry. This results in better transfer impedance matching to the average, more accurate canal resonance location, and other changes, of which the relevant parts are discussed in the [Measurements and misinterpretation]() section. The most prominent compliant system is the B&K 4620/5128, where the 4620 only includes the pinna and ear simulator while the 5128 includes the head and torso simulator. ITU-T P.57 type 4.4 utilizes the same pinna as type 4.3, but instead terminates with an IEC 60318-4 coupler for the ear canal from the reference plane to DRP. The important part of this new standard is that the increased accuracy in low frequency transfer impedance should theoretically allow for direct headphone-to-IEM measurement comparisons: this is especially interesting when considering the preference research for both, where large discrepancy in bass was observed.
 
 
 ***
@@ -121,6 +121,11 @@ The newer 2023 target based on a tilted DF response for the 5128 rigs, translate
 ***
 ## IEF 2025 Preference curve (711 & 5128)
 The newest IEF 2025 Preference curve is based on the JM-1 curve, but with separate treble and bass adjustments rather than full spectrum tilts. The non-tilted JM-1 curve is modified with the following changes: a -4 dB high shelf filter with a Q of 0.4 starting at 2500 Hz (used by Harman in their preference testing), and a +10 dB low shelf filter with Q of 0.71 at 80 Hz (similar to Harman's 105 Hz filter). The target was developed for the 5128, and subsequently translated to the 711 systems using Crinacle's own IEM projects, which adhere to the curve on the 5128 but not perfectly so on the 711's JM-1 curve equivalent with the same filter changes. 
+
++++ 5128 version
+![](https://i.postimg.cc/HsstYHFd/IEF-Preference-2025.png)
++++ 711 version
+![](https://crinacle.com/wp-content/uploads/2025/02/graph25.png)
 
 
 ***
