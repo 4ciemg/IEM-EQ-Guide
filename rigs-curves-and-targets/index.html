@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793516728980">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.793596434302">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.6.0.793516728980" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.6.0.793596434302" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793516728980" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.6.0.793596434302" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793516728980" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.6.0.793596434302" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -422,7 +422,7 @@ With the observation that headphones (and earphones) do not present particular s
         <span>Δ and JM-1 curve (711 &amp; 5128)</span>
     </h2>
 </doc-anchor-target>
-<p>The Δ curve is simply the 5128 DFHRTF compensated to 711 rigs. The JM-1 curve is similar to the DF + tilt signature, but a distinct difference being that instead of relying on a specific measurement rig&#x27;s HRTF, it uses the canal transfer function of that specific rig, combined with the contributions from a population average pinna. It is also based on the ITU-T P.57 Type 4.3 (5128) rig, and should therefore result in a more accurate DFHRTF both in terms of canal response and outer ear response.</p>
+<p>The Δ curve is simply the 5128 DFHRTF compensated to 711 rigs. The JM-1 curve is similar to the 5128 DFHRTF, but with a distinct difference being that instead of relying on a specific measurement rig&#x27;s HRTF, it uses the canal transfer function of that specific rig, combined with the contributions from a population average pinna. It is also based on the ITU-T P.57 Type 4.3 (5128) rig, and should therefore result in a more accurate DFHRTF both in terms of canal response and outer ear response. For both curves, additional changes are recommended as mentioned previously, raw DF is not preferred in tests. The changes are usually in the form of full spectrum tilting (-10 dB tilt is the same as a -1 dB/oct tilt) in the range of -0.5 dB to -1.2 dB with a variable bass shelf, or with separate treble and bass shelves (same as Harman&#x27;s).</p>
 <p>The use of a rig&#x27;s canal transfer function combined with a population average pinna response for calibration of audio systems that do not interact much with the outer ear (ie does not deform or physically touch the outer ear) has been detailed in ISO 11904-2; the JM-1 curve uses a similar idea, this time using the B&amp;K 5128 canal instead of the one specified in IEC 60318-4. For the population average pinna, it is argued that the one specified in IEC 60318 (the one used on type 4.3 and IEC 60318-7 HATS) is not representative of the human average response, being brighter than normal. Instead, a pinna from Hammershoi and Moller is used, as detailed in the ISO standard. Evidence of HATS using the mentioned IEC 60318-7 pinna having brighter DFHRTFs has been found by Harman research, which compared rig responses to that of around 350 human subjects whose HRTFs at the blocked canal were measured in their Hyperion sphere.</p>
 <p>Because the curve is based on the B&amp;K 5128 which can supposedly remove the need for two separate preference targets for headphones and IEMs, JM-1 also incorporates a 3kHz adjustment similar to the one found in the HarmanOE 2018 target (a reduction of around 2.5 dB). The change made by Harman is not well defined in their studies, but was explained briefly as being preferred in informal listening sessions with trained listeners. The adjustment is a reduction in energy at that region, but should only have a minor effect on preference. Based on <strong>very</strong> preliminary research by Harman (S. Olive), the JM-1 target fared quite well as a preference target against other targets and curves. While falling short of other targets like the Soundguys and HarmanIE ones, the tested JM-1 was using the filters from HarmanOE 2015 instead of HarmanOE 2018; the latter and more preferred one is very similar to the Soundguys target and tracks closely up until 8kHz. Above that, the Soundguys target has more energy while also having a bass shelf included; since JM-1 is based on DF + tilt, preference bounds from Harman research should also be used along side the curve.</p>
 <p>For now, JM-1 and what is specified in the ISO standard are mostly similar, and are for most circumstances interchangeable. Do note that the JM-1 target is made using a <strong>derived</strong> canal transfer function, meaning it was calculated mathematically; when the canal transfer function will be measured, another target (JM-2) will be developed.</p>
