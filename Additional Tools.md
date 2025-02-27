@@ -7,3 +7,5 @@ icon: tools
 !!!warning 
 WIP
 !!!
+
+[!embed](https://squig.link/?share=Dita_Mecha)
