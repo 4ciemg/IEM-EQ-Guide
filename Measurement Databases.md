@@ -11,6 +11,13 @@ WIP
 !!!
 
 ## Squig.link (711)
+
+Arguably the largest collection of measurements (both 711 and 5128), it contains the databases of several people/groups for IEMs, headphones, and earbuds. There are also several useful features, such as the Equalizer tab that allows for many types of EQ, the ability to alter the y-axis, the whole top row, etc. The quality of the measurements is very variable, with some databases having very consistent and thorough procedures and calibrations with the delta 5128 project; others are done inconsistently, with different couplers and units, all jumbled up.
+
+The measurements should only be used with reference with others in the same database.
+
+
+
 ## oratory1990 (711)
 ## Hangout.Audio (5128 & 711)
 ## Woodenears (5128 & 711)
