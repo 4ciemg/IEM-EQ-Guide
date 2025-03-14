@@ -16,6 +16,12 @@ Arguably the largest collection of measurements (both 711 and 5128), it contains
 
 The measurements should only be used with reference with others in the same database.
 
+Pros | Cons | 
+:-:|:-:|
+Largest collection of measurements | Inconsistent measurement quality and procedure |
+Feature-packed site | Inconsistent feature implementation |
+Downloadable measurements  |  |
+
 
 ***
 ## oratory1990 (711)
@@ -23,7 +29,11 @@ The measurements should only be used with reference with others in the same data
 Mostly focused on headphone measurements, but IEM measurements are also available and are measured using a HATS. Relatively sparse and measurements are not available for download or modification, but are of very high quality.
 
 
-
+Pros | Cons | 
+:-:|:-:|
+Very high quality measurements | Measurements only avaiable in PDFs |
+HATS-based measurement | HATS-based measurement |
+  | Relatively sparse collection |
 
 
 ***
