@@ -95,7 +95,7 @@ In the case where there is an obvious peak that is sibilant and/or annoying, the
 !!!info Fixing treble peaks
 1. Confirm that a peak is actually present in the IEM's FR and that it is not a peak that is present in the audio content
 2. Determine whether or not this peak has a noticeable, negative impact; continue if it does
-3. Locate the peak using music, pink noise, or a tone generator / sine sweep. A tone generator/sweep can also work, but should be done even **more critically as human hearing is not good at detecting perceived loudness** with sine signals. **Only use it for very high amplitude peaks**
+3. Locate the peak using music and pink noise. A tone generator/sweep should be avoided: while it can also work, users should use it **more critically as human hearing is not good at detecting perceived loudness** with sine signals. **Only use it for locating very high amplitude peaks after determining that a peak is present with music and pink noise**
 4. Use a relatively sharp filter (Q > 4) and varying levels of negative gain, ensuring that the peak is minimized without encroaching on the surrounding frequency range (ie reduced until no longer bothersome) by using music and/or pink noise
 !!!
 
