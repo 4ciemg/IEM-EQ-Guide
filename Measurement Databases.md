@@ -19,7 +19,7 @@ The measurements should only be used with reference with others in the same data
 Pros | Cons | 
 :-:|:-:|
 Largest collection of measurements | Inconsistent measurement quality and procedure |
-Feature-packed site | Inconsistent feature implementation |
+Feature-packed website | Inconsistent feature implementation |
 Downloadable measurements |  |
 
 
@@ -28,10 +28,9 @@ Downloadable measurements |  |
 
 Mostly focused on headphone measurements, but IEM measurements are also available and are measured using a HATS. Relatively sparse and measurements are not available for download or modification, but are of very high quality.
 
-
 Pros | Cons | 
 :-:|:-:|
-Very high quality measurements | Measurements only avaiable in PDFs |
+Very high quality measurements | Measurements only available in PDFs |
 HATS-based measurement | HATS-based measurement |
   | Relatively sparse collection |
 
@@ -54,7 +53,7 @@ Measurements using HATS for both frequency response as well as distortion. Every
 Pros | Cons | 
 :-:|:-:|
 High quality measurements | Inconsistent and slow updates  |
-Large collection | Korean site |
+Large collection | Korean website |
 Distortion measurements | Non-downloadable measurements |
 | Not many features |
 
@@ -72,26 +71,58 @@ Extensive measurement types | Limited database  |
 
 ***
 ## Headphones.com (5128 & 711)
+Small collection of measurements but spread out across many sources (videos, forums, websites, etc) with no consistent method of searching them. Large variety in terms of presentation, measurement rig, and procedure. Most new measurements are compensated to a specific curve/target, and some display insertion depth profile.
 
+Pros | Cons | 
+:-:|:-:|
+High quality measurements | Compensated measurements |
+HATS-based measurement | HATS-based measurement |
+Different measurement types  | Hard to find measurements |
+ | Non-downloadable data |
+ | Inconsistent measurement procedures and rigs |
 
 ***
 ## Earphones Archive (5128 & 711)
+Relatively small collection of 5128 measurements. Additional data can be found on their blog.
+
+Pros | Cons | 
+:-:|:-:|
+HATS-based measurement | HATS-based measurement |
+Relatively large 5128 collection | Korean website |
+Extensive measurement types |  |
+(Indirectly) Downloadable data |  |
 
 ***
 ## Realab (5128)
+
 
 ***
 ## HypeTheSonics (5128 & 711)
 
 ***
-## Rtings (711)
+## Rtings (5128 & 711)
 
+Very large collection of measurements in both 711 and 5128. High quality measurements, but some tests and every score must be ignored. 
+
+Pros | Cons | 
+:-:|:-:|
+High quality measurements | Compensated measurements |
+HATS-based measurement | HATS-based measurement |
+Different measurement types  | Hard to find measurements |
+ | Non-downloadable data |
+ | Inconsistent measurement procedures and rigs |
 
 ***
 ## Soundguys (5128 & 711)
+
 
 ***
 ## PEQdB (5128 & 711)
 
 A scrape of available measurements from squig.link, but without any of the categorization or separation. To be avoided for the most part as other measurement are as accessible while still being traceable. 
 
+Pros | Cons | 
+:-:|:-:|
+Large collection | **Extremely inconsistent measurement quality and procedure**  |
+Downloadable measurements |  |
+Feature-packed website |  |
