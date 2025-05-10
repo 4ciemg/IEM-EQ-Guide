@@ -20,3 +20,8 @@ There are 3 main sections in this guide:
 	4. Measurement rigs, curves, and preference targets, where information about metrology is given
 
  Use the table of contents on the left to navigate the guide, and use the secondary one on the left of each page for specific topics.
+
+***
+## Feedback
+
+[!embed](https://cryptpad.fr/form/#/2/form/view/-M79g+mftcUBI8mNon6aoMxy1RvdPr3lksbrifl+jNg/embed/)
