@@ -91,3 +91,11 @@ The following images shows possible FR changes attributable to ear tips. Ear tip
 - Check if the resonance peak is audible: if so, follow previous steps for fixing treble peaks
 - Experiment with different insertion depth in case treble is not up to preference
  !!!
+
+
+***
+## Filters
+
+!!!
+WIP
+!!!
