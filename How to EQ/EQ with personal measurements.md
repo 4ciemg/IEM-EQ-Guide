@@ -98,8 +98,8 @@ The following images shows possible FR changes attributable to ear tips. Ear tip
 ## Filters
 Many IEMs use small filters/dampers that usually cover the nozzle and/or tubes out of the nozzle. While some are acoustically transparent, many dampen high frequency response to various degrees depending on the filter acoustic resistance (in many cases denoted as density). With time, these filters can become clogged, resulting in either wide band volume reduction, or partial volume reduction. The latter is of note here: as a filter gets clogged, the acoustic resistance changes, and manifests itself as further damping. 
 
-The image below showcases the effect of partial filter clogging, where a relatively wide drop centered at 2 kHz and another smaller drop at 6 kHz can be observed. The behavior of clogged filters with regards to "clog level" and cleaning is not consistent, and therefore IEMs with potential clogging issues should be measured to assess the change in FR and necessary corrections.
+The image below showcases the effect of partial filter clogging, where a relatively wide drop centered at 2.5 kHz and another smaller drop at 5.5 kHz can be observed. The behavior of clogged filters with regards to "clog level" and cleaning is not consistent, and therefore IEMs with potential clogging issues should be measured to assess the change in FR and necessary corrections.
 
-!!!
-WIP
-!!!
+![Tangzu Wan'er with normal and clogged FRs](https://i.postimg.cc/5ytHHkyc/Tangzu-Waner-Filter-Clogging.jpg)
+
+![Differences with compensated FRs](https://i.postimg.cc/26GbSfzF/Compensated-Difference.png)
