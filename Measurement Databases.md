@@ -28,7 +28,7 @@ Mostly focused on headphone measurements, but IEM measurements are also availabl
 Pros | Cons | 
 :-:|:-:|
 **Very high quality measurements** | Measurements only available in PDFs |
-HATS-based measurement | HATS-based measurement |
+Some HATS-based measurements | Some HATS-based measurement |
   | Relatively small database |
 
 ***
