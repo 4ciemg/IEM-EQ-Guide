@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.801508965624">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.801886427559">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.8.1">
+    <meta name="generator" content="Retype 3.9.0">
 
     <!-- Primary Meta Tags -->
     <title>EQ refinement (****)</title>
@@ -31,13 +31,13 @@
     <meta property="twitter:description" content="At this stage, EQ is a tool that with which you are intimately familiar with, FR graphs are readable, decipherable, and hopefully enough to explain...">
     <meta property="twitter:image" content="https://i.postimg.cc/KjC6yPq3/SADIE-DFHRTF.png">
 
-    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.8.1.801508965624" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.9.0.801886427559" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.801508965624" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.801508965624" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.801886427559" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.801886427559" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -175,12 +175,12 @@
 </doc-anchor-target>
 <p>The first main issue arises from <strong>HRTF differences</strong> between individuals. Starting from around 2kHz, the variation in HRTF becomes quite significant, and increases in magnitude proportionally with frequency. For example, looking at the SADIE II database of DFHRTF measurements done at the blocked ear  canal, the patterns described previously can be seen clearly, where amplitude differences of up to 20 dB can be observed above 10 kHz (image on the left). Note that since the HRTF database was measured at the blocked ear canal, it does not include the canal transfer function and potential variations in the frequency range it affects; the variations are therefore even more pronounced and can go down as low ass 1 kHz. What this means is that even if IEMs produced the same FR at the eardrum of two separate people, their perception of the produced sound <strong>will be different</strong> (assuming said perception can be measured, quantified, and compared), despite having the same response at the eardrum. The image on the right shows open and blocked canal measurements of 40 HRTFs for a frontal source: while not directly comparable to the DFHRTF image from the SADIE II database, it does still show the very large deviations in HRTF above 1 kHz depending on the individual.</p>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/KjC6yPq3/SADIE-DFHRTF.png" alt="SADIE II DFHRTF at the blocked ear canal for 40 people" width="400">
+    <img src="https://i.postimg.cc/KjC6yPq3/SADIE-DFHRTF.png" alt="SADIE II DFHRTF at the blocked ear canal for 40 people" width="400" />
     <figcaption class="caption">SADIE II DFHRTF at the blocked ear canal for 40 people</figcaption>
 </figure>
 <br />
 <figure class="content-center">
-    <img src="https://i.postimg.cc/D0S9DjgK/Moller-HRTf.png" alt="HRTF at the open and blocked ear canal for a frontal source " width="400">
+    <img src="https://i.postimg.cc/D0S9DjgK/Moller-HRTf.png" alt="HRTF at the open and blocked ear canal for a frontal source " width="400" />
     <figcaption class="caption">HRTF at the open and blocked ear canal for a frontal source </figcaption>
 </figure>
 </p>
@@ -193,7 +193,7 @@
 <p>The second issue comes from the inherent <strong>differences in acoustic impedance</strong> between not only the <strong>measurement system and the listener</strong>, but also between <strong>different measurement system standards</strong>. While more details can be found in the <a href="">Measurement rigs, curves, and preference targets</a> section, it is worth summarizing the differences between the &quot;711&quot; (IEC 60318-4) and &quot;5128&quot; (ITU-T P.57/58 Type 4.3) measurement databases as they are the most prevalent right now. The &quot;old&quot; standard is the most commonly used standard, and has extensive data, while the new standard has a much lesser amount of data, but is more &quot;accurate&quot; then the former.</p>
 <p>The differences between the both of them can be boiled down to a difference in acoustic impedance, with the newer standard being more accurate to the human population (ie matching the mean better). For expected changes when it comes to graphs, there are a three main places to look at: the bass region below ~150 Hz and above to 1 kHz, the frequency range between 1 kHz and 5 kHz, and the rest above 5 kHz. The former is very important, with 5128 measurements showing clear differences in bass. There are two main changes; the first one relates to overall bass level, where 711 measurements tend to overexaggerate amplitude below 150 Hz, and the second one relates to the relative difference between IEM models with different driver configuration, which explains the commonly talked about &quot;BA bass&quot; (see image below). These differences make the 5128 measurements generally more reliable when it comes to representing what a listener is hearing. As for the latter place, the increased accuracy is somewhat useful, although precautions have to be put in place. From 1 kHz to 5 kHz, the new standard adheres to the mean acoustic impedance better than the old one, although the differences don&#x27;t seem to be noticeable and/or consistent. For the last region above 5 kHz, the newer standard is much better than the old one, but is not nearly as useful, since HRTF, insertion depth, and other factors result in wildly different responses away from the mean.</p>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/nzLgzyJz/5128vs711.png" alt="711 and 5128 measurements of the Etymotic ER2XR">
+    <img src="https://i.postimg.cc/nzLgzyJz/5128vs711.png" alt="711 and 5128 measurements of the Etymotic ER2XR" />
     <figcaption class="caption">711 and 5128 measurements of the Etymotic ER2XR</figcaption>
 </figure>
 </p>
@@ -202,7 +202,7 @@
 <doc-tab v-cloak id="5128-measurement">
 <template #title>5128 Measurement</template>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/NfNbDqLL/5128bass.png" alt="Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a 5128 measurement system">
+    <img src="https://i.postimg.cc/NfNbDqLL/5128bass.png" alt="Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a 5128 measurement system" />
     <figcaption class="caption">Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a 5128 measurement system</figcaption>
 </figure>
 </p>
@@ -210,7 +210,7 @@
 <doc-tab v-cloak id="711-measurement">
 <template #title>711 Measurement</template>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/DyfB1yvt/711Bass.png" alt="Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a IEC 60318-4 compliant (711) measurement system">
+    <img src="https://i.postimg.cc/DyfB1yvt/711Bass.png" alt="Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a IEC 60318-4 compliant (711) measurement system" />
     <figcaption class="caption">Measurements of the Tanchjim Oxygen and Kiwi Ears Orchestra on a IEC 60318-4 compliant (711) measurement system</figcaption>
 </figure>
 </p>
@@ -226,19 +226,19 @@
 </doc-anchor-target>
 <p>The third reason is related to how FR can vary depending on how an IEM couples and interacts with the ear canal and eardrum. When an IEM is inserted into the ear canal, the transfer function between the IEM and the eardrum can create meaningful peaks throughout the treble range, and for which the amplitude, location, Q, and number of peaks varies considerably with the individual, and depends on many factors, such as ear canal geometry. The images below show such potential transfer functions; notice the variance in terms of peak amplitude and Q. The canal transfer function is highly variable depending on the individual, and the peaks shown on measurements can also be a result of either insertion, driver resonances, or other factors, for which the transfer function will inevitably be masked or mixed with said variables. Furthermore, some IEMs employ forms of damping that try to mitigate such resonances. The interaction between the IEM and the canal of a person is therefore not shown accurately on 711 measurements, where canal geometry is not present, and even on 5128 measurements, the peaks in response will shift around depending on the individual.</p>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/65LvsWDf/Canal-Transfer-functions.png" alt="Simulated ear canal transfer function  for both a KEMAR rig and human ear geometries from the IHA database">
+    <img src="https://i.postimg.cc/65LvsWDf/Canal-Transfer-functions.png" alt="Simulated ear canal transfer function  for both a KEMAR rig and human ear geometries from the IHA database" />
     <figcaption class="caption">Simulated ear canal transfer function  for both a KEMAR rig and human ear geometries from the IHA database</figcaption>
 </figure>
 <br />
 <figure class="content-center">
-    <img src="https://i.postimg.cc/W1NJsRVL/Oksanen.png" alt="Ear canal transfer functions obtained on various humans">
+    <img src="https://i.postimg.cc/W1NJsRVL/Oksanen.png" alt="Ear canal transfer functions obtained on various humans" />
     <figcaption class="caption">Ear canal transfer functions obtained on various humans</figcaption>
 </figure>
 </p>
 <hr>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -279,8 +279,8 @@
 <p>It might seem logical to reason that because the brain applies the inverse of the HRTF to the incoming sound and therefore perceives sound from a loudspeaker as flat (since the HRTF contribution matches exactly to what the brain expects), using something like a tone generator and doing sine sweeps would be optimal. If the brain ultimately perceives the flat response of a loudspeaker, shouldn&#x27;t we EQ the IEM&#x27;s response to be perceived as flat as well? Wouldn&#x27;t that mean that whatever HRTF contributions from the IEM have been removed and replaced with the correct response, resulting in perceived flatness?</p>
 <p>Unfortunately, <strong>the human hearing mechanism is not a simple pressure detector</strong>. While the eardrum is one, the overall human hearing mechanism has to account for localization: HRTF aids in <strong>sound localization</strong> and so simply accounting for amplitude isn&#x27;t enough for achieving accurate timbre. If loudspeakers and IEMs functioned the same in terms of sound localization, then the previous assumption would be true. However, IEMs and loudspeakers (or other localizable sound sources) are inherently different audio reproduction systems, and do not have the same &quot;spatial rendering&quot; features as loudspeakers.</p>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -298,8 +298,8 @@
 </div>
 <p>Loudspeakers are still useful because they are a reference point for accurate timbre as explained previously. The problem is that trying to compare timbre on both system is very difficult because of auditory memory, different spatial perception, isolation, etc. Despite these drawbacks, comparison between the two can still be useful, albeit very time demanding. The aim here should be to attain something as similar as possible, since the difference in sound field and perception will inevitably make IEMs have less accurate perceived timbre. Note that the following methodology can also be used to emulate other IEMs, although having both IEMs in hand is necessary.</p>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -328,8 +328,8 @@
     </div>
 </div>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-yellow-500"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-yellow-500"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-yellow-500" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -376,8 +376,8 @@
 <p>Whether referencing &quot;texture&quot;, &quot;impact&quot;, or any other metric, bass quality is often presumed to be wholly unrelated to FR since attempts at improving it through EQ usually do not work. The problem comes down to measurement inaccuracies, as described previously, and to the holistic nature of FR. Furthermore, certain tracks/genres will emphasize or tone down bass levels, adding another variable to consider.</p>
 <p>The most important factor to account for is <strong>leakage</strong>. It is <strong>not a binary system where there is either leakage or not</strong>; rather, depending on the canal entrance geometry and the ear tips being used, variable amounts of leakage are possible. Boosting bass to appropriate levels can sometimes feel wrong due to large amplitude filters, but is essential in improving bass quality perception.</p>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -407,8 +407,8 @@
 <p>The first part to consider is auditory masking, where large peaks can mask surrounding frequencies; having proper treble response is important, though the degree of adherence seems to vary. The second part is overall high frequency levels relative to the rest of the FR as well as relative to the specific element that is to be highlighted; for bass instruments, high frequency content will be in a different range than for something like vocals. The difficulty here lies in differentiating between actual tonal changes and perceived resolution.</p>
 <p>Unfortunately, there aren&#x27;t many specific tips that are useful because these aspects <strong>vary in terms of preference and perception depending on the individual</strong>. The only advice would be to use strategic broad changes to change detail perception for the wanted elements. , and boosts in higher frequency ranges (3-12 kHz) will usually result in increased detail perception; it is <strong>important to do small incremental changes</strong> as well as taking frequent breaks much like in the loudspeaker comparison method.</p>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -437,8 +437,8 @@
 <p>For both imaging and soundstage, proper compensation to your HRTF should result in somewhat accurate localization imparted by the music itself since the factors for proper sound localization are not in effect here (direct/indirect sound from space reflections, ILD, ITD, head movement, and spectral differences from HRTFs of &quot;real&quot; sounds). For separation, a proper balance of every part of the FR should be achieved by paying attention to &quot;transition ranges&quot;; the goal is to keep the overall levels of each instrument and track at appropriate levels. For example, mid bass shouldn&#x27;t be too emphasized if mid range is to be preserved; in the case of mid bass having too much energy, masking of certain mid range elements can happen, as well as coloring instruments in said ranges.</p>
 <p>These descriptors are arguably the most variable and inconsistent metrics when it comes to subjective impressions. There are however a few common tips that, at best, seem to <em>somewhat</em> work for <em>some</em> people. A few tricks employed in music production can also be handy here.</p>
 <div class="flex mb-6">
-    <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-300"></div>
-    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-300"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
         <div class="flex items-center ml-4 h-7">
             <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-300" width="22" height="22" viewBox="0 0 24 24" role="presentation">
                 <g fill="currentColor"><g>
@@ -465,7 +465,7 @@
                             </div>
                             <footer class="clear-both">
                             
-                                <nav class="flex mt-14">
+                                <nav class="print:hidden flex mt-14">
                                     <div class="w-1/2">
                                         <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/eq-with-personal-measurements/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
@@ -489,13 +489,13 @@
                             </footer>
                         </main>
                 
-                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
-                            <footer class="flex flex-wrap items-center justify-between">
-                                <div>
+                        <div class="print:border-none border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div class="print:hidden">
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                                <div class="print:justify-center docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
                             </footer>
                         </div>
                     </div>

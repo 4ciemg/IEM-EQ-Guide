@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.8.1.801508965624">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.801886427559">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.8.1">
+    <meta name="generator" content="Retype 3.9.0">
 
     <!-- Primary Meta Tags -->
     <title>More advanced DSP (****)</title>
@@ -31,13 +31,13 @@
     <meta property="twitter:description" content="Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio.">
     <meta property="twitter:image" content="https://a.fsdn.com/con/app/proj/hesuvi/screenshots/HeSuVi_Virtualization.png/max/max/1">
 
-    <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+    <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../../resources/css/retype.css?v=3.8.1.801508965624" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.9.0.801886427559" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.8.1.801508965624" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.8.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.8.1.801508965624" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.9.0.801886427559" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.9.0.801886427559" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -194,7 +194,7 @@
 <p><a href="https://sourceforge.net/projects/hesuvi/">HeSuVi</a> is a program that utilizes EqualizerAPO&#x27;s convolution filter to imitate surround sound (5.1/7.1/binaural sound effects) virtualizations for headphones/IEMs. Included with the software are Head related impulse responses (HRIRs), which can be thought of as recordings of a loudspeaker&#x27;s response at a specific direction measured with &quot;head mics&quot; (ie measured response at the eardrum). With multiple HRIRs in different directions, it becomes possible to simulate &quot;virtual loudspeakers&quot; for 5.1/7.1 surround sound virtualization. It therefore becomes possible to listen to 5.1/7.1 recordings without an actual surround sound system; while an interesting proposal, the lack of such recording makes it a niche product. The interesting part comes with adding said HRIRs with stereo recordings, in which case an added level of &quot;spaciousness&quot;.</p>
 <p>The quality of the HRIR varies greatly, and changes depending on how it was made and the intended goal. On the right side, there are common HRIRs, usually from other popular implementations of surround sound virtualization (mainly gaming related), and on the left side, other HRIRs from various databases. The <a href="https://binaural-audio.slite.page/p/i38zsD7728/Binaural-Audio">Binaural Audio</a> and its corresponding <a href="https://airtable.com/appayGNkn3nSuXkaz/shruimhjdSakUPg2m/tbloLjoZKWJDnLtTc">Binaural HRTF Database</a>  are resources that contains many different HRTFs/HRIRs and can be useful for quick testing in order to find a good fit.</p>
 <p><figure class="content-center">
-    <img src="https://a.fsdn.com/con/app/proj/hesuvi/screenshots/HeSuVi_Virtualization.png/max/max/1" alt="HeSuVi" width="600">
+    <img src="https://a.fsdn.com/con/app/proj/hesuvi/screenshots/HeSuVi_Virtualization.png/max/max/1" alt="HeSuVi" width="600" />
     <figcaption class="caption">HeSuVi</figcaption>
 </figure>
 </p>
@@ -209,13 +209,13 @@
 <p><a href="https://github.com/davircarvalho/Individualized_HRTF_Synthesis">EAC - Individualized HRTF synthesis</a> is a project that uses ML to recreate an HRTF measurement based on real-life measurements of the ear. The process requires the user to take measurements of their ear - there is a tool to facilitate the task using pictures and a reference length - and inputting them into their software. The final result is an HRTF SOFA file that can be used in room virtualization software. The HRTF file itself is not particularly useful; it needs another program, usually one that attempts to simulate a room with said file. For example, with their HRTF SOFA file, the user can then use another program that simulates a room to the user&#x27;s need, and for which the response of the person&#x27;s HRTF can be had. It is therefore possible to recreate a room that has a diffuse sound field, incorporate the HRTF, and measure the DF HRTF of the user. The author of the paper also has several other projects, such as a Webcam Head Tracker and a Room Auralization, with the latter being able to use SOFA HRTFs.</p>
 <p>The issue with this method is that the synthesized HRTF itself deviated significantly from their actual acoustically measured HRTFs. There is also the lack of ear canal geometry, head/torso dimensions, and finer ear details in the HRTF calculations; all of these factors can lead to synthesized HRTFs that aren&#x27;t ideal. The deviations shown in the image below highlight the large differences in amplitude between the proposed/synthesized response (dotted lines) and the original/measured response (solid lines) as well as the overall smoothed result.</p>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/6px0Gksz/EACsynthesis-HRTF.png" alt="Comparison between synthesized and measured HRTFs on the horizontal plane at various azimuths">
+    <img src="https://i.postimg.cc/6px0Gksz/EACsynthesis-HRTF.png" alt="Comparison between synthesized and measured HRTFs on the horizontal plane at various azimuths" />
     <figcaption class="caption">Comparison between synthesized and measured HRTFs on the horizontal plane at various azimuths</figcaption>
 </figure>
 </p>
 <p><a href="https://www.mesh2hrtf.org/">MESH2HRTF</a> is an open-sourced project that uses the same concept as the previous project, except it requires a 3D scan of the whole ear and head. The mesh is then used with modeling software like Blender and the project&#x27;s own calculator to obtain HRTFs for specified angles in a free-field. It is also possible to obtain a SOFA file for the HRTF and to use it in other room simulation softwares. The accessibility of this project is rather low, requiring at the very minimum a modern iPhone which will produce less than ideal results, or a professional 3D scanner. Furthermore, the same problem of not accounting for canal geometry still applies here.</p>
 <p><figure class="content-center">
-    <img src="https://raw.githubusercontent.com/Any2HRTF/Mesh2HRTF/master/docs/figures/graphical_abstract-01.png" alt="Mesh2HRTF">
+    <img src="https://raw.githubusercontent.com/Any2HRTF/Mesh2HRTF/master/docs/figures/graphical_abstract-01.png" alt="Mesh2HRTF" />
     <figcaption class="caption">Mesh2HRTF</figcaption>
 </figure>
 </p>
@@ -224,7 +224,7 @@
 <doc-tab v-cloak id="auralization-engine">
 <template #title>Auralization engine</template>
 <p><figure class="content-center">
-    <img src="https://raw.githubusercontent.com/davircarvalho/Auralization_Engine/master/Images/1.PNG" alt="">
+    <img src="https://raw.githubusercontent.com/davircarvalho/Auralization_Engine/master/Images/1.PNG" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -232,7 +232,7 @@
 <doc-tab v-cloak id="anaglyph">
 <template #title>Anaglyph</template>
 <p><figure class="content-center">
-    <img src="https://i.postimg.cc/cC3B6SmR/Anaglyph.jpg" alt="">
+    <img src="https://i.postimg.cc/cC3B6SmR/Anaglyph.jpg" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -253,7 +253,7 @@
                             </div>
                             <footer class="clear-both">
                             
-                                <nav class="flex mt-14">
+                                <nav class="print:hidden flex mt-14">
                                     <div class="w-1/2">
                                         <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/eq-refinement/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
@@ -277,13 +277,13 @@
                             </footer>
                         </main>
                 
-                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
-                            <footer class="flex flex-wrap items-center justify-between">
-                                <div>
+                        <div class="print:border-none border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between print:justify-center">
+                                <div class="print:hidden">
                                     <ul class="flex flex-wrap items-center text-sm">
                                     </ul>
                                 </div>
-                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
+                                <div class="print:justify-center docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"></div>
                             </footer>
                         </div>
                     </div>
