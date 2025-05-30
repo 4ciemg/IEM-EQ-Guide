@@ -85,7 +85,7 @@ Grasping the above is important because it explains why IEM measurements and pre
 
 The most "researched" target comes from Harman, and the latest iteration of their IEM target  is their Harman In-ear (HarmanIE) 2019v2 target. Despite being the most thoroughly researched target, there has been a lot of pushback against this target. Furthermore, many prominent reviewers have also included their own personal preference targets in their databases. Oftentimes these targets are either existing preference targets with tweaks (eg some variation on HarmanIE) or a mix of different FR parts of different IEMs they like (eg combining the bass of X IEM, mid range of Y IEM, and treble of Z IEM).
 
-The following is a brief summary of important preference target curves, as well as other curves that are **not based on preference**. There are also more informative and in-depth explanations of each of them in the [Measurement rigs, curves, and preference targets] section.
+The following is a brief summary of important preference target curves, as well as other curves that are **not based on preference**. There are also more informative and in-depth explanations of each of them in the [Rigs, Curves, & Targets](https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/) section.
 
 !!!info Summary on various preference targets and other curves
 - Harman In-Ear (HarmanIE): Preference target by Harman for IEMs, based on past headphone and loudspeaker preference studies. The most validated target when it comes to targets with proper listening testing
