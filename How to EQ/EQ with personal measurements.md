@@ -79,6 +79,9 @@ A tube resonance is created when IEMs seal the canal/coupler, and changes in fre
 
 The following image is an extreme example of how insertion depth can affect FR. As the insertion depth changes, so do the surrounding frequencies' levels. Depending on the IEM's shape, intended insertion depth, and the ear tips being used, insertion depth location can shift drastically; not only that, there can also be damping, from the ear canal and/or IEM in that region, which can affect both the amplitude and Q of the resonance peak. It is therefore useful to have insertion depth profile done through your own measurement rig.
 ![Etymotic ER2XR insertion depth profile](https://i.postimg.cc/pX7xRRC7/Insertion-depth.png)
+
+Another effect of insertion depth is a slight increase in amplitude below the driver's resonant frequency, as shown below. Combined with the change in treble, insertion depth is an important factor to consider when using EQ.
+
 ![Tanchjim Bunny insertion depth profile](https://i.postimg.cc/NF7krd20/Tanchjim-Bunny-Tangzu-Sancai-Regular-Narrow-Bore-Tips-Measurements-2.gif)
 
 
