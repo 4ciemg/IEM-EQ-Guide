@@ -1,7 +1,7 @@
 ---
 order: 99
 ---
-# Tanchjim Bunny
+# Tanchjim Bunny DSP
 
 Let's now take a look at a different IEM, the Tanchjim Bunny DSP. It comes with a 5-peak-filter PEQ stored in a USB-C cable, ideal for using it outside. The context is now different, and will therefore influence the EQ and its intended goals. This case study uses other sections; always use what is best for your needs.
 
