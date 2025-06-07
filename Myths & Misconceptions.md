@@ -5,8 +5,22 @@ icon: alert
 
 # Myths & Misconceptions
 
-!!! 
-WIP. Let me know what you want to see addressed with the survey below.
+!!!warning
+WIP
 !!!
 
-[!embed](https://cryptpad.fr/form/#/2/form/view/iPDmm6Jxectx2qfzJXTHl5S-MI9WSxeKJnE9NSvuxBo/embed/)
+!!!
+The following section covers a few myths and misconceptions that are popular, and whether or not they have any validity.
+!!!
+
+
+## More than Frequency Response?
+
+***
+## Tuning & Technicalities Dichotomy
+
+
+***
+## Driver Type Differences
+
+
