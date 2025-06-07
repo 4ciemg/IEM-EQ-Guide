@@ -16,6 +16,7 @@ The following section covers a few myths and misconceptions that are popular, an
 
 ## More than Frequency Response?
 
+
 ***
 ## Tuning & Technicalities Dichotomy
 
@@ -24,3 +25,5 @@ The following section covers a few myths and misconceptions that are popular, an
 ## Driver Type Differences
 
 
+***
+## Driver Configurations
