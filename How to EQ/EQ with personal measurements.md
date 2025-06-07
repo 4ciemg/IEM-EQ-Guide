@@ -103,6 +103,8 @@ Many IEMs use small filters/dampers that usually cover the nozzle and/or tubes o
 
 The image below showcases the effect of partial filter clogging, where a relatively wide drop centered at 2.5 kHz and another smaller drop at 5.5 kHz can be observed. The behavior of clogged filters with regards to "clog level" and cleaning is not consistent, and therefore IEMs with potential clogging issues should be measured to assess the change in FR and necessary corrections.
 
+**It is important to note that clogging can occur even if the filter looks clean and unimpeded by debris.**
+
 ![Tangzu Wan'er with normal and clogged FRs](https://i.postimg.cc/mZ6kXjhD/Tangzu-Waner-Filter-Clogging.jpg)
 
 ![Differences with compensated FRs](https://i.postimg.cc/26GbSfzF/Compensated-Difference.png)
