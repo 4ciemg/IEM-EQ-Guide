@@ -38,3 +38,8 @@ Popularized by Crinacle and adopteed by many, the tuning versus technicalities d
 
 ***
 ## Driver Configurations
+
+
+***
+Rigs VS Human
+
