@@ -15,10 +15,21 @@ The following section covers a few myths and misconceptions that are popular, an
 
 
 ## More than Frequency Response?
+The first thing to consider is whether or not FR is the only measurement that should be looked at, as EQ and the guide are based on the concept of FR being the dominant aspect of sound quality. In fact, the EQ guide works on the premise of IEMs being minimum phase systems for which the FR can be changed using minimum phase filters (used in most EQ software). The following sub sections cover different measurement types and their importance when assessing sound quality and EQ.
 
+### Distortion/Nonlinearity
+The most obvious measurement to look at is distortion/nonlinearity. In the case of IEMs which are low excursion transducers, nonlinearity is characterized by harmonic distortion. It is therefore common to see measurements of total harmonic distortion (THD) when distortion figures are provided along with the tested SPL level. Indeed, as the SPL output of an IEM increases, so does distortion; when using EQ, the preamp will reduce the digital volume, but most will also increase the volume a bit to counter the preamp. Therefore, any time a positive gain filter is used in an EQ, the distortion in the affected region will increase.
+
+What is not common is the inclusion of psychacoustic models such as masking. Therefore, most distortion measurements will be shown with two options: the first presented as "raw" data with no indication for how humans will perceive it, and the second with a generalized rule of thumb concerning distortion audibility. In both cases, the technical data is presented without much consideration for the human perceptual system. 
+
+However, in **most cases, distortion will not be perceptually significant with IEMs**, and will not audible **even with extensive EQ**. It is therefore unecessary to consider nonlinearity as being a big factor when using EQ
+
+### Transients, Speed, & Responsiveness
 
 ***
 ## Tuning & Technicalities Dichotomy
+Popularized by Crinacle and adopteed by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs. The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between "easy to explain" aspects, grouped under tuning, and "hard to correlate" aspects, grouped under technicalities.
+
 
 
 ***
