@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802680168982">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.9.0.802681777934">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.9.0">
@@ -31,11 +31,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.9.0.802680168982" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.9.0.802681777934" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.9.0.802680168982" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.9.0.802681777934" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.9.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.9.0.802680168982" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.9.0.802681777934" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -194,6 +194,22 @@
         <span>More than Frequency Response?</span>
     </h2>
 </doc-anchor-target>
+<p>The first thing to consider is whether or not FR is the only measurement that should be looked at, as EQ and the guide are based on the concept of FR being the dominant aspect of sound quality. In fact, the EQ guide works on the premise of IEMs being minimum phase systems for which the FR can be changed using minimum phase filters (used in most EQ software). The following sub sections cover different measurement types and their importance when assessing sound quality and EQ.</p>
+<doc-anchor-target id="distortionnonlinearity">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#distortionnonlinearity">#</doc-anchor-trigger>
+        <span>Distortion/Nonlinearity</span>
+    </h3>
+</doc-anchor-target>
+<p>The most obvious measurement to look at is distortion/nonlinearity. In the case of IEMs which are low excursion transducers, nonlinearity is characterized by harmonic distortion. It is therefore common to see measurements of total harmonic distortion (THD) when distortion figures are provided along with the tested SPL level. Indeed, as the SPL output of an IEM increases, so does distortion; when using EQ, the preamp will reduce the digital volume, but most will also increase the volume a bit to counter the preamp. Therefore, any time a positive gain filter is used in an EQ, the distortion in the affected region will increase.</p>
+<p>What is not common is the inclusion of psychacoustic models such as masking. Therefore, most distortion measurements will be shown with two options: the first presented as &quot;raw&quot; data with no indication for how humans will perceive it, and the second with a generalized rule of thumb concerning distortion audibility. In both cases, the technical data is presented without much consideration for the human perceptual system.</p>
+<p>However, in <strong>most cases, distortion will not be perceptually significant with IEMs</strong>, and will not audible <strong>even with extensive EQ</strong>. It is therefore unecessary to consider nonlinearity as being a big factor when using EQ</p>
+<doc-anchor-target id="transients-speed--responsiveness">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#transients-speed--responsiveness">#</doc-anchor-trigger>
+        <span>Transients, Speed, &amp; Responsiveness</span>
+    </h3>
+</doc-anchor-target>
 <hr>
 <doc-anchor-target id="tuning--technicalities-dichotomy">
     <h2>
@@ -201,6 +217,7 @@
         <span>Tuning &amp; Technicalities Dichotomy</span>
     </h2>
 </doc-anchor-target>
+<p>Popularized by Crinacle and adopteed by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs. The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between &quot;easy to explain&quot; aspects, grouped under tuning, and &quot;hard to correlate&quot; aspects, grouped under technicalities.</p>
 <hr>
 <doc-anchor-target id="driver-type-differences">
     <h2>
