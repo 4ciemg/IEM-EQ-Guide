@@ -33,19 +33,19 @@ A very quick summary of important aspects is shown below; each aspect is also co
 - Most important measurement is frequency response (FR)
 - X axis: Frequency from 20 Hz to 20000 Hz (or 20 kHz). Low frequencies = bass, high frequencies = treble (eg whistling), in between = mid range.
 - Y axis: Loudness in decibels (dB). The higher something is, the louder it will be.
-+++ Targets
++++ Targets and preference
 - Targets are FRs that aim to sound good, and for which manufacturers try to tune their IEMs to
 - In most cases, they should have a bump of 3-12 dB in the 2-5 kHz range
 - Bass and treble is often variable, depending on the listener's preferences
-+++ Hearing
++++ Human hearing
 - Unreliable and easily confused
 - Several mechanisms that can affect perception in subtle ways
-+++ EQ Controls
++++ EQ controls
 - EQ uses filters, each one capable of modifying the FR
 - EQ is reversible
 - There are several filter parameters that change how the filter impacts the FR
 - A preamp with negative dB is required
-+++ Tools
++++ Tools and software
 - For EQ software, find a parametric EQ (PEQ). Some can be found [here](https://github.com/jaakkopasanen/AutoEq/wiki/Choosing-an-Equalizer-App)
 - For measurements, refer to the [Measurement Databases](https://4ciemg.github.io/IEM-EQ-Guide/measurement-databases/) section
 +++
