@@ -13,11 +13,14 @@ The goal of this guide is to provide the necessary, stripped down practical info
 This guide will be mainly focused on EQ concerning **IEMs**. Skip the sections you feel comfortable with, or just do whatever you want.
 !!!
 
-There are 3 main sections in this guide: 
-	1. Audio and EQ basics, where necessary foundational knowledge is summarized
-	2. How to EQ, where detailed instructions and/or information pertaining to EQ are given 
-	3. Case study, where demonstrations of the EQ process are shown 
-	4. Measurement rigs, curves, and preference targets, where information about metrology is given
+There are 7 main sections in this guide: 
+	1. **Audio & EQ basics**, where basic foundational knowledge is summarized
+	2. **How to EQ**, where detailed instructions and/or information pertaining to EQ are given 
+	3. **Case studies**, where demonstrations of the EQ process in different contexts are shown 
+	4. **Rigs, Curves, & Targets**, where information about metrology and preference testing is given
+ 	5. **Measurement Databases**, where relevant and popular measurement databases are examined
+  	6. **Myths & Misconceptions**, where common mistaken assumptions are examined and debunked
+   	7. **Additional Tools**, where other potentially useful tools related to EQ and measurements are described and given instructions for 
 
  Use the table of contents on the left to navigate the guide, and use the secondary one on the left of each page for specific topics.
 
