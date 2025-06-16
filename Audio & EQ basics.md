@@ -33,7 +33,7 @@ A quick summary of important aspects is shown below; each aspect is also covered
 - Most important measurement is frequency response (FR)
 - X axis: Frequency from 20 Hz to 20000 Hz (or 20 kHz). Low frequencies = bass, high frequencies = treble (eg whistling), in between = mid range.
 - Y axis: Loudness in decibels (dB). The higher something is, the louder it will be.
-+++ Targets and preference
++++ Targets
 - Targets are FRs that aim to sound good, and for which manufacturers try to tune their IEMs to
 - In most cases, they should have a bump of 3-12 dB in the 2-5 kHz range
 - Bass and treble is often variable, depending on the listener's preferences
