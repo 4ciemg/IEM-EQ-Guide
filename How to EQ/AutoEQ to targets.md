@@ -4,13 +4,12 @@ order: 99
 # AutoEQ to targets ( )
 
 !!!info
-The simplest way to use EQ is by using AutoEQ, a project that aims to create automatic EQ presets using measurements and a specific target. There are various implementations of AutoEQ: in most cases, AutoEQ aims for the HarmanIE 2019 target, but the following are worth taking a look at:
+The simplest way to use EQ is by using AutoEQ, a project that aims to create automatic EQ presets using measurements and a specific target. There are various implementations of AutoEQ: in most cases, AutoEQ aims for the HarmanIE 2019 target, but the following are worth taking a look at. For more targets, refer to the [Rigs, Curves, & Targets](https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/) section:
 - HarmanIE 2019
 - Diffuse Field or JM-1, with tilt or filters
 - IEF 2025
 
-For more targets, refer to the [Rigs, Curves, & Targets](https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/) section. 
-The following sections cover most cases, and also have pros/cons added.
+This page covers most cases, and also has pros/cons added for each option.
 AutoEQ has a wiki that explains how it functions, but in short, it aims to match the FR of a model to a chosen target in the range of 20Hz to 10kHz. For the guide, both the lower and upper limits will be used.
 !!!
 
