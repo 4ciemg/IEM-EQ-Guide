@@ -24,6 +24,33 @@ The FAQ and terminology sections are also worth taking a quick look at.**
 !!!
 
 ***
+## Quick summary of everything you need to know
+!!!
+A very quick summary of important aspects is shown below; each aspect is also covered in more detail and depth after the summary **(highly recommended to read if possible)**.
+!!!
+
++++ Measurements
+- Most important measurement is frequency response (FR)
+- X axis: Frequency from 20 Hz to 20000 Hz (or 20 kHz). Low frequencies = bass, high frequencies = treble (eg whistling), in between = mid range.
+- Y axis: Loudness in decibels (dB). The higher something is, the louder it will be.
++++ Targets
+- Targets are FRs that aim to sound good, and for which manufacturers try to tune their IEMs to
+- In most cases, they should have a bump of 3-12 dB in the 2-5 kHz range
+- Bass and treble is often variable, depending on the listener's preferences
++++ Hearing
+- Unreliable and easily confused
+- Several mechanisms that can affect perception in subtle ways
++++ EQ Controls
+- EQ uses filters, each one capable of modifying the FR
+- EQ is reversible
+- There are several filter parameters that change how the filter impacts the FR
+- A preamp with negative dB is required
++++ Tools
+- For EQ software, find a parametric EQ (PEQ). Some can be found [here](https://github.com/jaakkopasanen/AutoEq/wiki/Choosing-an-Equalizer-App)
+- For measurements, refer to the [Measurement Databases](https://4ciemg.github.io/IEM-EQ-Guide/measurement-databases/) section
++++
+
+***
 ## Measurements and warnings
 Measurements in the headphone and IEM community often refer to frequency (magnitude) response (FR) plots where the x-axis represents frequency, in this case the audible spectrum band (20 Hz to 20 000 Hz or 20 kHz) in logarithmic scale to match how human hearing work. The y-axis represents amplitude/loudness/SPL, usually in dB, in linear scale. Together, they form a graph that shows **how loud something is at specific frequencies**. An important thing to always check is the scale of each axis; these are commonly modified to skew perception. These measurements are important for two reasons.
 
@@ -125,7 +152,7 @@ Brain burn-in refers to how our perception of sound can change with time as we g
 
 ***
 ## Equalizer basics
-An equalizer (EQ) is a tool used to modify a signal, in this case an audio signal. In most cases, it is used as a way to change the amplitude for a specific frequency range/band. 
+An equalizer (EQ) is a tool used to modify a signal, in this case an audio signal. In most cases, it is used as a way to change the amplitude for a specific frequency range/band, through the use of **filters**, each of which can change the FR.
 
 !!!info Four relevant filter parameters
 - Filter frequency, which dictates where the center of the filter is 
@@ -136,7 +163,7 @@ An equalizer (EQ) is a tool used to modify a signal, in this case an audio signa
 
 There are different types of EQs, ranging from analog/digital EQs to parametric and graphic ones. Parametric EQs (PEQ) allow the user to change all three parameters, and provide a nice balance between being flexible, and being easy to modify and use. Unless stated otherwise, EQ will refer to PEQ for the rest of the guide. 
 
-!!! warning EQ minimalism
+!!!warning EQ minimalism
 The guide adheres to what I call **EQ minimalism**, which can be thought of as an approach to how EQ is used and developed. In this context, it means that ideally, an EQ preset should have **as few filters as possible**, for which each filter should have **low gain and Q values**. Aiming for few but broad changes is a good rule of thumb to follow; for more complex sections, deviation from this rule will be normal, even necessary.
 !!!
 
@@ -161,7 +188,7 @@ Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 
 The only parameter that was not discussed is the filter type. In this guide, three types are used the most often.
 
-!!! info Filter types
+!!!info Filter types
 1. Peak filters, which are the ones shown above
 2. Low-shelf filters, which boosts every frequency **below** the specified one (first row). The Q changes the shape of the filter 
 3. High-shelf filters, which boosts every frequency **above** the specified one (second row). The Q changes the shape of the filter 
