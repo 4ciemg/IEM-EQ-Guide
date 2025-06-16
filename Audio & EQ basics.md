@@ -26,7 +26,7 @@ The FAQ and terminology sections are also worth taking a quick look at.**
 ***
 ## Quick summary of everything you need to know
 !!!
-A very quick summary of important aspects is shown below; each aspect is also covered in more detail and depth after the summary **(highly recommended to read if possible)**.
+A quick summary of important aspects is shown below; each aspect is also covered in more detail and depth after the summary **(highly recommended to read if the information doesn't seem too daunting)**.
 !!!
 
 +++ Measurements
