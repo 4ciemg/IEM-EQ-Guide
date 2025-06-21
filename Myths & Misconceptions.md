@@ -43,3 +43,6 @@ Popularized by Crinacle and adopteed by many, the tuning versus technicalities d
 ***
 Rigs VS Human
 
+
+***
+Open back IEMs
