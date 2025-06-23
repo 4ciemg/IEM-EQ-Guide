@@ -53,6 +53,11 @@ It is therefore possible to modify these so-called technicalities with EQ once a
 - WIP
 !!!
 
+
+***
+## Test Signals
+
+
 ***
 ## Driver Type & Configuration Differences
 Similar to the tuning and technicalities dichotomy, there are also a lot of ideas and concepts related to the drivers themselves that have been created and perpetuated to explain various perceived sound characteristics, despite many of them being false. 
