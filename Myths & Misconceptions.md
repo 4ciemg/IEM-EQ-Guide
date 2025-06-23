@@ -45,7 +45,7 @@ The small differences in the modified IRs are due to non-perfect matching of the
 ## Tuning & Technicalities Dichotomy
 Popularized by Crinacle and adopted by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs (and headphones). The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between "easy to explain" aspects, grouped under tuning for and in consequence FR, and "hard to correlate" aspects, grouped under technicalities. The latter is of importance, since it is often thought of as being separate from tuning and FR, when that is not the case; in fact, based on what has been discussed before, **FR is the most important metric for predicting sound quality and dominates over every other one**.
 
-It is therefore possible to modify these so-called technicalities with EQ once an understanding of FR is acquired. The following presents a few points of =-discussions
+It is therefore possible to modify these so-called technicalities with EQ once an understanding of FR is acquired. The following presents a few points of discussions.
 
 !!!
 - WIP
@@ -55,8 +55,12 @@ It is therefore possible to modify these so-called technicalities with EQ once a
 
 
 ***
-## Test Signals
+## Test Signals vs Music
+Another common misconception involves the test signal used for measurmeents. Indeed, many argue that the sine sweep that is used currently is not representative of real-life "complex" signals like music, with many frequencies at different amplitudes occuring at the same time to the point where IEMs will have varying levels of "accuracy".
 
+Depending on the algorithm, different stimulus signal can be the input, whether it be noise, music, sine sweep, etc. The resulting FR will always be the same (sometimes with miniscule differences). White noise, which contains all frequencies at the same amplitude, is similar in concept to IR with its single impulse containing all frequencies at the same amplitude. Music can be thought of as a form of noise, with the caveat of music having an FR of its own which will have to be removed by the algorithm in order to only obtain the transfer function of the IEM and not of both.
+
+Nowadays, measurements use an exponentially-swept sine signal as detailed by Angelo Farina, which allows the user to measure both linear and nonlinear behavior of IEMs (or other DUTs) in a short time. In REW, options for measuring with sweeps and noise are available; a real-time analyzer (RTA) function is also present, allowing the user to measure the real-time response of an IEM (works best with white noise; if using music, the average FR of the music has to be subtracted).
 
 ***
 ## Driver Type & Configuration Differences
