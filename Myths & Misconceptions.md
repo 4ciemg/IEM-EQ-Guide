@@ -41,10 +41,13 @@ Below is a demonstration of the link between FR and IR shown with two IEMs; both
 ![](https://i.postimg.cc/RhJKK2hn/IR-2.jpg)
 +++ Difference?
 The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. 
++++
 
 ***
 ## Tuning & Technicalities Dichotomy
-Popularized by Crinacle and adopteed by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs. The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between "easy to explain" aspects, grouped under tuning, and "hard to correlate" aspects, grouped under technicalities.
+Popularized by Crinacle and adopted by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs (and headphones). The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between "easy to explain" aspects, grouped under tuning for and in consequence FR, and "hard to correlate" aspects, grouped under technicalities. The latter is of importance, since it is often thought of as being separate from tuning and FR, when that is not the case; in fact, based on what has been discussed before, **FR is the most important metric for predicting sound quality and dominates over every other one**.
+
+
 
 
 
