@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.1.803971731041">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.1.803972495031">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.10.1">
@@ -33,11 +33,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.10.1.803971731041" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.10.1.803972495031" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.10.1.803971731041" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.10.1.803972495031" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.10.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.10.1.803971731041" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.10.1.803972495031" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -204,8 +204,7 @@
     </h3>
 </doc-anchor-target>
 <p>The most obvious measurement to look at is distortion/nonlinearity. In the case of IEMs which are low excursion transducers, nonlinearity is mostly characterized by harmonic distortion (HD), and therefore any increase in other distortion metrics will be reflected in HD. It is therefore common to see measurements of total harmonic distortion (THD) when distortion figures are provided along with the tested SPL level. Indeed, as the SPL output of an IEM increases, so does distortion; when using EQ, the preamp will reduce the digital volume, but most will also increase the volume a bit to counter the preamp. Therefore, any time a positive gain filter is used in an EQ, the distortion in the affected region will increase.</p>
-<p>What is not common is the inclusion of psychacoustic models such as masking. Therefore, most distortion measurements will be shown with two options: the first presented as &quot;raw&quot; data with no indication for how humans will perceive it, and the second with a generalized rule of thumb concerning distortion audibility. In both cases, the technical data is presented without much consideration for the human perceptual system.</p>
-<p>However, in <strong>most cases, distortion will not be perceptually significant with IEMs</strong>, and will not be audible <strong>even with extensive EQ</strong>. It is therefore unecessary to consider nonlinearity as being a big factor when using EQ.</p>
+<p>What is not common is the inclusion of psychacoustic models such as masking. Therefore, most distortion measurements will be shown with two options: the first presented as &quot;raw&quot; data with no indication for how humans will perceive it, and the second with a generalized rule of thumb concerning distortion audibility. In both cases, the technical data is presented without much consideration for the human perceptual system. However, in <strong>most cases, distortion will not be perceptually significant with IEMs</strong>, and will not be audible <strong>even with extensive EQ</strong>. It is therefore unecessary to consider nonlinearity as being a big factor when using EQ.</p>
 <doc-anchor-target id="transients-speed--responsiveness">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#transients-speed--responsiveness">#</doc-anchor-trigger>
@@ -261,20 +260,37 @@
     </h2>
 </doc-anchor-target>
 <p>Popularized by Crinacle and adopted by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs (and headphones). The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between &quot;easy to explain&quot; aspects, grouped under tuning for and in consequence FR, and &quot;hard to correlate&quot; aspects, grouped under technicalities. The latter is of importance, since it is often thought of as being separate from tuning and FR, when that is not the case; in fact, based on what has been discussed before, <strong>FR is the most important metric for predicting sound quality and dominates over every other one</strong>.</p>
+<p>It is therefore possible to modify these so-called technicalities with EQ once an understanding of FR is acquired. The following presents a few points of =-discussions</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-500 dark:bg-blue-400"></div>
+    <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-blue-500 dark:text-blue-400" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M12 1C5.93 1 1 5.93 1 12s4.93 11 11 11 11-4.93 11-11S18.07 1 12 1zm0 20c-4.96 0-9-4.04-9-9s4.04-9 9-9 9 4.04 9 9-4.04 9-9 9z"></path>
+                    <path d="M12 11c-.55 0-1 .45-1 1v4c0 .55.45 1 1 1s1-.45 1-1v-4c0-.55-.45-1-1-1zM12.01 7c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                    <path fill="none" d="M0 0h24v24H0z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+<ul>
+<li>WIP</li>
+<li>WIP</li>
+<li>WIP</li>
+</ul>
+        </div>
+    </div>
+</div>
 <hr>
-<doc-anchor-target id="driver-type-differences">
+<doc-anchor-target id="driver-type--configuration-differences">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#driver-type-differences">#</doc-anchor-trigger>
-        <span>Driver Type Differences</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#driver-type--configuration-differences">#</doc-anchor-trigger>
+        <span>Driver Type &amp; Configuration Differences</span>
     </h2>
 </doc-anchor-target>
-<hr>
-<doc-anchor-target id="driver-configurations">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#driver-configurations">#</doc-anchor-trigger>
-        <span>Driver Configurations</span>
-    </h2>
-</doc-anchor-target>
+<p>Similar to the tuning and technicalities dichotomy, there are also a lot of ideas and concepts related to the drivers themselves that have been created and perpetuated to explain various perceived sound characteristics, despite many of them being false.</p>
+<p>For driver type, perhaps influenced by similar thinking in the headphone hobby...</p>
 <hr>
 <doc-anchor-target id="rigs-vs-human">
     <h2>
