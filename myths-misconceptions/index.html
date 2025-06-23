@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.1.804025061723">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.1.804029319449">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.10.1">
@@ -33,11 +33,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.10.1.804025061723" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.10.1.804029319449" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.10.1.804025061723" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.10.1.804029319449" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.10.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.10.1.804025061723" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.10.1.804029319449" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -260,7 +260,7 @@
     </h2>
 </doc-anchor-target>
 <p>Popularized by Crinacle and adopted by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs (and headphones). The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between &quot;easy to explain&quot; aspects, grouped under tuning for and in consequence FR, and &quot;hard to correlate&quot; aspects, grouped under technicalities. The latter is of importance, since it is often thought of as being separate from tuning and FR, when that is not the case; in fact, based on what has been discussed before, <strong>FR is the most important metric for predicting sound quality and dominates over every other one</strong>.</p>
-<p>It is therefore possible to modify these so-called technicalities with EQ once an understanding of FR is acquired. The following presents a few points of =-discussions</p>
+<p>It is therefore possible to modify these so-called technicalities with EQ once an understanding of FR is acquired. The following presents a few points of discussions.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr-lg rounded-br-lg doc-callout bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -283,12 +283,15 @@
     </div>
 </div>
 <hr>
-<doc-anchor-target id="test-signals">
+<doc-anchor-target id="test-signals-vs-music">
     <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#test-signals">#</doc-anchor-trigger>
-        <span>Test Signals</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#test-signals-vs-music">#</doc-anchor-trigger>
+        <span>Test Signals vs Music</span>
     </h2>
 </doc-anchor-target>
+<p>Another common misconception involves the test signal used for measurmeents. Indeed, many argue that the sine sweep that is used currently is not representative of real-life &quot;complex&quot; signals like music, with many frequencies at different amplitudes occuring at the same time to the point where IEMs will have varying levels of &quot;accuracy&quot;.</p>
+<p>Depending on the algorithm, different stimulus signal can be the input, whether it be noise, music, sine sweep, etc. The resulting FR will always be the same (sometimes with miniscule differences). White noise, which contains all frequencies at the same amplitude, is similar in concept to IR with its single impulse containing all frequencies at the same amplitude. Music can be thought of as a form of noise, with the caveat of music having an FR of its own which will have to be removed by the algorithm in order to only obtain the transfer function of the IEM and not of both.</p>
+<p>Nowadays, measurements use an exponentially-swept sine signal as detailed by Angelo Farina, which allows the user to measure both linear and nonlinear behavior of IEMs (or other DUTs) in a short time. In REW, options for measuring with sweeps and noise are available; a real-time analyzer (RTA) function is also present, allowing the user to measure the real-time response of an IEM (works best with white noise; if using music, the average FR of the music has to be subtracted).</p>
 <hr>
 <doc-anchor-target id="driver-type--configuration-differences">
     <h2>
