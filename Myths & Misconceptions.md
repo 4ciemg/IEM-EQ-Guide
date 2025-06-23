@@ -29,17 +29,18 @@ A transient is often explained as being a short duration, single instance sound,
 
 The most common method way of seeing the transient response of IEMs (and other transducers) is by measuring the impulse response (IR). A single impulse is fed into the IEM, and the obtained output shows the response of the IEM over time. This single impulse contains all frequencies at the same amplitude, after which a Fourier transform of the IR is used to separate the frequencies and the corresponding amplitude of each frequency, which changed due to the FR of the IEM. **In fact, FR measurements are all done by first measuring the IR of the IEM, then doing the Fourier transform of it to obtain the FR.**
 
-Below is a demonstration of the link between FR and IR, shown with two IEMs. By using EQ, or any method of changing the FR, there is a corresponding change in the IR. These are causally linked, and therefore contain the same information. However, IR is not helpful when trying to correlate it with what is being heard, and **is not a valid method for characterizing "speed"**.
+Below is a demonstration of the link between FR and IR shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR. **These are causally linked, and therefore contain the same information**. However, IR is not helpful when trying to correlate it with what is being heard, and **is not a valid method for characterizing "speed"**.
 
 +++ Original FRs
-![]()
+![](https://i.postimg.cc/Gp1RCDv0/FR.jpg)
 +++ Original IRs
 ![](https://i.postimg.cc/mD57cTLs/IR.jpg)
 +++ Modified FRs
-![]()
+![](https://i.postimg.cc/L8PSwDYB/FR-2.jpg)
 +++ Modified IRs
 ![](https://i.postimg.cc/RhJKK2hn/IR-2.jpg)
-+++
++++ Difference?
+The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. 
 
 ***
 ## Tuning & Technicalities Dichotomy
