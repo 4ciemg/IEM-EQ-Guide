@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.1.803969235369">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.10.1.803969811632">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.10.1">
@@ -22,22 +22,22 @@
     <meta property="og:url" content="https://4ciemg.github.io/IEM-EQ-Guide/myths-misconceptions/">
     <meta property="og:title" content="Myths & Misconceptions">
     <meta property="og:description" content="WIP">
-    <meta property="og:image" content="https://i.postimg.cc/mD57cTLs/IR.jpg">
+    <meta property="og:image" content="https://i.postimg.cc/Gp1RCDv0/FR.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://4ciemg.github.io/IEM-EQ-Guide/myths-misconceptions/">
     <meta property="twitter:title" content="Myths & Misconceptions">
     <meta property="twitter:description" content="WIP">
-    <meta property="twitter:image" content="https://i.postimg.cc/mD57cTLs/IR.jpg">
+    <meta property="twitter:image" content="https://i.postimg.cc/Gp1RCDv0/FR.jpg">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.10.1.803969235369" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.10.1.803969811632" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.10.1.803969235369" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.10.1.803969811632" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.10.1" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.10.1.803969235369" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.10.1.803969811632" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -214,12 +214,12 @@
 </doc-anchor-target>
 <p>A transient is often explained as being a short duration, single instance sound, such as the pop of a balloon or a gunshot. These are usually displayed in the time domain; instead of having frequencies on the x-axis, it is instead time.</p>
 <p>The most common method way of seeing the transient response of IEMs (and other transducers) is by measuring the impulse response (IR). A single impulse is fed into the IEM, and the obtained output shows the response of the IEM over time. This single impulse contains all frequencies at the same amplitude, after which a Fourier transform of the IR is used to separate the frequencies and the corresponding amplitude of each frequency, which changed due to the FR of the IEM. <strong>In fact, FR measurements are all done by first measuring the IR of the IEM, then doing the Fourier transform of it to obtain the FR.</strong></p>
-<p>Below is a demonstration of the link between FR and IR, shown with two IEMs. By using EQ, or any method of changing the FR, there is a corresponding change in the IR. These are causally linked, and therefore contain the same information. However, IR is not helpful when trying to correlate it with what is being heard, and <strong>is not a valid method for characterizing &quot;speed&quot;</strong>.</p>
+<p>Below is a demonstration of the link between FR and IR shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR. <strong>These are causally linked, and therefore contain the same information</strong>. However, IR is not helpful when trying to correlate it with what is being heard, and <strong>is not a valid method for characterizing &quot;speed&quot;</strong>.</p>
 <doc-tabs>
 <doc-tab v-cloak id="original-frs">
 <template #title>Original FRs</template>
 <p><figure class="content-center">
-    <img src="" alt="" />
+    <img src="https://i.postimg.cc/Gp1RCDv0/FR.jpg" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -235,7 +235,7 @@
 <doc-tab v-cloak id="modified-frs">
 <template #title>Modified FRs</template>
 <p><figure class="content-center">
-    <img src="" alt="" />
+    <img src="https://i.postimg.cc/L8PSwDYB/FR-2.jpg" alt="" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
@@ -248,7 +248,9 @@
 </figure>
 </p>
 </doc-tab>
-</doc-tabs>
+<doc-tab v-cloak id="difference">
+<template #title>Difference?</template>
+<p>The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs.</p>
 <hr>
 <doc-anchor-target id="tuning--technicalities-dichotomy">
     <h2>
@@ -285,6 +287,7 @@
         <span>Open back IEMs</span>
     </h2>
 </doc-anchor-target>
+</doc-tab>
 
                                 
                                 <!-- Required only on API pages -->
