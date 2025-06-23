@@ -31,17 +31,12 @@ The most common method way of seeing the transient response of IEMs (and other t
 
 Below is a demonstration of the link between FR and IR, shown with two IEMs. By using EQ, or any method of changing the FR, there is a corresponding change in the IR. These are causally linked, and therefore contain the same information. However, IR is not helpful when trying to correlate it with what is being heard, and **is not a valid method for characterizing "speed"**.
 
-
-
-
-
-
 +++ Original FRs
-![](https://i.postimg.cc/CK648G7X/FR.jpg)
+![]()
 +++ Original IRs
 ![](https://i.postimg.cc/mD57cTLs/IR.jpg)
 +++ Modified FRs
-![](https://i.postimg.cc/nzjGGXwz/FR-2.jpg)
+![]()
 +++ Modified IRs
 ![](https://i.postimg.cc/RhJKK2hn/IR-2.jpg)
 +++
