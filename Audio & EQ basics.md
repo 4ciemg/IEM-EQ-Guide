@@ -37,7 +37,7 @@ A quick summary of important aspects is shown below; each aspect is also covered
 - Targets are FRs that aim to sound good, and for which manufacturers try to tune their IEMs to
 - In most cases, they should have a bump of 3-12 dB in the 2-5 kHz range
 - Bass and treble is often variable, depending on the listener's preferences
-+++ Human hearing
++++ Hearing
 - Unreliable and easily confused
 - Several mechanisms that can affect perception in subtle ways
 +++ EQ controls
@@ -45,7 +45,7 @@ A quick summary of important aspects is shown below; each aspect is also covered
 - EQ is reversible
 - There are several filter parameters that change how the filter impacts the FR
 - A preamp with negative dB is required
-+++ Tools and software
++++ Tools & Software
 - For EQ software, find a parametric EQ (PEQ). Some can be found [here](https://github.com/jaakkopasanen/AutoEq/wiki/Choosing-an-Equalizer-App)
 - For measurements, refer to the [Measurement Databases](https://4ciemg.github.io/IEM-EQ-Guide/measurement-databases/) section
 +++
@@ -126,6 +126,11 @@ The following is a brief summary of important preference target curves, as well 
 ***
 ## Human hearing
 The human hearing mechanism is complex, and can only be summarized in an almost-vulgar, oversimplified manner. A few more of the relevant concepts to this guide are discussed.
+
+!!!warning Human Hearing is unreliable and flawed
+Human hearing is deceptively flawed and unreliable, whether it be due to sensory filtering or short auditory memory. This is not to say that human hearing should not be used throughout the EQ process (in fact it should be as EQ is used to shape the IEM's sound to your preference), but rather that it is subject to many traps in such a way that it cannot be used to describe what is actually happening in the IEM on a physical measurable way.
+!!!
+
 
 !!!info Auditory masking
 Auditory masking is a phenomena where a signal can affect the perception of another signal, usually one in proximity in terms of frequency. The following image illustrate the concept: a simple tone at one frequency (masker) can create a masking threshold on the surrounding frequency range whose shape and amplitude depends on the masker's own loudness. Any other signal that falls "under" the threshold is masked and inaudible.
