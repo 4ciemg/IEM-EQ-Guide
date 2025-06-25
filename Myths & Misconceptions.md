@@ -45,6 +45,7 @@ The small differences in the modified IRs are due to non-perfect matching of the
 ## Tuning & Technicalities Dichotomy
 Popularized by Crinacle and adopted by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs (and headphones). The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between "easy to explain" aspects, grouped under tuning for and in consequence FR, and "hard to correlate" aspects, grouped under technicalities. The latter is of importance, since it is often thought of as being separate from tuning and FR, when that is not the case; in fact, based on what has been discussed before, **FR is the most important metric for predicting sound quality and dominates over every other one**.
 
+There are a few camps where most people reside in: 
 It is therefore possible to modify these so-called technicalities with EQ once an understanding of FR is acquired. The following presents a few points of discussions.
 
 !!!
@@ -69,9 +70,3 @@ Similar to the tuning and technicalities dichotomy, there are also a lot of idea
 For driver type, perhaps influenced by similar thinking in the headphone hobby...
 
 
-***
-## Rigs VS Human
-
-
-***
-## Open back IEMs
