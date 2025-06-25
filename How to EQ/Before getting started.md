@@ -3,7 +3,7 @@ order: 100
 ---
 # Before getting started
 
-The following sections are ordered in increasing levels of "difficulty", where later sections demand more theoretical and practical background knowledge, some of which **will either not be covered, or only very briefly**. As sections become more "difficult", less and less detailed instructions will be provided: the exercise will be left to the reader to try.
+The following sections are ordered in increasing levels of "difficulty", where later sections demand more theoretical and practical background knowledge, some of which **will either not be covered, or only very briefly**. As sections become more "difficult", less and less detailed instructions will be provided in favor of guidelines and information to be aware of: the exercise will be left to the reader to try.
 
 A ranking system using five stars will be used to represent difficulty. Later sections usually provide better results, and include other novel ways of using EQ, but are far from being necessary to have a more enjoyable and pleasing sounding IEM; they also require much more time and effort.
 Below are **optional but recommended** requirements for each level.
