@@ -8,6 +8,13 @@ icon: tools
 WIP
 !!!
 
+## [How To Listen](https://harmanhowtolisten.blogspot.com/2011/01/welcome-to-how-to-listen.html)
+Training program with various tests used for training listeners in Harman research. Reports of compatibility issues are common.
+
+In order to qualify as a "trained listener" in "old" papers, successfully completing level 8 in all tests is required. A change was made such that the "trained listener" qualification could be obtained without doing these tests.
+
+The hardest test (and currently the one being mostly used in Harman training) is the peaks and dips test.
+
 ## [UsyTrace](https://usyless.uk/trace/)
 Useful for obtaining FR data from images and other resources. Works best with a good image: acceptable resolution, clear and "true" axes, distinct FR line.
 
