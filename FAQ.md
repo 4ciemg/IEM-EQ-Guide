@@ -28,9 +28,12 @@ Other programs also employ similar forms of exercises, mainly incorporating the 
 *Who are you?*
 None of your business, and no one you know.
 
+*What music do you listen to?*
+Sine sweep (exponential), pink noise, white noise, M-noise, violet noise, Hotel California - Live On MTV 1994.
+
 
 *What IEMs do you like or use?*
-Anything that isn't broken and is comfortable
+Anything that isn't broken and is comfortable.
 
 
 *I have a question / There's a mistake, how should I contact you?*
