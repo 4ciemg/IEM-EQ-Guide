@@ -41,18 +41,24 @@ Below is a demonstration of the link between FR and IR shown with two IEMs; both
 The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. 
 +++
 
+### CSD/Waterfall Plots
+CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the IR demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.
+
+
 ***
 ## Tuning & Technicalities Dichotomy
-Popularized by Crinacle and adopted by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs (and headphones). The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between "easy to explain" aspects, grouped under tuning for and in consequence FR, and "hard to correlate" aspects, grouped under technicalities. The latter is of importance, since it is often thought of as being separate from tuning and FR, when that is not the case; in fact, based on what has been discussed before, **FR is the most important metric for predicting sound quality and dominates over every other one**.
+Popularized by Crinacle and adopted by many, the tuning versus technicalities dichotomy has become the most common way of thinking about sound quality with relation to IEMs (and headphones). The prevalence of measurements combined with uncertainty and mismatch with perception has resulted in a split between "easy to explain" aspects, grouped under tuning for and in consequence FR, and "hard to correlate" aspects, grouped under technicalities. The latter is of importance, since it is often thought of as being separate from tuning and FR, when that is not the case; in fact, based on what has been discussed before, **FR is the most important metric for predicting sound quality and dominates over every other one**. Much of what is labeled technical is merely tuning under another name, colored by expectation and subject to interpretation. The frequency response remains the most comprehensive and reliable indicator of what is heard. 
 
-There are a few camps where most people reside in: 
-It is therefore possible to modify these so-called technicalities with EQ once an understanding of FR is acquired. The following presents a few points of discussions.
 
-!!!
-- WIP
-- WIP
-- WIP
-!!!
+The division has been further reinforced by the rise of EQ, which allows competent transducers to be shaped into nearly any response: in turn, tuning becomes a matter of taste, while technicalities are assumed to reflect the underlying quality of the driver, unalterable. If EQ can replicate one IEM’s frequency response using another, and if that response fully defines the sound, then what remains to distinguish technical performance? As detailed previously, FR defines, in most cases, the totality of audible output. No other measurable metric can be used to explain technicalities as being separate from FR. **Therefore, it is better to think of technicalities as perceptual consequences of tonal balance and tuning quirks.** When listeners point to an IEM having better technicalities despite "identical" FRs, they are often responding to uncontrolled variables, such as  differences in insertion depth, ear geometry, HRTF, unit variation, isolation, or even expectations.
+
+For technicalities to become something to consider as separate from FR, there are a few steps to take from the academic and industry side.
+1. The first is to define the terms used under the technicalities umbrella in ways that are consistent with people's interpretation and perception.
+2. The second is to provide a theoretical framework under which testing and measurements can be done to quantify these terms.
+3. The third is to provide conclusive differences in the measured data for these variables between different IEMs
+4. **The fourth is to demonstrate the audibility of such variables**
+5. **The fifth is to examine the statistical spread and correlation between these variables, IEMs, and preference**
+These five steps aim to not only examine technicalities as being separate from FR, but also to verify audbility and preference, both concepts that are assumed to exist and match perfectly in the hobby.
 
 
 ***
@@ -67,6 +73,9 @@ Nowadays, measurements use an exponentially-swept sine signal as detailed by Ang
 ## Driver Type & Configuration Differences
 Similar to the tuning and technicalities dichotomy, there are also a lot of ideas and concepts related to the drivers themselves that have been created and perpetuated to explain various perceived sound characteristics, despite many of them being false. 
 
-For driver type, perhaps influenced by similar thinking in the headphone hobby...
+Concepts such as speed and decay have been shown to relate directly to FR and are therefore not immutable properties of the drivers. Other factors such as driver size are either Thiele/Small parameters (TSP), or linked to them, and it is these parameters that ultimately influence both linear (FR) and nonlinear (distortion) behavior. These parameters are often discussed as being directly related to how sound is perceived, when they are instead parameters that are used for a desired system.
+
+The same occurs with driver configurations, which are often used as an indicator of performance. These claims assume that the driver configuration determines how an IEM performs, but in reality, they are only meaningful because they influence the FR. An IEM with many drivers can sound bad compared to a single driver IEM not because it is inherently worse, but because its FR is less optimal. In this sense, driver configuration is a means, not an end, to a desired and targeted FR.  
+
 
 
