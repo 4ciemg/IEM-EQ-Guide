@@ -39,8 +39,7 @@ Anything that isn't broken and is comfortable.
 *I have a question / There's a mistake, how should I contact you?*
 If you want to help out, suggest improvements, ask a question, or proofread and correct some parts in the guide, then contact me via Signal, SimpleX, or Session through the QR codes below (fully anonymous; Signal requires a phone number which isn't shown to contacts). **I am not present in any community, forum, or group, and do not have any alias or account.**
 
-||| Signal
-![](https://i.postimg.cc/25t7rf44/Signal.png)	 
+
 ||| SimpleX
 ![](https://i.postimg.cc/V6bBNHR2/Simplex.png)
 ||| Session
