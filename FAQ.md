@@ -17,12 +17,12 @@ IEMs are much more robust than one might think. EQ used in the guide will never 
 
 
 *What about driver quality?*
-"Driver quality" is used as a direct synonym to "technicalities" in the audiophile community. Driver quality as used in the community should instead refer to FR, but also other properties such as distortion, efficiency, leakage tolerance, reliability/channel matching/QC, etc. See the [Myths & Misconceptions](https://4ciemg.github.io/IEM-EQ-Guide/myths-misconceptions/) sectino for more details.
+"Driver quality" is used as a direct synonym to "technicalities" in the audiophile community. Driver quality as used in the community should instead refer to FR, but also other properties such as distortion, efficiency, leakage tolerance, reliability/channel matching/QC, etc. See the [Myths & Misconceptions](https://4ciemg.github.io/IEM-EQ-Guide/myths-misconceptions/) section for more details.
 
 
 *How do I train my listening ability?*
 There aren't any proper standards concerning listening ability, and what training that is available and aimed at such a goal can vary depending on the many factors like geographical location, field of study/practice, and more. 
-As far as listening ability is gauged in the community as well as in studies on preference as seen with Harman, the "How To Listen" (HTL) program is used. Harman's research classes listeners into two groups: trained and untrained listeners, with the former having completed the required exercises to a certain level. Previously, trained listeners were required to pass level 8 on all exercises; nowadays, only the peaks/dips exercise is needed, with the rest having been substituted for training documents for the listener to read.
+As far as listening ability is gauged in the community as well as in studies on preference as seen with Harman, the ["How To Listen"](https://4ciemg.github.io/IEM-EQ-Guide/additional-tools/#how-to-listen) (HTL) program is used. Harman's research classes listeners into two groups: trained and untrained listeners, with the former having completed the required exercises to a certain level. Previously, trained listeners were required to pass level 8 on all exercises; nowadays, only the peaks/dips exercise is needed, with the rest having been substituted for training documents for the listener to read.
 Other programs also employ similar forms of exercises, mainly incorporating the peaks/dips one, such as eqTrainer and AudioBan.
 
 *Who are you?*
