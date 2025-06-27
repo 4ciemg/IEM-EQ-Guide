@@ -35,7 +35,7 @@ Now part of the squig.link collection, they are the biggest single databases in 
 
 Pros | Cons | 
 :-:|:-:|
-High quality measurements | Non-downloadable measurements |
+Generally high quality measurements | Non-downloadable measurements |
 Large database |  |
 Feature-packed website | |
 
@@ -90,11 +90,11 @@ Small collection of high quality measurements for IEMs in Chinese.
 
 Pros | Cons | 
 :-:|:-:|
-High quality measurements | Limited database |
 HATS-based measurement | HATS-based measurement |
 Different measurement types  | Non-downloadable data |
  | Hard to find measurements |
  | Chinese website |
+ | Limited database |
  
 ***
 ## [HypeTheSonics](https://www.hypethesonics.com/) (5128 & 711)
