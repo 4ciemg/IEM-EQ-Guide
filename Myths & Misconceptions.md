@@ -58,6 +58,7 @@ For technicalities to become something to consider as separate from FR, there ar
 3. The third is to provide conclusive differences in the measured data for these variables between different IEMs
 4. **The fourth is to demonstrate the audibility of such variables**
 5. **The fifth is to examine the statistical spread and correlation between these variables, IEMs, and preference**
+
 These five steps aim to not only examine technicalities as being separate from FR, but also to verify audbility and preference, both concepts that are assumed to exist and match perfectly in the hobby.
 
 
