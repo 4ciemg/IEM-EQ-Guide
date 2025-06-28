@@ -5,7 +5,7 @@ icon: mortar-board
 # Audio & EQ basics
 
 ***
-## Quick summary of everything you need to know
+## Everything you need to know
 !!!
 A quick summary of important aspects is shown below; each aspect is also covered in more detail and depth after the summary **(highly recommended to read if the information doesn't seem too daunting)**.
 !!!
