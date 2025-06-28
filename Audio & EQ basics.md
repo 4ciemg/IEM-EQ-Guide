@@ -3,25 +3,6 @@ order: 99
 icon: mortar-board
 ---
 # Audio & EQ basics
-***
-## Recommended articles and videos
-
-While not necessary to the guide, the readings from [Dale's Music Stuff](https://daystarvisions.com/Music/index.html) from HE1 up to HE7 are good, easy-to-digest yet in-depth articles that explain a lot of concepts and ideas that are immediately relevant to the task. It is focused on headphones, but the same general rules and suggestions also apply to IEMs. Reading them will provide much more information than what is given here in terms of audio and the hobby as a whole, while this guide is for the most part solely dedicated to EQ. Crinacle's [Graphs 101: How to Read Headphone Measurements](https://crinacle.com/2020/04/08/graphs-101-how-to-read-headphone-measurements/) is also an interesting read that dives into measurements and how to read them.
-
-
-The following videos are also fun and intuitive ways of understanding audio and EQ.
-[How Audio Illusions Trick Our Brains](https://www.youtube.com/watch?v=Sn07AMCfaAI)
-[Every sound is SINE](https://www.youtube.com/watch?v=UrBZsUBibtk) 
-[How to TUNE your headphones (the easy way!)](https://www.youtube.com/watch?v=PsijHAVLbuY)
-[EQ Basics - Watch BEFORE you get started!](https://www.youtube.com/watch?v=FRm9qTmQHKo)
-[The Limits of EQ - A case against using EQ profiles for headphones](https://www.youtube.com/watch?v=FD_s2s8Mw9k)
-
-
-
-!!!warning 
-**Before continuing, knowing how to read graphs is a crucial skill, and it is essential in using EQ. Knowing how to properly wear IEMs is just as important; getting a proper seal and consistent insertion depth will yield the best results.
-The FAQ and terminology sections are also worth taking a quick look at.**
-!!!
 
 ***
 ## Quick summary of everything you need to know
@@ -49,6 +30,26 @@ A quick summary of important aspects is shown below; each aspect is also covered
 - For EQ software, find a parametric EQ (PEQ). Some can be found [here](https://github.com/jaakkopasanen/AutoEq/wiki/Choosing-an-Equalizer-App)
 - For measurements, refer to the [Measurement Databases](https://4ciemg.github.io/IEM-EQ-Guide/measurement-databases/) section
 +++
+  
+***
+## Recommended articles and videos
+
+While not necessary to the guide, the readings from [Dale's Music Stuff](https://daystarvisions.com/Music/index.html) from HE1 up to HE7 are good, easy-to-digest yet in-depth articles that explain a lot of concepts and ideas that are immediately relevant to the task. It is focused on headphones, but the same general rules and suggestions also apply to IEMs. Reading them will provide much more information than what is given here in terms of audio and the hobby as a whole, while this guide is for the most part solely dedicated to EQ. Crinacle's [Graphs 101: How to Read Headphone Measurements](https://crinacle.com/2020/04/08/graphs-101-how-to-read-headphone-measurements/) is also an interesting read that dives into measurements and how to read them.
+
+
+The following videos are also fun and intuitive ways of understanding audio and EQ.
+[How Audio Illusions Trick Our Brains](https://www.youtube.com/watch?v=Sn07AMCfaAI)
+[Every sound is SINE](https://www.youtube.com/watch?v=UrBZsUBibtk) 
+[How to TUNE your headphones (the easy way!)](https://www.youtube.com/watch?v=PsijHAVLbuY)
+[EQ Basics - Watch BEFORE you get started!](https://www.youtube.com/watch?v=FRm9qTmQHKo)
+[The Limits of EQ - A case against using EQ profiles for headphones](https://www.youtube.com/watch?v=FD_s2s8Mw9k)
+
+
+
+!!!warning 
+**Before continuing, knowing how to read graphs is a crucial skill, and it is essential in using EQ. Knowing how to properly wear IEMs is just as important; getting a proper seal and consistent insertion depth will yield the best results.
+The FAQ and terminology sections are also worth taking a quick look at.**
+!!!
 
 ***
 ## Measurements and warnings
