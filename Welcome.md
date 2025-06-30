@@ -22,7 +22,7 @@ There are 7 main sections in this guide:
   	6. **Myths & Misconceptions**, where common mistaken assumptions are examined and debunked
    	7. **Additional Tools**, where other potentially useful tools related to EQ and measurements are described and given instructions for 
 
- Use the table of contents on the left to navigate the guide, and use the secondary one on the left of each page for specific topics.
+ Use the table of contents on the left to navigate the guide, and use the secondary one on the right of each page for specific topics.
 
 ***
 ## Feedback
