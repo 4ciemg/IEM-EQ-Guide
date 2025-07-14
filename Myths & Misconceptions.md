@@ -36,8 +36,6 @@ Below is a demonstration of the link between FR and IR (and other measurements) 
 ![](https://i.postimg.cc/RhJKK2hn/IR-2.jpg)
 +++ Difference?
 The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. 
-+++ WIP 
-WIP: Square wave Response, CSD/waterfall plots
 +++
 === Square Wave Response
 test
