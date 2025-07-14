@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.805779602633">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.805780299499">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -33,11 +33,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.11.0.805779602633" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.805780299499" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.805779602633" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.805780299499" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.805779602633" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.805780299499" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -198,10 +198,10 @@
 </doc-anchor-target>
 <p>A transient is often explained as being a short duration, single instance sound, such as the pop of a balloon or a gunshot. These are usually displayed in the time domain; instead of having frequencies on the x-axis, it is instead time.</p>
 <p>The most common method way of seeing the transient response of IEMs (and other transducers) is by measuring the impulse response (IR). A single impulse is fed into the IEM, and the obtained output shows the response of the IEM over time. This single impulse contains all frequencies at the same amplitude, after which a Fourier transform of the IR is used to separate the frequencies and the corresponding amplitude of each frequency, which changed due to the FR of the IEM. <strong>In fact, FR measurements are all done by first measuring the IR of the IEM, then doing the Fourier transform of it to obtain the FR.</strong></p>
-<p>Below is a demonstration of the link between FR and IR shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR. <strong>These are causally linked, and therefore contain the same information</strong>. However, IR is not helpful when trying to correlate it with what is being heard, and <strong>is not a valid method for characterizing &quot;speed&quot;</strong>.</p>
+<p>Below is a demonstration of the link between FR and IR (and other measurements) shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR and other measurements. <strong>These are causally linked, and therefore contain the same information</strong>. However, these alternative measurements are not helpful when trying to correlate it with what is being heard, and <strong>are not a valid method for characterizing &quot;speed&quot;</strong>.</p>
 <doc-panels>
-   <doc-panel id="test">
-       <template #title>test</template>
+   <doc-panel id="impulse-response">
+       <template #title>Impulse Response</template>
 <doc-tabs>
 <doc-tab v-cloak id="original-frs">
 <template #title>Original FRs</template>
@@ -245,18 +245,19 @@
 </doc-tab>
 </doc-tabs>
    </doc-panel>
-   <doc-panel id="test">
-       <template #title>test</template>
+   <doc-panel id="square-wave-response">
+       <template #title>Square Wave Response</template>
 <p>test</p>
    </doc-panel>
-</doc-panels>
+   <doc-panel id="csdwaterfall-plots">
+       <template #title>CSD/Waterfall Plots</template>
 <doc-anchor-target id="csdwaterfall-plots">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#csdwaterfall-plots">#</doc-anchor-trigger>
         <span>CSD/Waterfall Plots</span>
     </h3>
 </doc-anchor-target>
-<p>CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the IR demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.</p>
+<p>CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.</p>
 <hr>
 <doc-anchor-target id="tuning--technicalities-dichotomy">
     <h2>
@@ -295,6 +296,7 @@
 <p>Similar to the tuning and technicalities dichotomy, there are also a lot of ideas and concepts related to the drivers themselves that have been created and perpetuated to explain various perceived sound characteristics, despite many of them being false.</p>
 <p>Concepts such as speed and decay have been shown to relate directly to FR and are therefore not immutable properties of the drivers. Other factors such as driver size are either Thiele/Small parameters (TSP), or linked to them, and it is these parameters that ultimately influence both linear (FR) and nonlinear (distortion) behavior. These parameters are often discussed as being directly related to how sound is perceived, when they are instead parameters that are used for a desired system.</p>
 <p>The same occurs with driver configurations, which are often used as an indicator of performance. These claims assume that the driver configuration determines how an IEM performs, but in reality, they are only meaningful because they influence the FR. An IEM with many drivers can sound bad compared to a single driver IEM not because it is inherently worse, but because its FR is less optimal. In this sense, driver configuration is a means, not an end, to a desired and targeted FR.</p>
+   </doc-panel>
 
                                 
                                 <!-- Required only on API pages -->
