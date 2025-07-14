@@ -25,7 +25,7 @@ The most common method way of seeing the transient response of IEMs (and other t
 
 Below is a demonstration of the link between FR and IR shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR. **These are causally linked, and therefore contain the same information**. However, IR is not helpful when trying to correlate it with what is being heard, and **is not a valid method for characterizing "speed"**.
 
-||| test
+=== test
 +++ Original FRs
 ![](https://i.postimg.cc/Gp1RCDv0/FR.jpg)
 +++ Original IRs
@@ -39,10 +39,9 @@ The small differences in the modified IRs are due to non-perfect matching of the
 +++ WIP 
 WIP: Square wave Response, CSD/waterfall plots
 +++
-||| test
-adada
-adad
-|||
+=== test
+test
+===
 
 ### CSD/Waterfall Plots
 CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the IR demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.
