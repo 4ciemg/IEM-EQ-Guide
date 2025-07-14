@@ -42,6 +42,8 @@ WIP: Square wave Response, CSD/waterfall plots
 === Square Wave Response
 test
 === CSD/Waterfall Plots
+test
+===
 
 ### CSD/Waterfall Plots
 CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.
