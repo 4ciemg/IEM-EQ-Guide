@@ -23,9 +23,9 @@ A transient is often explained as being a short duration, single instance sound,
 
 The most common method way of seeing the transient response of IEMs (and other transducers) is by measuring the impulse response (IR). A single impulse is fed into the IEM, and the obtained output shows the response of the IEM over time. This single impulse contains all frequencies at the same amplitude, after which a Fourier transform of the IR is used to separate the frequencies and the corresponding amplitude of each frequency, which changed due to the FR of the IEM. **In fact, FR measurements are all done by first measuring the IR of the IEM, then doing the Fourier transform of it to obtain the FR.**
 
-Below is a demonstration of the link between FR and IR shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR. **These are causally linked, and therefore contain the same information**. However, IR is not helpful when trying to correlate it with what is being heard, and **is not a valid method for characterizing "speed"**.
+Below is a demonstration of the link between FR and IR (and other measurements) shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR and other measurements. **These are causally linked, and therefore contain the same information**. However, these alternative measurements are not helpful when trying to correlate it with what is being heard, and **are not a valid method for characterizing "speed"**.
 
-=== test
+=== Impulse Response
 +++ Original FRs
 ![](https://i.postimg.cc/Gp1RCDv0/FR.jpg)
 +++ Original IRs
@@ -39,12 +39,12 @@ The small differences in the modified IRs are due to non-perfect matching of the
 +++ WIP 
 WIP: Square wave Response, CSD/waterfall plots
 +++
-=== test
+=== Square Wave Response
 test
-===
+=== CSD/Waterfall Plots
 
 ### CSD/Waterfall Plots
-CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the IR demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.
+CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.
 
 
 ***
