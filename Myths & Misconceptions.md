@@ -26,9 +26,9 @@ The most common method way of seeing the transient response of IEMs (and other t
 Below is a demonstration of the link between FR and IR (and other measurements) shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR and other measurements. **These are causally linked, and therefore contain the same information**. However, these alternative measurements are not helpful when trying to correlate it with what is being heard, and **are not a valid method for characterizing "speed"**.
 
 === Impulse Response
-+++ Original FRs
++++ Stock FRs
 ![](https://i.postimg.cc/Gp1RCDv0/FR.jpg)
-+++ Original IRs
++++ Stock IRs
 ![](https://i.postimg.cc/mD57cTLs/IR.jpg)
 +++ Modified FRs
 ![](https://i.postimg.cc/L8PSwDYB/FR-2.jpg)
