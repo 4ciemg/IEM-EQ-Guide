@@ -35,10 +35,10 @@ Below is a demonstration of the link between FR and IR (and other measurements) 
 +++ Modified IRs
 ![](https://i.postimg.cc/RhJKK2hn/IR-2.jpg)
 +++ Difference?
-The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. 
+The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. Additionally, these measurements were done without smoothing, which can cause very small artifacts in the FR which are hard to match. If they were smoothed, the task would be even easier!
 +++
 === Square Wave Response
-test
+test [!embed](https://cryptpad.fr/file/#/2/file/ex12v2DdL1cJ9FBpR-itAGsZ/)
 === CSD/Waterfall Plots
 test
 ===
