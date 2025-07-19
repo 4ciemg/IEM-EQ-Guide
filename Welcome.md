@@ -5,7 +5,9 @@ icon: home
 # EQ Guide for IEMs
 
 !!!warning The guide is really long.
-Another guide is available through squig.link databases in the Equalizer tab. The yellow question mark button has a short and useful guide that presents a small chunk of this guide's content in a condensed manner, and **is suitable for most people looking for a quick introduction to EQ without wanting to dive into the details**.
+If the guide is too complicated, long, or difficult to understand and apply, there are others available.
+One is available through squig.link databases in the Equalizer tab. The yellow question mark button has a short and useful guide that presents a small chunk of this guide's content in a condensed manner, and **is suitable for most people looking for a quick introduction to EQ without wanting to dive into the details**.
+Another is available [here](https://docs.google.com/document/u/0/d/1v4fwy0fW8iXE8O69IjZZ634cIoCwfPDYVnBjJxuT43Y/edit) and is a **good starting point**.
 !!!
 
 !!!info Guide Overview
