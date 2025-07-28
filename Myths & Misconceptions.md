@@ -39,6 +39,7 @@ The small differences in the modified IRs are due to non-perfect matching of the
 +++
 === Square Wave Response
 +++ Demonstration
+The video below shows a real-time square wave response (SWR) of an IEM. The three filters on the right are used to make the FR flat; in doing so, the response tends towards an expected square wave shape. Other filters are used to showcase the effect of FR on the response of the IEMs, showing that both SWR and FR are interlinked. However, FR is more comprehensive since SWR is worse to interpret and has to be measured at various square wave frequencies.
 [!embed](https://player.vimeo.com/video/1104995075?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)
 +++ Explanation
 WIP
