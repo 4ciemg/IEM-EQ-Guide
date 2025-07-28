@@ -38,7 +38,11 @@ Below is a demonstration of the link between FR and IR (and other measurements) 
 The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. Additionally, these measurements were done without smoothing, which can cause very small artifacts in the FR which are hard to match. If they were smoothed, the task would be even easier!
 +++
 === Square Wave Response
++++ Demonstration
+[!embed](https://vimeo.com/manage/videos/1104995075)
++++ Explanation
 WIP
++++
 === CSD/Waterfall Plots
 WIP
 ===
