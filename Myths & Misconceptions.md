@@ -39,7 +39,7 @@ The small differences in the modified IRs are due to non-perfect matching of the
 +++
 === Square Wave Response
 +++ Demonstration
-[!embed](https://vimeo.com/manage/videos/1104995075)
+[!embed](https://player.vimeo.com/video/1104995075)
 +++ Explanation
 WIP
 +++
