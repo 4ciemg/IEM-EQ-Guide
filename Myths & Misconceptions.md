@@ -42,7 +42,9 @@ The small differences in the modified IRs are due to non-perfect matching of the
 The video below shows a real-time square wave response (SWR) of an IEM. The three filters on the right are used to make the FR flat; in doing so, the response tends towards an expected square wave shape. Other filters are used to showcase the effect of FR on the response of the IEMs, showing that both SWR and FR are interlinked. However, FR is more comprehensive since SWR is worse to interpret and has to be measured at various square wave frequencies.
 [!embed](https://player.vimeo.com/video/1104995075?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)
 +++ Explanation
-WIP
+To understand why both FR and SWR are linked, it is important to learn about what a square wave is. It is a function that has instantaneous transitions between a minimum and maximum amplitude occuring at a fixed frequency. When analyzed in the frequency domain, a square wave is simply the sum of multiple sine waves at various harmonics. Because IEMs are band limited (ie cannot play an infinite bandwidth), there is some ringing effect at the ends of the transitions. In the demonstration, the high shelf filter acts as damping: more damping (less higher frequencies) will undershoot the transition, seen as less ringing. For less damping (more high frequencies), there is overshoot and additional ringing.
+There are other variables that can be discussed, but the image below shows the link between FR and SWR, and how the two are linked. However, proper understanding of FR will be more useful and consistent
+!(Tyll Hertsens' chart on SWR and FR interpretation. Ultimately, SWR shows the same information as FR but in a less intuitive way that is also hard to standardize.)[https://i.postimg.cc/15VCSH6J/Square-wave.jpg]
 +++
 === CSD/Waterfall Plots
 WIP
