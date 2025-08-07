@@ -9,7 +9,7 @@ Check to see if you setup your EQ app properly, and if you routed your audio cor
 
 
 *What does it mean for an IEM to respond well to EQ?*
-For that specific user, it usually means that the EQ is working as he intends and imparts changes that are accurate to the user's desires. The truth is that most IEMs "respond" excellently to EQ, with very minimal distortion being introduced. The concept of EQ responsiveness most likely came from changes done through EQ that didn't match expectations, and is most likely correlated to FR misinterpretation.
+For that specific user, it usually means that the EQ is working as he intends and imparts changes that are accurate to the user's desires. The truth is that [most IEMs "respond" excellently to EQ, with very minimal distortion being introduced](https://www.rtings.com/headphones/learn/research/eq-remeasurements#remeasurement-and-real-world-results-what-happens-when-you-eq). The concept of EQ responsiveness most likely came from changes done through EQ that didn't match expectations, and is most likely correlated to FR misinterpretation.
 
 
 *Can EQ cause mechanical/electrical failure?*
