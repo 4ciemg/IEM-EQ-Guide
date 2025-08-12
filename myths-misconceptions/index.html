@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808283861917">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808289863914">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -33,11 +33,11 @@
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
-    <link href="../resources/css/retype.css?v=3.11.0.808283861917" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.808289863914" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.808283861917" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.808289863914" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.808283861917" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.808289863914" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -219,16 +219,16 @@
 </figure>
 </p>
 </doc-tab>
-<doc-tab v-cloak id="modified-frs">
-<template #title>Modified FRs</template>
+<doc-tab v-cloak id="fixed-frs">
+<template #title>Fixed FRs</template>
 <p><figure class="content-center">
     <img src="https://i.postimg.cc/L8PSwDYB/FR-2.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
 </doc-tab>
-<doc-tab v-cloak id="modified-irs">
-<template #title>Modified IRs</template>
+<doc-tab v-cloak id="fixed-irs">
+<template #title>Fixed IRs</template>
 <p><figure class="content-center">
     <img src="https://i.postimg.cc/RhJKK2hn/IR-2.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption"></figcaption>
@@ -238,6 +238,20 @@
 <doc-tab v-cloak id="difference">
 <template #title>Difference?</template>
 <p>The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. Additionally, these measurements were done without smoothing, which can cause very small artifacts in the FR which are hard to match. If they were smoothed, the task would be even easier!</p>
+</doc-tab>
+<doc-tab v-cloak id="matched">
+<template #title>Matched</template>
+<p>At the request of someone, below are images of perfectly matched FRs and IRs. As expected, there are no differences between the two; in fact the lines overlap each other, making this a bit useless.<br />
+<figure class="content-center">
+    <img src="https://i.postimg.cc/kXJX8rM7/FR-Matched.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+<br />
+<figure class="content-center">
+    <img src="https://i.postimg.cc/RVgCLPqK/IR-Matched.jpg" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
 </doc-tab>
 </doc-tabs>
    </doc-panel>
