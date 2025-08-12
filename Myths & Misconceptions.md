@@ -27,15 +27,17 @@ Below is a demonstration of the link between FR and IR (and other measurements) 
 
 ==- Impulse Response
 +++ Stock FRs & IRs
+Below are the stock responses of the Moondrop Chu 2 and Tangzu Wan'er.
 ![](https://i.postimg.cc/Gp1RCDv0/FR.jpg)
 ![](https://i.postimg.cc/mD57cTLs/IR.jpg)
 +++ Fixed FRs & IRs
+Below are the "fixed" responses of the Moondrop Chu 2 and Tangzu Wan'er, with the latter being changed to fit the former.
 ![](https://i.postimg.cc/L8PSwDYB/FR-2.jpg)
 ![](https://i.postimg.cc/RhJKK2hn/IR-2.jpg)
 +++ Difference?
-The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. Additionally, these measurements were done without smoothing, which can cause very small artifacts in the FR which are hard to match. If they were smoothed, the task would be even easier!
+The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. Additionally, these measurements were done without smoothing, which can cause very small artifacts in the FR which are hard to match. If they were smoothed, the task would be even easier.
 +++ Matched
-At the request of someone, below are images of perfectly matched FRs and IRs. As expected, there are no differences between the two; in fact the lines overlap each other, making this a bit useless.
+At the request of someone, below are images of perfectly matched FRs and IRs. As expected, there are no differences between the two; the lines overlap each other, making this a bit useless.
 ![](https://i.postimg.cc/kXJX8rM7/FR-Matched.jpg)
 ![](https://i.postimg.cc/RVgCLPqK/IR-Matched.jpg)
 +++
