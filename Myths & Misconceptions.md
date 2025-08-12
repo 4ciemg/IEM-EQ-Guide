@@ -25,7 +25,7 @@ The most common method way of seeing the transient response of IEMs (and other t
 
 Below is a demonstration of the link between FR and IR (and other measurements) shown with two IEMs; both were measured, and one was re-measured using EQ to approximate the other IEM within reason (+/- 0.5 dB). By using EQ, or any method of changing the FR, there is a corresponding change in the IR and other measurements. **These are causally linked, and therefore contain the same information**. However, these alternative measurements are not helpful when trying to correlate it with what is being heard, and **are not a valid method for characterizing "speed"**.
 
-=== Impulse Response
+==- Impulse Response
 +++ Stock FRs & IRs
 ![](https://i.postimg.cc/Gp1RCDv0/FR.jpg)
 ![](https://i.postimg.cc/mD57cTLs/IR.jpg)
@@ -39,7 +39,7 @@ At the request of someone, below are images of perfectly matched FRs and IRs. As
 ![](https://i.postimg.cc/kXJX8rM7/FR-Matched.jpg)
 ![](https://i.postimg.cc/RVgCLPqK/IR-Matched.jpg)
 +++
-=== Square Wave Response
+==- Square Wave Response
 +++ Demonstration
 The video below shows a real-time square wave response (SWR) of an IEM. The three filters on the right are used to make the FR flat; in doing so, the response tends towards an expected square wave shape. Other filters are used to showcase the effect of FR on the response of the IEMs, showing that both SWR and FR are interlinked. However, FR is more comprehensive since SWR is worse to interpret and has to be measured at various square wave frequencies.
 [!embed](https://player.vimeo.com/video/1104995075?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)
@@ -49,7 +49,7 @@ There are other variables that can be discussed, but the image below shows the l
 ![Tyll Hertsens' chart on SWR and FR interpretation. Ultimately, SWR shows the same information as FR but in a less intuitive way that is also hard to standardize.](https://i.postimg.cc/15VCSH6J/Square-wave.jpg)
 
 +++
-=== CSD/Waterfall Plots
+==- CSD/Waterfall Plots
 WIP
 ===
 
