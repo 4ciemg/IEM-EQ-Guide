@@ -38,8 +38,8 @@ Below are the "fixed" responses of the Moondrop Chu 2 and Tangzu Wan'er, with th
 The small differences in the modified IRs are due to non-perfect matching of the two FRs. The modified FR graph even shows visible discrepancies between the two FRs, which then lead to different IRs. Additionally, these measurements were done without smoothing, which can cause very small artifacts in the FR which are hard to match. If they were smoothed, the task would be even easier.
 +++ Matched
 At the request of someone, below are images of perfectly matched FRs and IRs. As expected, there are no differences between the two; the lines overlap each other, making this a bit useless.
-![](https://i.postimg.cc/kXJX8rM7/FR-Matched.jpg)
-![](https://i.postimg.cc/RVgCLPqK/IR-Matched.jpg)
+![](https://i.postimg.cc/0r1wPVRV/FR-Matched.jpg)
+![](https://i.postimg.cc/XNpg7Hmq/IR-Matched.jpg)
 +++
 ==- Square Wave Response
 +++ Demonstration
