@@ -97,7 +97,7 @@ Depending on the algorithm, different stimulus signal can be the input, whether 
 
 Nowadays, measurements use an exponentially-swept sine signal as detailed by Angelo Farina, which allows the user to measure both linear and nonlinear behavior of IEMs (or other DUTs) in a short time. In REW, options for measuring with sweeps and noise are available; a real-time analyzer (RTA) function is also present, allowing the user to measure the real-time response of an IEM (works best with white noise; if using music, the average FR of the music has to be subtracted).
 
-![FRs measured with a swept sine wave and FSAF using Hotel California (Live On MTV 1994)](https://i.postimg.cc/kGf6V2T8/FR-music.png)
+![FRs measured with a swept sine wave and FSAF using Hotel California (Live On MTV 1994). The discrepancy in low frequencies is due to the spectrum of the music file, and should be considered an error.](https://i.postimg.cc/kGf6V2T8/FR-music.png)
 
 ***
 ## Driver Type & Configuration Differences
