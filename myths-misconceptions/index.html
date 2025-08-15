@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808373227594">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808599728492">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../icon.png" rel="icon">
-    <link href="../resources/css/retype.css?v=3.11.0.808373227594" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.808599728492" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.808373227594" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.808599728492" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.808373227594" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.808599728492" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -261,7 +261,7 @@
 <doc-tabs>
 <doc-tab v-cloak id="demonstration">
 <template #title>Demonstration</template>
-<p>The video below shows a real-time square wave response (SWR) of an IEM. The three filters on the right are used to make the FR flat; in doing so, the response tends towards an expected square wave shape. Other filters are used to showcase the effect of FR on the response of the IEMs, showing that both SWR and FR are interlinked. However, FR is more comprehensive since SWR is worse to interpret and has to be measured at various square wave frequencies.<br />
+<p>The video below shows a real-time square wave response (SWR) of an IEM. The three filters on the right are used to make the FR flat; in doing so, the response tends towards an expected square wave shape. Other filters are used to showcase the effect of FR on the response of the IEMs, showing that both SWR and FR are interlinked. However, FR is more comprehensive since SWR is worse to interpret and has to be measured at various frequencies.<br />
 <figure>
     <div class="relative w-full mb-6 overflow-hidden pt-9/16">
         <iframe class="w-full h-full border-0 absolute inset-0" src="https://player.vimeo.com/video/1104995075?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" allowfullscreen></iframe>
@@ -272,8 +272,11 @@
 <doc-tab v-cloak id="explanation">
 <template #title>Explanation</template>
 <p>To understand why both FR and SWR are linked, it is important to learn about what a square wave is. It is a function that has instantaneous transitions between a minimum and maximum amplitude occuring at a fixed frequency. When analyzed in the frequency domain, a square wave is simply the sum of multiple sine waves at various harmonics. Because IEMs are band limited (ie cannot play an infinite bandwidth), there is some ringing effect at the ends of the transitions. In the demonstration, the high shelf filter acts as damping: more damping (less higher frequencies) will undershoot the transition, seen as less ringing. For less damping (more high frequencies), there is overshoot and additional ringing.<br />
-There are other variables that can be discussed, but the image below shows the link between FR and SWR, and how the two are linked. However, proper understanding of FR will be more useful and consistent<br />
-<figure class="content-center">
+There are other variables that can be discussed, but the image in the next tab shows the link between FR and SWR, and how the two are linked. However, proper understanding of FR will be more useful and consistent given the nature of SWR.</p>
+</doc-tab>
+<doc-tab v-cloak id="diagram-for-swr-interpretation">
+<template #title>Diagram for SWR Interpretation</template>
+<p><figure class="content-center">
     <img src="https://i.postimg.cc/15VCSH6J/Square-wave.jpg" alt="Tyll Hertsens' chart on SWR and FR interpretation. Ultimately, SWR shows the same information as FR but in a less intuitive way that is also hard to standardize." class="rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Tyll Hertsens' chart on SWR and FR interpretation. Ultimately, SWR shows the same information as FR but in a less intuitive way that is also hard to standardize.</figcaption>
 </figure>
@@ -283,16 +286,51 @@ There are other variables that can be discussed, but the image below shows the l
    </doc-panel>
    <doc-panel id="csdwaterfall-plots" collapsed>
        <template #title>CSD/Waterfall Plots</template>
-<p>WIP</p>
+<doc-tabs>
+<doc-tab v-cloak id="frs">
+<template #title>FRs</template>
+<p>Below are three FRs of the Tangzu Wan&#x27;er, measured with EQ to remove and add peaks and dips.<br />
+<figure class="content-center">
+    <img src="https://i.postimg.cc/RVSPrMvk/FR.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab v-cloak id="csd-stock">
+<template #title>CSD Stock</template>
+<p>The prominent resonance is situated around 8 kHz.<br />
+<figure class="content-center">
+    <img src="https://i.postimg.cc/QxffhRtH/CSD-Stock.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab v-cloak id="csd-no-resonance">
+<template #title>CSD No Resonance</template>
+<p>The prominent resonance at around 8 kHz is now gone.<br />
+<figure class="content-center">
+    <img src="https://i.postimg.cc/dQmWS7cR/CSD-No-CR.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab v-cloak id="csd-modified">
+<template #title>CSD Modified</template>
+<p>The added peaks and dips appear as features here.<br />
+<figure class="content-center">
+    <img src="https://i.postimg.cc/cL6XHXgT/CSD-Modified.png" alt="" class="rounded-image-rounded border-image-border border-image-border-width" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+</doc-tab>
+<doc-tab v-cloak id="flaws">
+<template #title>Flaws</template>
+<p>CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.<br />
+Additionally, these plots can vary a lot based on the analysis parameters, and are ultimately unreliable methods of visualization that obfuscate the same information seen in FR.</p>
+</doc-tab>
+</doc-tabs>
    </doc-panel>
 </doc-panels>
-<doc-anchor-target id="csdwaterfall-plots">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#csdwaterfall-plots">#</doc-anchor-trigger>
-        <span>CSD/Waterfall Plots</span>
-    </h3>
-</doc-anchor-target>
-<p>CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.</p>
 <hr>
 <doc-anchor-target id="tuning--technicalities-dichotomy">
     <h2>
