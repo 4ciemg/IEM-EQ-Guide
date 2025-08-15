@@ -43,20 +43,33 @@ At the request of someone, below are images of perfectly matched FRs and IRs. As
 +++
 ==- Square Wave Response
 +++ Demonstration
-The video below shows a real-time square wave response (SWR) of an IEM. The three filters on the right are used to make the FR flat; in doing so, the response tends towards an expected square wave shape. Other filters are used to showcase the effect of FR on the response of the IEMs, showing that both SWR and FR are interlinked. However, FR is more comprehensive since SWR is worse to interpret and has to be measured at various square wave frequencies.
+The video below shows a real-time square wave response (SWR) of an IEM. The three filters on the right are used to make the FR flat; in doing so, the response tends towards an expected square wave shape. Other filters are used to showcase the effect of FR on the response of the IEMs, showing that both SWR and FR are interlinked. However, FR is more comprehensive since SWR is worse to interpret and has to be measured at various frequencies.
 [!embed](https://player.vimeo.com/video/1104995075?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479)
 +++ Explanation
 To understand why both FR and SWR are linked, it is important to learn about what a square wave is. It is a function that has instantaneous transitions between a minimum and maximum amplitude occuring at a fixed frequency. When analyzed in the frequency domain, a square wave is simply the sum of multiple sine waves at various harmonics. Because IEMs are band limited (ie cannot play an infinite bandwidth), there is some ringing effect at the ends of the transitions. In the demonstration, the high shelf filter acts as damping: more damping (less higher frequencies) will undershoot the transition, seen as less ringing. For less damping (more high frequencies), there is overshoot and additional ringing.
-There are other variables that can be discussed, but the image below shows the link between FR and SWR, and how the two are linked. However, proper understanding of FR will be more useful and consistent
+There are other variables that can be discussed, but the image in the next tab shows the link between FR and SWR, and how the two are linked. However, proper understanding of FR will be more useful and consistent given the nature of SWR.
++++ Diagram for SWR Interpretation
 ![Tyll Hertsens' chart on SWR and FR interpretation. Ultimately, SWR shows the same information as FR but in a less intuitive way that is also hard to standardize.](https://i.postimg.cc/15VCSH6J/Square-wave.jpg)
-
 +++
 ==- CSD/Waterfall Plots
-WIP
-===
-
-### CSD/Waterfall Plots
++++ FRs
+Below are three FRs of the Tangzu Wan'er, measured with EQ to remove and add peaks and dips.
+![](https://i.postimg.cc/RVSPrMvk/FR.png)
++++ CSD Stock
+The prominent resonance is situated around 8 kHz.
+![](https://i.postimg.cc/QxffhRtH/CSD-Stock.png)
++++ CSD No Resonance
+The prominent resonance at around 8 kHz is now gone.
+![](https://i.postimg.cc/dQmWS7cR/CSD-No-CR.png)
++++ CSD Modified
+The added peaks and dips appear as features here.
+![](https://i.postimg.cc/cL6XHXgT/CSD-Modified.png)
++++ Flaws
 CSD, or waterfall plots, seem like the optimal way of displaying both frequency and time domain information. However, as discussed previously, time domain information, such as decay or resonance is causally linked to the FR by the minimum phase behavior of IEMs, as shown with the demonstration. Indeed, for minimum phase systems, any ringing and/or decay will reflect in amplitude in the FR: when these issues are fixed, so are the displayed ringing/decay features in waterfall plots.
+Additionally, these plots can vary a lot based on the analysis parameters, and are ultimately unreliable methods of visualization that obfuscate the same information seen in FR. 
+
++++
+===
 
 
 ***
