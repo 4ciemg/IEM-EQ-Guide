@@ -1,5 +1,5 @@
 ---
-order: 97
+order: 95
 ---
 # EQ to preference and context (\*\*)
 Assuming that you're now familiar with EQ, it's time to dive into personal preference targets. While preference targets with small tweaks (eg an added bass or treble shelf) are a good way to start, they might not be the optimal sound that each person is looking for, which is why having an understanding of one's preferences is crucial. 
