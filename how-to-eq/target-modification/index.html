@@ -10,24 +10,24 @@
     <meta name="generator" content="Retype 3.11.0">
 
     <!-- Primary Meta Tags -->
-    <title>EQ for rough IEM emulation (*)</title>
-    <meta name="title" content="EQ for rough IEM emulation (*)">
-    <meta name="description" content="So far, EQ was used to match an IEM's FR to a preference target (in most cases, HarmanIE 2019).">
+    <title>Target Modification (**)</title>
+    <meta name="title" content="Target Modification (**)">
+    <meta name="description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences.">
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://4ciemg.github.io/IEM-EQ-Guide/how-to-eq/eq-for-rough-iem-emulation/">
+    <link rel="canonical" href="https://4ciemg.github.io/IEM-EQ-Guide/how-to-eq/target-modification/">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://4ciemg.github.io/IEM-EQ-Guide/how-to-eq/eq-for-rough-iem-emulation/">
-    <meta property="og:title" content="EQ for rough IEM emulation (*)">
-    <meta property="og:description" content="So far, EQ was used to match an IEM's FR to a preference target (in most cases, HarmanIE 2019).">
+    <meta property="og:url" content="https://4ciemg.github.io/IEM-EQ-Guide/how-to-eq/target-modification/">
+    <meta property="og:title" content="Target Modification (**)">
+    <meta property="og:description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://4ciemg.github.io/IEM-EQ-Guide/how-to-eq/eq-for-rough-iem-emulation/">
-    <meta property="twitter:title" content="EQ for rough IEM emulation (*)">
-    <meta property="twitter:description" content="So far, EQ was used to match an IEM's FR to a preference target (in most cases, HarmanIE 2019).">
+    <meta property="twitter:url" content="https://4ciemg.github.io/IEM-EQ-Guide/how-to-eq/target-modification/">
+    <meta property="twitter:title" content="Target Modification (**)">
+    <meta property="twitter:description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences.">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
@@ -155,24 +155,40 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="retype-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="eq-for-rough-iem-emulation-" class="break-words">
+<doc-anchor-target id="target-modification-" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#eq-for-rough-iem-emulation-">#</doc-anchor-trigger>
-        <span>EQ for rough IEM emulation (*)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#target-modification-">#</doc-anchor-trigger>
+        <span>Target Modification (**)</span>
     </h1>
 </doc-anchor-target>
-<p>So far, EQ was used to match an IEM&#x27;s FR to a preference target (in most cases, HarmanIE 2019). It is also possible to roughly emulate another IEM through EQ. There are two methods to do so, both of which have already been covered previously: Squig AutoEQ and custom manual EQ. These will only yield rough approximations of another IEM.</p>
-<p>Squig&#x27;s AutoEQ implementation also allows for quick FR matching of one IEM&#x27;s FR to another&#x27;s. The steps are similar to using AutoEQ with targets.<br />
-Select your IEM model and the one you want to emulate in the Models tab, ensuring that only their FRs are on the graphs (with <strong>no targets</strong>). In the Equalizer tab, find the AutoEQ option, adjust the range (maximum upper limit around 10kHz as specified by the AutoEQ project), generate the preset, then export it accordingly.</p>
-<ol>
-<li>Select the IEM to emulate in the Models tab</li>
-<li>Select the IEM model in the Models tab, ensuring that only the two chosen IEM FRs are in the graph</li>
-<li>Find the AutoEQ option in the Equalizer tab and select the model to EQ</li>
-<li>Adjust the range (maximum upper limit around 10kHz as specified by the AutoEQ project)</li>
-<li>Generate the preset</li>
-<li>Export the preset accordingly</li>
-</ol>
-<p>The same can be achieved with creating a custom manual EQ preset as per the methodology outlined previously, and the same pros and cons apply. In both cases, the IEM FR that will emulated can simply be thought of as another target for which we&#x27;re aiming for.</p>
+<p>Assuming that you&#x27;re now familiar with EQ, it&#x27;s time to dive a bit deeper into personal preferences. One good starting point is with targets, which have been tested and shown to be preferred by people. However, it has also been shown that while people do like specific targets, many also prefer some deviations from these.</p>
+<p>There have been several targets and FR curves that have been developed throughout the years, some with more validity and rigorous testing than others. For the sake of brevity, only popular and popular targets will be discussed here, but more can be found in the <a href="https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/">Rigs, Curves, &amp; Targets</a> section. There are currently two targets that are used and recognized widely: the <a href="https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/#harman-in-ear-target-711--5128">Harman In-ear Target</a>, and the <a href="https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/#%CE%B4-and-jm-1-curve-711--5128">JM-1 Curve</a>.</p>
+<doc-anchor-target id="harmanie-2019v2">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#harmanie-2019v2">#</doc-anchor-trigger>
+        <span>HarmanIE 2019v2</span>
+    </h2>
+</doc-anchor-target>
+<p>The HarmanIE 2019v2 target is often used to gauge preference for IEMs, and while it it consistently rated very highly in preference testing, some resistance and criticism of the target have been present for as long as the target has been around. There are mainly two complaints about the target</p>
+<div class="flex mb-6">
+    <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
+    <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
+        <div class="flex items-center ml-4 h-7">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-px text-callout-warning" width="22" height="22" viewBox="0 0 24 24" role="presentation">
+                <g fill="currentColor"><g>
+                    <path d="M22.48 15.59L14.01 1.45A2.968 2.968 0 0012.16.09c-.78-.19-1.58-.07-2.27.35-.41.25-.76.6-1.01 1.01v.01L.4 15.6c-.83 1.43-.33 3.27 1.1 4.1.45.26.95.4 1.48.4h16.95c.8-.01 1.55-.33 2.11-.9.56-.57.87-1.33.86-2.13a3.04 3.04 0 00-.42-1.48zm-1.87 2.21c-.19.19-.44.3-.69.3H2.99c-.17 0-.34-.05-.49-.13a.992.992 0 01-.37-1.35L10.6 2.48c.08-.14.2-.25.34-.33a.992.992 0 011.37.33l8.46 14.13c.09.15.13.32.13.49 0 .26-.1.51-.29.7z"></path>
+                    <path d="M11.45 12.1c.55 0 1-.45 1-1v-4c0-.55-.45-1-1-1s-1 .45-1 1v4c0 .56.45 1 1 1zM11.46 14.1c-.56 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1z"></path>
+                </g></g>
+            </svg>
+        </div>
+        <div class="pr-5 ml-3 w-full">
+            <h5>Common criticisms of HarmanIE 2019v2</h5>
+<ul>
+<li>Bass dip: The bass</li>
+</ul>
+        </div>
+    </div>
+</div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -182,20 +198,20 @@ Select your IEM model and the one you want to emulate in the Models tab, ensurin
                             
                                 <nav id="retype-nextprev" class="print:hidden flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/custom-eq-presets-to-targets/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/eq-to-preference-and-context/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-base-text-muted">Previous</span>
-                                                <span class="block mt-1">Custom EQ presets to targets (*)</span>
+                                                <span class="block mt-1">EQ to preference and context (**)</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/eq-to-preference-and-context/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-body-link border border-base-border hover:border-base-border-hover rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../../how-to-eq/eq-with-personal-measurements/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-base-text-muted">Next</span>
-                                                <span class="block mt-1">EQ to preference and context (**)</span>
+                                                <span class="block mt-1">EQ with personal measurements (***)</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -239,6 +255,6 @@ Select your IEM model and the one you want to emulate in the Models tab, ensurin
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "EQ for rough IEM emulation (*)", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "Target Modification (**)", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
