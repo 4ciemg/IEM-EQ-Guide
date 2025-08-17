@@ -1,7 +1,7 @@
 ---
 order: 98
 ---
-# Custom EQ presets to targets with small tweaks (\*)
+# Custom EQ presets to targets (\*)
 While AutoEQ is excellent at what it sets out to do, it is also possible to EQ to a target manually. Results will probably be very similar to AutoEQ, but creating the preset allows for possible customization filters, and in cases where concise EQ presets are needed (eg when wanting to input presets on other apps/devices), AutoEQ can be non-ideal.
 
 The best way to go about this is through squig in the Equalizer tab. Unfortunately, there aren't any direct steps to making a custom preset. Choose an IEM model, a target, and try to match the IEM FR as close as possible. Also try to include filters that can be customized easily to fit your preferences. For example, adding a bass/low-shelf is useful for adjusting bass levels on the fly by simply changing the gain and/or frequency. The same can be done with a treble/high-shelf, or even peak filters.
