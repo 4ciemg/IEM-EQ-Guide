@@ -16,3 +16,5 @@ Below are **optional but recommended** requirements for each level.
 - (\*\*\*\*): Complex, requires all the above, listening training, and a good loudspeaker setup. Anything from here on out should be taken with a huge grain of salt
 - (\*\*\*\*\*): Too complex for the end user
 !!!
+
+**The guide requires effort. Do not expect a simple recipe-like format that will yield an immediate and easy improvement to sound quality.**
