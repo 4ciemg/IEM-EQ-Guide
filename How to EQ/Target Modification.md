@@ -20,8 +20,9 @@ The HarmanIE 2019v2 target is often used to gauge preference for IEMs, and while
 !!!
 
 Knowing these issues, the following filters were added. The left ones address the first two criticisms, while the two right ones are for preference adjustments for bass and treble. **Experiment and play around with the different frequency and Q factor values**.
+
 Filter type | Frequency (Hz) | Q | Filter type | Frequency (Hz) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|
- PK | 250 | 1 | LSQ | 100 | 0.71 |
- PK | 6500 | 1 | HSQ | 10000 | -1.5 | 
+PK | 250 | 1 | LSQ | 100 | 0.71 |
+PK | 6500 | 1 | HSQ | 10000 | -1.5 | 
  
