@@ -15,6 +15,9 @@ In order to qualify as a "trained listener" in "old" papers, successfully comple
 
 The hardest test (and currently the one being mostly used in Harman training) is the peaks and dips test.
 
+## [Listener's EQ Playground](https://listener.squig.link/eqplayground/)
+A squig.link database that does not have any measurements; instead, an extensive collection of targets and curves for various rigs is available, alongside extensive EQ features for EQ development and testing.
+
 ## [UsyTrace](https://usyless.uk/trace/)
 Useful for obtaining FR data from images and other resources. Works best with a good image: acceptable resolution, clear and "true" axes, distinct FR line.
 
