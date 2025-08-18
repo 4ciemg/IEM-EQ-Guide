@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808790701886">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.808791508573">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -32,11 +32,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../../icon.png" rel="icon">
-    <link href="../../resources/css/retype.css?v=3.11.0.808790701886" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=3.11.0.808791508573" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808790701886" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=3.11.0.808791508573" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808790701886" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=3.11.0.808791508573" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -163,13 +163,14 @@
 </doc-anchor-target>
 <p>Assuming that you&#x27;re now familiar with EQ, it&#x27;s time to dive a bit deeper into personal preferences. One good starting point is with targets, which have been tested and shown to be preferred by people. However, it has also been shown that while people do like specific targets, many also prefer some deviations from these.</p>
 <p>There have been several targets and FR curves that have been developed throughout the years, some with more validity and rigorous testing than others. For the sake of brevity, only popular and popular targets will be discussed here, but more can be found in the <a href="https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/">Rigs, Curves, &amp; Targets</a> section. There are currently two targets that are used and recognized widely: the <a href="https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/#harman-in-ear-target-711--5128">Harman In-ear Target</a>, and the <a href="https://4ciemg.github.io/IEM-EQ-Guide/rigs-curves-targets/#%CE%B4-and-jm-1-curve-711--5128">JM-1 Curve</a>.</p>
+<p>There are a few modifications that are worth trying out as studies have shown that listeners like varying levels of bass and treble. Furthermore,</p>
 <doc-anchor-target id="harmanie-2019v2">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#harmanie-2019v2">#</doc-anchor-trigger>
         <span>HarmanIE 2019v2</span>
     </h2>
 </doc-anchor-target>
-<p>The HarmanIE 2019v2 target is often used to gauge preference for IEMs, and while it it consistently rated very highly in preference testing, some resistance and criticism of the target have been present for as long as the target has been around. There are mainly two complaints about the target</p>
+<p>The HarmanIE 2019v2 target is often used to gauge preference for IEMs, and while it it consistently rated very highly in preference testing, some resistance and criticism of the target have been present for as long as the target has been around. There are mainly two complaints about the target that exacerbate one another, and a minor one.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -184,11 +185,18 @@
         <div class="pr-5 ml-3 w-full">
             <h5>Common criticisms of HarmanIE 2019v2</h5>
 <ul>
-<li>Bass dip: The bass</li>
+<li>The dip in the region around 200 Hz removes too much bass and warmth from the FR, leading to a thin sound.</li>
+<li>The ear gain region from 3 to 8 kHz is too elevated, leading to a shouty and overly bright sound.</li>
+<li>The treble dives down past 13 kHz.</li>
 </ul>
         </div>
     </div>
 </div>
+<p>Knowing these issues, the following filters were added. The left ones address the first two criticisms, while the two right ones are for preference adjustments for bass and treble. <strong>Experiment and play around with the different frequency and Q factor values</strong>.<br />
+Filter type | Frequency (Hz) | Q | Filter type | Frequency (Hz) | Q |<br />
+:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|<br />
+PK | 250 | 1 | LSQ | 100 | 0.71 |<br />
+PK | 6500 | 1 | HSQ | 10000 | -1.5 |</p>
 
                                 
                                 <!-- Required only on API pages -->
