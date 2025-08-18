@@ -27,7 +27,7 @@ Filter type | Frequency (Hz) | Q | Filter type | Frequency (Hz) | Q |
 LSQ | 100 | 0.71 | PK | 250 | 0.7 |
 HSQ | 10000 | 0.71 | PK | 6500 | 1 |
 
-![HarmanIE 2019v2, stock and with potential modifications](https://i.postimg.cc/44VRsNGd/Harman-Modification.png)
+![HarmanIE 2019v2, stock and with potential modifications](https://i.postimg.cc/7ZdyqC55/Harman-Modification.png)
 
 ***
 ## JM-1
@@ -47,6 +47,7 @@ Like the Harman target, there are also complaints about this one although more i
 
 Testing out different values of tilt is possible through compatible squig.link databases by changing the value of the curve and using EQ to match it. However, the need for separate presets for each tilt value can be tedious to create and test. The following steps can be used in conjunction with the first two left filters to adjust the tilt quickly. 
 
+
 1. Match the IEM's FR to raw JM-1 (no tilt)
  1.1. *The last left filter can instead be used for the same purpose as the steps below; simply adjust the gain (negative for clockwise tilt) to preference. The following steps are not necessary if this one is used.
 2. For any specific value of tilt, find the change in dB from 20 Hz to 20 kHz by multiplying said value by 10 (eg -0.8 dB/oct = -8dB from 20 Hz to 20 kHz)
@@ -55,6 +56,7 @@ Testing out different values of tilt is possible through compatible squig.link d
  4.1. For a counter clockwise tilt (brighter), input the obtained value as a negative (eg -4 dB)
 5. In the high frequency filter, input the obtained value with a negative sign (eg -4 dB)
  5.1. For a counter clockwise tilt (brighter), input the obtained value as a positive (eg +4 dB)
+   
 
 The right ones address the criticisms which are also closely related to preference adjustments  **Experiment and play around with the different frequency and Q factor values**. 
 
