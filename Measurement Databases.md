@@ -58,8 +58,8 @@ Measurements using a HATS for frequency response, distortion, group delay, imped
 Pros | Cons | 
 :-:|:-:|
 Extensive measurement types | Limited database  |
- | Non-downloadable data |
- | No additional features |
+  | Non-downloadable data |
+  | No additional features |
 
 ***
 ## [Headphones.com](https://headphones.com/blogs/reviews) (5128 & 711)
@@ -70,8 +70,8 @@ Pros | Cons |
 High quality measurements | Compensated measurements |
 HATS-based measurement | HATS-based measurement |
 Different measurement types  | Hard to find measurements |
- | Non-downloadable data |
- | Inconsistent measurement procedures and rigs |
+  | Non-downloadable data |
+  | Inconsistent measurement procedures and rigs |
 
 ***
 ## [Earphones Archive](https://earphonesarchive.squig.link/) (5128 & 711)
@@ -92,9 +92,9 @@ Pros | Cons |
 :-:|:-:|
 HATS-based measurement | HATS-based measurement |
 Different measurement types  | Non-downloadable data |
- | Hard to find measurements |
- | Chinese website |
- | Limited database |
+  | Hard to find measurements |
+  | Chinese website |
+  | Limited database |
  
 ***
 ## [HypeTheSonics](https://www.hypethesonics.com/) (5128 & 711)
