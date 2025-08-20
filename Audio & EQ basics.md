@@ -178,6 +178,7 @@ The following image shows three FRs in three different colors. The red one is th
 
 ![Peak filters](https://i.postimg.cc/zfY5VpYw/EQ.png)
 
+{.compact}
 Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|
 50 | 5 | 3 | 50 | 8 | 3 | 
@@ -202,6 +203,7 @@ The only parameter that was not discussed is the filter type. In this guide, thr
 
 ![Shelf filters](https://i.postimg.cc/bJmwQSQw/Shelves.png)
 
+{.compact}
 Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|
 100 | 8 |  0.4| 100 | 8 | 0.707 | 
