@@ -27,7 +27,7 @@ Pros | Cons |
 :-:|:-:|
 **Very high quality measurements** | Measurements only available in PDFs |
 Some HATS-based measurements | Some HATS-based measurement |
-|  | Relatively small database |
+‎‎ | Relatively small database |
 
 ***
 ## [Hangout.Audio](https://graph.hangout.audio/) (5128 & 711)
@@ -49,7 +49,7 @@ Pros | Cons |
 High quality measurements | Inconsistent and slow updates |
 Large database | Korean website |
 Distortion measurements | Non-downloadable measurements |
-|  | Not many features |
+‎ | Not many features |
 
 ***
 ## [AudioScienceReview (ASR)](https://www.audiosciencereview.com/forum/index.php?Audio+Reviews/) (711)
@@ -58,8 +58,8 @@ Measurements using a HATS for frequency response, distortion, group delay, imped
 Pros | Cons | 
 :-:|:-:|
 Extensive measurement types | Limited database  |
-|  | Non-downloadable data |
-|  | No additional features |
+‎ | Non-downloadable data |
+‎ | No additional features |
 
 ***
 ## [Headphones.com](https://headphones.com/blogs/reviews) (5128 & 711)
@@ -70,8 +70,8 @@ Pros | Cons |
 High quality measurements | Compensated measurements |
 HATS-based measurement | HATS-based measurement |
 Different measurement types  | Hard to find measurements |
-|  | Non-downloadable data |
-|  | Inconsistent measurement procedures and rigs |
+‎ | Non-downloadable data |
+‎ | Inconsistent measurement procedures and rigs |
 
 ***
 ## [Earphones Archive](https://earphonesarchive.squig.link/) (5128 & 711)
@@ -92,9 +92,9 @@ Pros | Cons |
 :-:|:-:|
 HATS-based measurement | HATS-based measurement |
 Different measurement types  | Non-downloadable data |
-|  | Hard to find measurements |
-|  | Chinese website |
-|  | Limited database |
+‎ | Hard to find measurements |
+‎ | Chinese website |
+‎ | Limited database |
  
 ***
 ## [HypeTheSonics](https://www.hypethesonics.com/) (5128 & 711)
@@ -127,8 +127,8 @@ Pros | Cons |
 :-:|:-:|
 Different measurement types | Compensated measurements |
 HATS-based measurement | HATS-based measurement |
-|  | Non-downloadable data |
-|  | Inconsistent measurement procedures and rigs |
+‎ | Non-downloadable data |
+‎ | Inconsistent measurement procedures and rigs |
  
 ***
 ## [PEQdB](https://peqdb.com/) (5128 & 711)
