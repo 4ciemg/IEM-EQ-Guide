@@ -27,7 +27,7 @@ Pros | Cons |
 :-:|:-:|
 **Very high quality measurements** | Measurements only available in PDFs |
 Some HATS-based measurements | Some HATS-based measurement |
-  | Relatively small database |
+|  | Relatively small database |
 
 ***
 ## [Hangout.Audio](https://graph.hangout.audio/) (5128 & 711)
