@@ -14,6 +14,7 @@ Here is an example of the difference between AutoEQ and manual EQ when it comes 
  
 ![AutoEQ vs manual EQ](https://i.postimg.cc/NMp0VHHW/Zero2.png)
 
+{.compact}
 Filter type | Frequency (Hz) | Gain (dB) | Q | Filter type | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
  PK | 23 | -2.4 | 1 | PK | 150 | -3 | 0.5 | 
