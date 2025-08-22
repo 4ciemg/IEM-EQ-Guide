@@ -5,8 +5,8 @@ branding:
 favicon: ./icon.png  
 
 links:
-  - text: Archive
-    icon: archive
+  - text: Papers
+    icon: book
     link: https://mega.nz/folder/VF5FEBiZ#TK5wvNCMYqz0rvKiU-hjzg
 
 
