@@ -133,7 +133,7 @@ HATS-based measurement | HATS-based measurement |
 ***
 ## [PEQdB](https://peqdb.com/studio) (711)
 
-A scrape of available measurements from squig.link, but without any of the categorization or separation. To be avoided for the most part as other measurement are as accessible while still being traceable. 
+A scrape of available measurements from squig.link with a different yet similar UI. EQ functionality is much improved compared to the usual squig.link one, but some features are missing.
 
 Pros | Cons | 
 :-:|:-:|
