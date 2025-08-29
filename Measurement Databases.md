@@ -138,6 +138,6 @@ A scrape of available measurements from squig.link, but without any of the categ
 Pros | Cons | 
 :-:|:-:|
 Large database | Copy of squig.link data |
-Downloadable measurements |  |
+Downloadable measurements | Missing basic squig.link features |
 Feature-packed website |  |
 Intuitive EQ functionality |  |
