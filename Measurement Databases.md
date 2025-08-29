@@ -131,7 +131,7 @@ HATS-based measurement | HATS-based measurement |
 ‎ | Inconsistent measurement procedures and rigs |
  
 ***
-## [PEQdB](https://peqdb.com/) (5128 & 711)
+## [PEQdB](https://peqdb.com/studio) (711)
 
 A scrape of available measurements from squig.link, but without any of the categorization or separation. To be avoided for the most part as other measurement are as accessible while still being traceable. 
 
