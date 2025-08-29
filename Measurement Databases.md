@@ -137,6 +137,7 @@ A scrape of available measurements from squig.link, but without any of the categ
 
 Pros | Cons | 
 :-:|:-:|
-Large database| **Extremely inconsistent measurement quality and procedure**  |
+Large database | Copy of squig.link data |
 Downloadable measurements |  |
 Feature-packed website |  |
+Intuitive EQ functionality |  |
