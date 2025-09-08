@@ -92,7 +92,6 @@ Pros | Cons |
 :-:|:-:|
 HATS-based measurement | HATS-based measurement |
 Different measurement types  | Non-downloadable data |
-‎ | Hard to find measurements |
 ‎ | Chinese website |
 ‎ | Limited database |
  
