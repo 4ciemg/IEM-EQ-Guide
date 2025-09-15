@@ -170,7 +170,7 @@ An equalizer (EQ) is a tool used to modify a signal, in this case an audio signa
 There are different types of EQs, ranging from analog/digital EQs to parametric and graphic ones. Parametric EQs (PEQ) allow the user to change all three parameters, and provide a nice balance between being flexible, and being easy to modify and use. Unless stated otherwise, EQ will refer to PEQ for the rest of the guide. 
 
 !!!warning EQ minimalism
-The guide adheres to what I call **EQ minimalism**, which can be thought of as an approach to how EQ is used and developed. In this context, it means that ideally, an EQ preset should have **as few filters as possible**, for which each filter should have **low gain and Q values**. Aiming for few but broad changes is a good rule of thumb to follow; for more complex sections, deviation from this rule will be normal, even necessary.
+The guide adheres to what I call **EQ minimalism**, which can be thought of as an approach to how EQ is used and developed: ideally, an EQ preset should have **as few filters as possible**, and each filter should have **low gain and Q values**. Aiming for few but broad changes is a good rule of thumb to follow; for more complex sections, deviation from this rule will be normal, even necessary.
 !!!
 
 	
