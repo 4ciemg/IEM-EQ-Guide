@@ -9,9 +9,9 @@ Select your IEM model and the one you want to emulate in the Models tab, ensurin
 
 1. Select the IEM to emulate in the Models tab
 2. Select your IEM model in the Models tab, ensuring that only the two chosen IEM FRs are in the graph
-3. Find the AutoEQ option in the Equalizer tab and select your model to EQ under the Parametric Equalizer section
+3. In the Equalizer tab, select your model to EQ under the Parametric Equalizer section
 4. Adjust the range (maximum upper limit around 10kHz as specified by the AutoEQ project)
-5. Generate the preset
+5. Generate the preset by clicking on the AutoEQ button
 6. Export the preset accordingly
 
 
