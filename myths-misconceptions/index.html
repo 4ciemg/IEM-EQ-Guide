@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="turbo-root" content="/IEM-EQ-Guide">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.811913487809">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.11.0.813621731395">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.11.0">
@@ -34,11 +34,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link href="../icon.png" rel="icon">
-    <link href="../resources/css/retype.css?v=3.11.0.811913487809" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.11.0.813621731395" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.811913487809" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.11.0.813621731395" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.11.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.811913487809" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.11.0.813621731395" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -384,7 +384,7 @@ Additionally, these plots can vary a lot based on the analysis parameters, and a
         <span>Test Signals vs Music</span>
     </h2>
 </doc-anchor-target>
-<p>Another common misconception involves the test signal used for measurmeents. Indeed, many argue that the sine sweep that is used currently is not representative of real-life &quot;complex&quot; signals like music, with many frequencies at different amplitudes occuring at the same time to the point where IEMs will have varying levels of &quot;accuracy&quot;.</p>
+<p>Another common misconception involves the test signal used for measurements. Indeed, many argue that the sine sweep that is used currently is not representative of real-life &quot;complex&quot; signals like music, with many frequencies at different amplitudes occuring at the same time to the point where IEMs will have varying levels of &quot;accuracy&quot;.</p>
 <p>Depending on the algorithm, different stimulus signal can be the input, whether it be noise, music, sine sweep, etc. The resulting FR will always be the same (sometimes with miniscule differences). White noise, which contains all frequencies at the same amplitude, is similar in concept to IR with its single impulse containing all frequencies at the same amplitude. Music can be thought of as a form of noise, with the caveat of music having an FR of its own which will have to be removed by the algorithm in order to only obtain the transfer function of the IEM and not of both.</p>
 <p>Nowadays, measurements use an exponentially-swept sine signal as detailed by Angelo Farina, which allows the user to measure both linear and nonlinear behavior of IEMs (or other DUTs) in a short time. In REW, options for measuring with sweeps and noise are available; a real-time analyzer (RTA) function is also present, allowing the user to measure the real-time response of an IEM (works best with white noise; if using music, the average FR of the music has to be subtracted).</p>
 <p><figure class="content-center">
