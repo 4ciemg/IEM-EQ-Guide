@@ -91,7 +91,7 @@ These five steps aim to not only examine technicalities as being separate from F
 
 ***
 ## Test Signals vs Music
-Another common misconception involves the test signal used for measurmeents. Indeed, many argue that the sine sweep that is used currently is not representative of real-life "complex" signals like music, with many frequencies at different amplitudes occuring at the same time to the point where IEMs will have varying levels of "accuracy".
+Another common misconception involves the test signal used for measurements. Indeed, many argue that the sine sweep that is used currently is not representative of real-life "complex" signals like music, with many frequencies at different amplitudes occuring at the same time to the point where IEMs will have varying levels of "accuracy".
 
 Depending on the algorithm, different stimulus signal can be the input, whether it be noise, music, sine sweep, etc. The resulting FR will always be the same (sometimes with miniscule differences). White noise, which contains all frequencies at the same amplitude, is similar in concept to IR with its single impulse containing all frequencies at the same amplitude. Music can be thought of as a form of noise, with the caveat of music having an FR of its own which will have to be removed by the algorithm in order to only obtain the transfer function of the IEM and not of both.
 
