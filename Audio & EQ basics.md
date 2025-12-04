@@ -26,7 +26,7 @@ A quick summary of important aspects is shown below; each aspect is also covered
 - EQ is reversible
 - There are several filter parameters that change how the filter impacts the FR
 - A preamp with negative dB is required
-[!embed](https://vimeo.com/1143290500)
+[!embed]([https://vimeo.com/1143290500](https://player.vimeo.com/video/1143290500?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479))
 +++ Tools & Software
 - For EQ software, find a parametric EQ (PEQ). Some can be found [here](https://github.com/jaakkopasanen/AutoEq/wiki/Choosing-an-Equalizer-App)
 - For measurements, refer to the [Measurement Databases](https://4ciemg.github.io/IEM-EQ-Guide/measurement-databases/) section
