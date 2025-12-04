@@ -4,9 +4,8 @@ icon: tools
 ---
 # Additional Tools
 
-!!!
-WIP
-!!!
+## [PragmaticAudio -izer Tools](https://www.pragmaticaudio.com/iems/)
+Three tools - visualizer, subjectizer, treblizer - are available in the equalizer tab. The treblizer is arguably the most useful of the three, allowing users to dial in their treble EQ using sine sweeps.
 
 ## [How To Listen](https://harmanhowtolisten.blogspot.com/2011/01/welcome-to-how-to-listen.html)
 Training program with various tests used for training listeners in Harman research. Reports of compatibility issues are common.
@@ -32,5 +31,7 @@ Useful for obtaining FR data from images and other resources. Works best with a 
 
 ## [Owliophile](https://owliophile.com/)
 Powerful tool for generating different noises and other sounds. There is also a built-in EQ with real-time feedback for generated sounds and user-uploaded music. The FAQ relates to headphones, and also contains some false notions for which some are covered in the [Myths & Misconceptions](https://4ciemg.github.io/IEM-EQ-Guide/myths-misconceptions/) section. The EQ function is similar to what is covered in the guide.
+
+
 
 
