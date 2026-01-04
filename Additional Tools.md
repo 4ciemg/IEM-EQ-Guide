@@ -1,11 +1,14 @@
 ---
-order: -99
+order: -98
 icon: tools
 ---
 # Additional Tools
 
 ## [PragmaticAudio -izer Tools](https://www.pragmaticaudio.com/iems/)
 Three tools - visualizer, subjectizer, treblizer - are available in the equalizer tab. The treblizer is arguably the most useful of the three, allowing users to dial in their treble EQ using sine sweeps.
+
+## [kr0mka's Squig](https://kr0mka.squig.link/)
+An interactive EQ can be found under the Equalizer tab. The filters are visualized differently than the one from PragmaticAudio's vizualiser: each filter is superposed on the IEM's FR. Use single/double clicks and scroll wheel to change the filter parameters.
 
 ## [How To Listen](https://harmanhowtolisten.blogspot.com/2011/01/welcome-to-how-to-listen.html)
 Training program with various tests used for training listeners in Harman research. Reports of compatibility issues are common.
