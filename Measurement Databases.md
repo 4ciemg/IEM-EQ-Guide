@@ -39,10 +39,21 @@ Generally high quality measurements | Non-downloadable measurements |
 Large database |  |
 Feature-packed website | |
 
+***
+## [HuiHiFi](https://huihifi.com/home?tab=earbuds) (711)
+Measurements using a 4128 HATS for both frequency response, distortion, impedance, and **compression**. Everything is in Chinese and the collection is relatively large. It is updated consistently with new and sometimes unreleased IEMs.
+
+Pros | Cons | 
+:-:|:-:|
+High quality measurements | Chinese website |
+Large database | Non-downloadable measurements |
+Extensive measurement types | Not many features |
 
 ***
-## [Woodenears](https://www.woodenears.com/) (5128 & 711)
+## [Woodenears](https://120.78.139.213/) (5128 & 711)
 Measurements using HATS for both frequency response as well as distortion. Everything is in Korean, and the collection is relatively large with slow, inconsistent updates.
+
+**No updates since 2024 Q4, and domain expired. Likely abandoned.**
 
 Pros | Cons | 
 :-:|:-:|
@@ -50,6 +61,7 @@ High quality measurements | Inconsistent and slow updates |
 Large database | Korean website |
 Distortion measurements | Non-downloadable measurements |
 ‎ | Not many features |
+ | Abandoned |
 
 ***
 ## [AudioScienceReview (ASR)](https://www.audiosciencereview.com/forum/index.php?Audio+Reviews/) (711)
