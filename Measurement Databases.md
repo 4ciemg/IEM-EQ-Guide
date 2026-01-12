@@ -40,6 +40,17 @@ Large database |  |
 Feature-packed website | |
 
 ***
+## [listener](https://listener.squig.link/5128/) (5128)
+Part of the squig.link collection and one of three databases from listener. Very small database but of very high quality and hosted on more recent squig.link versions with more features.
+
+Pros | Cons | 
+:-:|:-:|
+**Very high quality measurements** | Very small database |
+HATS-based measurement | HATS-based measurement |
+Feature-packed website |  |
+Insertion depth and ear tip measurements |  |
+
+***
 ## [HuiHiFi](https://huihifi.com/home?tab=earbuds) (711)
 Measurements using a 4128 HATS for both frequency response, distortion, impedance, and **compression**. Everything is in Chinese and the collection is relatively large. It is updated consistently with new and sometimes unreleased IEMs.
 
@@ -48,6 +59,7 @@ Pros | Cons |
 High quality measurements | Chinese website |
 Large database | Non-downloadable measurements |
 Extensive measurement types | Not many features |
+HATS-based measurement | HATS-based measurement |
 
 ***
 ## [Woodenears](https://120.78.139.213/) (5128 & 711)
