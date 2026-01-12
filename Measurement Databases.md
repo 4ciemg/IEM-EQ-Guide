@@ -48,7 +48,7 @@ Pros | Cons |
 **Very high quality measurements** | Very small database |
 HATS-based measurement | HATS-based measurement |
 Feature-packed website |  |
-Insertion depth and ear tip measurements |  |
+Insertion depth measurements |  |
 
 ***
 ## [HuiHiFi](https://huihifi.com/home?tab=earbuds) (711)
