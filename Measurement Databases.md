@@ -40,8 +40,8 @@ Large database |  |
 Feature-packed website | |
 
 ***
-## [listener](https://listener.squig.link/5128/) (5128)
-Part of the squig.link collection and one of three databases from listener. Very small database but of very high quality and hosted on more recent squig.link versions with more features.
+## [Listener](https://listener.squig.link/5128/) (5128)
+Part of the squig.link collection and one of three databases (711, 5128, and [EQ playground](https://iem-eq-guide.pages.dev/additional-tools/#listeners-eq-playground)) from listener. Very small database but of very high quality and hosted on more recent squig.link versions with more features.
 
 Pros | Cons | 
 :-:|:-:|
