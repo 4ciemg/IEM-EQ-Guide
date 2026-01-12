@@ -5,6 +5,9 @@ icon: clock
 
 # Changelog
 
+*11/01/2025*
+- Added [listener's 5128 database](https://listener.squig.link/5128/) to the Measurement Databases section.
+
 *05/01/2025*
 - Added [HuiHiFi](https://iem-eq-guide.pages.dev/measurement-databases/#huihifi-711) to the Measurement Databases section.
 - Modified [Woodenears](https://iem-eq-guide.pages.dev/measurement-databases/#woodenears-5128--711) to match current status.
