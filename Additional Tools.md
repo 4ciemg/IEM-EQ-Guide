@@ -32,6 +32,9 @@ Useful for obtaining FR data from images and other resources. Works best with a 
 5. In the left sidebar, input the frequency and amplitude limit values
 6. Export the trace
 
+## [Hangout.Audio's EQ Tool](https://eq.hangout.audio/)
+EQ tool split into simple (two shelf filters on each ends) and advanced (full PEQ) sections. Useful for visualizing what different filters are doing.
+
 ## [Owliophile](https://owliophile.com/)
 Powerful tool for generating different noises and other sounds. There is also a built-in EQ with real-time feedback for generated sounds and user-uploaded music. The FAQ relates to headphones, and also contains some false notions for which some are covered in the [Myths & Misconceptions](https://4ciemg.github.io/IEM-EQ-Guide/myths-misconceptions/) section. The EQ function is similar to what is covered in the guide.
 
