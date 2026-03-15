@@ -5,6 +5,9 @@ icon: clock
 
 # Changelog
 
+*14/03/2026*
+- Added [Hangout.Audio's EQ Tool](https://eq.hangout.audio/) in the Additional Tools section.
+
 *14/01/2026*
 - Modified the homepage warning and overview.
 
