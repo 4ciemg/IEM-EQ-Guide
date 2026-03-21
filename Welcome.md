@@ -4,11 +4,11 @@ icon: home
 ---
 # EQ Guide for IEMs
 
-!!!contrast Welcome
-The IEM EQ guide aims to be the most comprehensive, in-depth resource on how to EQ IEMs. It was built not only to help beginners learn the basics through step-by-step instructions but also to provide a framework for the interested to explore what is possible in terms of audio. Additionally, for the more theoretically and academically inclined, the guide also hosts a collection of AES papers relevant to the world of IEMs.
-
+!!!contrast Welcome!
 The goal of this guide is to provide the necessary practical information for equalizers (EQ) when it comes to audio reproduction, and is aimed at most people, from beginners to experienced users. Some basic theory will be summarized, but **a general understanding of the hearing system, audio, and waves is useful**.
 This guide will be mainly focused on EQ concerning **IEMs**. 
+
+The IEM EQ guide aims to be the **most comprehensive, in-depth resource** on how to EQ IEMs. It was built not only to help beginners learn the basics through step-by-step instructions but also to provide a framework for the interested to explore what is possible in terms of audio. Additionally, for the more theoretically and academically inclined, the guide also hosts a collection of AES papers relevant to the world of IEMs.
 !!!
 
 !!!warning The guide is really long.
