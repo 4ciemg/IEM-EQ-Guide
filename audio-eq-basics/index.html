@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826859356742">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827374122846">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.3.0">
 
     <!-- Primary Meta Tags -->
     <title>Audio &amp; EQ basics</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="IEM EQ Guide">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://iem-eq-guide.pages.dev/audio-eq-basics/">
+    <meta name="twitter:title" content="Audio & EQ basics">
+    <meta name="twitter:description" content="A quick summary of important aspects is shown below; each aspect is also covered in more detail and depth after the summary (highly recommended to read if">
+    <meta name="twitter:image" content="https://i.postimg.cc/ZKjcq1bh/mic-basics-frequency-response-content-1.png">
+    <meta name="twitter:image:alt" content="Audio & EQ basics">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../icon.png" />
-    <link href="../resources/css/retype.css?v=4.2.0.826859356742" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.3.0.827374122846" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.2.0.826859356742" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.2.0.826859356742" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.3.0.827374122846" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.3.0.827374122846" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://iem-eq-guide.pages.dev/" class="flex items-center leading-snug text-2xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../icon.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="../icon.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="../icon.png" alt="" width="265" height="265">
+                            <img class="max-h-10 hidden dark:inline-block" src="../icon.png" alt="" width="265" height="265">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">IEM EQ Guide</span>
                     </a>
@@ -69,10 +77,8 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://mega.nz/folder/VF5FEBiZ#TK5wvNCMYqz0rvKiU-hjzg">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
                                 </svg>
                                 <span>Papers</span>
                             </a>
@@ -128,10 +134,8 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://mega.nz/folder/VF5FEBiZ#TK5wvNCMYqz0rvKiU-hjzg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
                                         </svg>
                                         <span>Papers</span>
                                     </a>
@@ -158,19 +162,9 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="audio--eq-basics" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#audio--eq-basics">#</doc-anchor-trigger>
-        <span>Audio &amp; EQ basics</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="audio--eq-basics">Audio &amp; EQ basics</h1>
 <hr>
-<doc-anchor-target id="everything-you-need-to-know">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#everything-you-need-to-know">#</doc-anchor-trigger>
-        <span>Everything you need to know</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="everything-you-need-to-know">Everything you need to know</h2>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-primary"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -237,12 +231,7 @@
 </figure>
 </p>
 <hr>
-<doc-anchor-target id="recommended-articles-and-videos">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#recommended-articles-and-videos">#</doc-anchor-trigger>
-        <span>Recommended articles and videos</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="recommended-articles-and-videos">Recommended articles and videos</h2>
 <p>While not necessary to the guide, the readings from <a href="https://daystarvisions.com/Music/index.html">Dale&#x27;s Music Stuff</a> from HE1 up to HE7 are good, easy-to-digest yet in-depth articles that explain a lot of concepts and ideas that are immediately relevant to the task. It is focused on headphones, but the same general rules and suggestions also apply to IEMs. Reading them will provide much more information than what is given here in terms of audio and the hobby as a whole, while this guide is for the most part solely dedicated to EQ. Crinacle&#x27;s <a href="https://crinacle.com/2020/04/08/graphs-101-how-to-read-headphone-measurements/">Graphs 101: How to Read Headphone Measurements</a> is also an interesting read that dives into measurements and how to read them.</p>
 <p>The following videos are also fun and intuitive ways of understanding audio and EQ.<br />
 <a href="https://www.youtube.com/watch?v=Sn07AMCfaAI">How Audio Illusions Trick Our Brains</a><br />
@@ -268,12 +257,7 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
     </div>
 </div>
 <hr>
-<doc-anchor-target id="measurements-and-warnings">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#measurements-and-warnings">#</doc-anchor-trigger>
-        <span>Measurements and warnings</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="measurements-and-warnings">Measurements and warnings</h2>
 <p>Measurements in the headphone and IEM community often refer to frequency (magnitude) response (FR) plots where the x-axis represents frequency, in this case the audible spectrum band (20 Hz to 20 000 Hz or 20 kHz) in logarithmic scale to match how human hearing work. The y-axis represents amplitude/loudness/SPL, usually in dB, in linear scale. Together, they form a graph that shows <strong>how loud something is at specific frequencies</strong>. An important thing to always check is the scale of each axis; these are commonly modified to skew perception. These measurements are important for two reasons.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
@@ -332,12 +316,7 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
 <p>The second way aims to correct/remove the errors introduced by the coupler. It can also be used to correct the coupler to a reference coupler, which can theoretically mean that measurements done on different couplers can be exchanged, provided they have been compensated properly. A full explanation of proper coupler compensation is beyond the scope of this guide; just know that it is complicated and requires a lot of data to work properly.</p>
 <p>The 5128∆ project aims to create such compensations for various different databases on squig.link; more precisely, the compensations use Crinacle&#x27;s coupler as a reference (more information about databases in the <a href="https://rentry.co/IEM-EQ-Guide#measurement-databases-and-tools">Measurement databases and tools</a> section). Therefore, compensated measurements in databases that are a part of the 5128∆ project can be compared to those in Crinacle&#x27;s database, and by extension to other 5128∆-compliant squig databases as well.</p>
 <hr>
-<doc-anchor-target id="targets-and-preferences">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#targets-and-preferences">#</doc-anchor-trigger>
-        <span>Targets and preferences</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="targets-and-preferences">Targets and preferences</h2>
 <p>While a lot of research in terms of sound preference has been done on loudspeakers and headphones, what has been done with IEMs has been less thorough. To better understand measurements, it is important to understand the intersectionality between preference, perceived accuracy, and anatomy.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
@@ -421,12 +400,7 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
     </div>
 </div>
 <hr>
-<doc-anchor-target id="human-hearing">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#human-hearing">#</doc-anchor-trigger>
-        <span>Human hearing</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="human-hearing">Human hearing</h2>
 <p>The human hearing mechanism is complex, and can only be summarized in an almost-vulgar, oversimplified manner. A few more of the relevant concepts to this guide are discussed.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-warning"></div>
@@ -546,12 +520,7 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
     </div>
 </div>
 <hr>
-<doc-anchor-target id="equalizer-basics">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#equalizer-basics">#</doc-anchor-trigger>
-        <span>Equalizer basics</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="equalizer-basics">Equalizer basics</h2>
 <p>An equalizer (EQ) is a tool used to modify a signal, in this case an audio signal. In most cases, it is used as a way to change the amplitude for a specific frequency range/band, through the use of <strong>filters</strong>, each of which can change the FR.</p>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
@@ -733,19 +702,9 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
 <p>Shelf filters are useful for large changes for which precision is not needed, and are often used for customizing preference targets. For example, if the HarmanIE 2019 target sounded too bassy, simply adding a bass shelf filter with negative gain can be a simple yet effective fix. Same thing for treble: if there is too much or too little of it, use a high shelf filter to change the whole range. Shelf filters are generally used only for the two ends of the frequency range because of their nature, with <strong>Q values of 0.5, 0.71, or 1</strong>. More will be covered in relevant sections.</p>
 <p>When using EQ, there is also preamplification that has to be taken into account. In the digital domain - computer, phone, etc - volume has an upper limit. Exceeding this limit results in <a href="https://www.youtube.com/watch?v=W34SG5QO3Q0">digital clipping</a>, which can happen when an EQ preset has large boosts. To avoid this, a preamp is used which reduces the digital volume. Preamp values should always be negative dB values, and should correspond to the highest amplitude change of the EQ preset. For example, taking the blue FR in the first image with peak filters, the preamp would have to be -10 dB. If only the last two filters are considered, then the preamp would have to be -7 dB; the preamp does not necessarily correspond to the highest gain value of a filter, <strong>but rather the highest gain value overall, since summed filters can result in larger amplitudes/gain.</strong></p>
 <hr>
-<doc-anchor-target id="tools-and-software">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#tools-and-software">#</doc-anchor-trigger>
-        <span>Tools and software</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="tools-and-software">Tools and software</h2>
 <p>Now that the basics are done with, here is what&#x27;s needed for using EQ.</p>
-<doc-anchor-target id="eq-app">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#eq-app">#</doc-anchor-trigger>
-        <span>EQ App</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="eq-app">EQ App</h3>
 <p>The <a href="https://github.com/jaakkopasanen/AutoEq/wiki/Choosing-an-Equalizer-App">link</a> is useful for finding what EQ software is best for a specific OS or device. Do note that these are options that are compatible with AutoEQ; there are other software/hardware that also do EQ, such as VST plugins and more, but they might have different ways of calculating filter slopes.<br />
 Do note that because of how the Android audio stack works, there are <a href="(https://www.reddit.com/r/oratory1990/comments/10abm9k/measurements_of_wavelet_and_poweramp_eq/?rdt=48624)">slight differences in how different apps implement their EQ</a>.<br />
 For the rest of the guide, EqualizerAPO with the PeaceGUI will be used; differences between different apps that have PEQ are very minor. Depending on the complexity of how EQ is being used, additional software and tools might be required.</p>
@@ -772,12 +731,7 @@ For the rest of the guide, EqualizerAPO with the PeaceGUI will be used; differen
         </div>
     </div>
 </div>
-<doc-anchor-target id="measurement-databases-and-tools">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#measurement-databases-and-tools">#</doc-anchor-trigger>
-        <span>Measurement databases and tools</span>
-    </h3>
-</doc-anchor-target>
+<h3 id="measurement-databases-and-tools">Measurement databases and tools</h3>
 <p>For IEMs specifically, the most comprehensive database is a collection of individual databases (commonly referred to as squigs) all under the squig.link group. While it does contain the most measurements out of any other database, measurement quality can vary between different individual databases, and each individual might not have the same measurements as others. It also has many features such as an in-built Equalizer that provides immediate visual feedback, measurement importing, and more. There are instructions and explanations when clicking on the yellow question marks, one for navigation and the other for the 5128∆ project.<br />
 squig.link<br />
 Other noteworthy databases can be found in the <a href="https://4ciemg.github.io/IEM-EQ-Guide/measurement-databases/">Measurement Databases</a>.</p>

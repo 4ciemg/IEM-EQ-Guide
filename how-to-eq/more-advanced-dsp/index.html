@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.2.0.826859356742">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.3.0.827374122846">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.2.0">
+    <meta name="generator" content="Retype 4.3.0">
 
     <!-- Primary Meta Tags -->
     <title>More advanced DSP (****)</title>
@@ -29,14 +29,22 @@
     <meta property="og:site_name" content="IEM EQ Guide">
     <meta property="og:locale" content="en_US">
 
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://iem-eq-guide.pages.dev/how-to-eq/more-advanced-dsp/">
+    <meta name="twitter:title" content="More advanced DSP (****)">
+    <meta name="twitter:description" content="Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio. EQ is a form DSP, but">
+    <meta name="twitter:image" content="https://a.fsdn.com/con/app/proj/hesuvi/screenshots/HeSuVi_Virtualization.png/max/max/1">
+    <meta name="twitter:image:alt" content="More advanced DSP (****)">
+
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../icon.png" />
-    <link href="../../resources/css/retype.css?v=4.2.0.826859356742" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.3.0.827374122846" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.2.0.826859356742" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.2.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.2.0.826859356742" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.3.0.827374122846" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.3.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.3.0.827374122846" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -51,10 +59,10 @@
             <!-- Logo -->
             <div class="flex items-center justify-between h-full py-2 md:w-75">
                 <div class="flex items-center px-2 md:px-6">
-                    <a id="retype-branding-logo" href="../../" class="flex items-center leading-snug text-2xl">
+                    <a id="retype-branding-logo" href="https://iem-eq-guide.pages.dev/" class="flex items-center leading-snug text-2xl">
                         <span class="w-10 mr-2 grow-0 shrink-0 overflow-hidden">
-                            <img class="max-h-10 dark:hidden md:inline-block" src="../../icon.png">
-                            <img class="max-h-10 hidden dark:inline-block" src="../../icon.png">
+                            <img class="max-h-10 dark:hidden md:inline-block" src="../../icon.png" alt="" width="265" height="265">
+                            <img class="max-h-10 hidden dark:inline-block" src="../../icon.png" alt="" width="265" height="265">
                         </span>
                         <span class="dark:text-white font-bold line-clamp-1 md:line-clamp-2">IEM EQ Guide</span>
                     </a>
@@ -69,10 +77,8 @@
                     <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
                         <li class="mr-6">
                             <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://mega.nz/folder/VF5FEBiZ#TK5wvNCMYqz0rvKiU-hjzg">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                    <g fill="currentColor">
-                                        <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
-                                    </g>
+                                <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                    <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
                                 </svg>
                                 <span>Papers</span>
                             </a>
@@ -128,10 +134,8 @@
                             <ul class="flex flex-wrap justify-center items-center">
                                 <li class="mr-6">
                                     <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-header-text font-header-text hover:text-header-text-hover" href="https://mega.nz/folder/VF5FEBiZ#TK5wvNCMYqz0rvKiU-hjzg">
-                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1" width="18" height="18" viewBox="0 0 24 24" role="presentation">
-                                            <g fill="currentColor">
-                                                <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
-                                            </g>
+                                        <svg xmlns="http://www.w3.org/2000/svg" class="mb-px mr-1.5" width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                                            <path d="M0 3.75A.75.75 0 0 1 .75 3h7.497c1.566 0 2.945.8 3.751 2.014A4.495 4.495 0 0 1 15.75 3h7.5a.75.75 0 0 1 .75.75v15.063a.752.752 0 0 1-.755.75l-7.682-.052a3 3 0 0 0-2.142.878l-.89.891a.75.75 0 0 1-1.061 0l-.902-.901a2.996 2.996 0 0 0-2.121-.879H.75a.75.75 0 0 1-.75-.75Zm12.75 15.232a4.503 4.503 0 0 1 2.823-.971l6.927.047V4.5h-6.75a3 3 0 0 0-3 3ZM11.247 7.497a3 3 0 0 0-3-2.997H1.5V18h6.947c1.018 0 2.006.346 2.803.98Z"/>
                                         </svg>
                                         <span>Papers</span>
                                     </a>
@@ -158,46 +162,21 @@
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
                 <!-- Page content  -->
-<doc-anchor-target id="more-advanced-dsp-" class="break-words">
-    <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#more-advanced-dsp-">#</doc-anchor-trigger>
-        <span>More advanced DSP (****)</span>
-    </h1>
-</doc-anchor-target>
+<h1 id="more-advanced-dsp-">More advanced DSP (****)</h1>
 <p>Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio. EQ is a form DSP, but there are many other ones that can change the audio signal in ways that EQ can&#x27;t. This section will cover some common forms of DSP, as well as some more niche ones. At this stage, there won&#x27;t necessarily be any improvement in sound; it is yet another experimentation stage. Whether or not you prefer them or regular stereo music will depend on your preferences.</p>
 <p>A lot of DSP will be applied through <strong>convolution</strong> (with .flac or .wav files) and/or <strong>VST plugins</strong>, both of which are supported in EqualizerAPO through the &quot;Editor&quot;/&quot;Configuration Editor&quot; app (comes with EqualizerAPO). The explanations will also be brief and only cover the essentials.</p>
 <hr>
-<doc-anchor-target id="crossfeed">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#crossfeed">#</doc-anchor-trigger>
-        <span>Crossfeed</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="crossfeed">Crossfeed</h2>
 <p>When listening to loudspeakers, the signal out of one channel will still reach the opposite ear; with IEMs, there is a lack of such an event. Crossfeed fixes this issue by feeding a &quot;small&quot; signal of each channel into the other. It might seem like crossfeed is a necessary and obvious tool that would result in a consistently better preferred sound, it is definitely not as simple as it seems. For hard panned music (eg early jazz recordings with bass in one channel and the other instruments in the other one), crossfeed can help with creating a more cohesive sound presentation. However, most music uses &quot;soft&quot; panning, where the positioning of elements isn&#x27;t as extreme; crossfeed is indirectly being applied here. It is therefore important to test with crossfeed to see if the change is actually preferred or not. Crossfeed implementation can vary in terms of theory, implementation, customizability, and more, all of which are beyond the scope of this guide. <strong>A few common ones include BS2B, Chu Moy, and Jan Meier crossfeed</strong>.</p>
 <hr>
-<doc-anchor-target id="dynamic-eq">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#dynamic-eq">#</doc-anchor-trigger>
-        <span>Dynamic EQ</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="dynamic-eq">Dynamic EQ</h2>
 <p>Dynamic EQ adds another variable into play, which is the incoming signal (in this case being the music); when the signal/music in the specified band passes a loudness threshold, the filter &quot;turns on&quot;. Compared to regular/static EQ, the change is <strong>not applied throughout the whole track</strong>. Using it can add another layer of finetuning as it allows for more precise and less disruptive filters. For example, if there&#x27;s a part in the track that has a substantial amount of sibilance, a regular EQ filter can be used to cut that out, but this also cuts everything including other elements in a track. Using a dynamic EQ, the threshold can be set such that only the loud sibilance triggers the filter while the rest of the track is unaffected. This method is also applicable for improving bass response while minimizing excess lower mid levels.</p>
 <p>While the benefits can be worthwhile, it is important to note that any dynamic EQ presets will <strong>have to be checked and modified depending on the music</strong>. The main difference between regular EQ and this dynamic EQ is that the former focuses on modifying the IEM&#x27;s FR while only slightly considering music; the latter is more related to the music itself, for which the spectral information can change drastically depending on the genre, mastering, release date, and more, which will <strong>inevitably lead to needed modifications in the dynamic EQ preset</strong>.</p>
 <hr>
-<doc-anchor-target id="distortion-compression-and-others">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#distortion-compression-and-others">#</doc-anchor-trigger>
-        <span>Distortion, compression, and others</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="distortion-compression-and-others">Distortion, compression, and others</h2>
 <p>Many effects used in the music production side can be applied in this context as well. Distortion might be preferred for some, so adding a bit of distortion and experimenting with different distortion implementations can be effective without having to rely on external devices. The same applies to compression in cases where dynamic range is too high, track mixing isn&#x27;t up to preference, or for any other reason. A slight delay between channels can also result in a preferred sound presentation. There is a wealth of softwares and DSPs that can change the incoming signal in simple ways like what has been discussed here, or in more extreme ways.</p>
 <hr>
-<doc-anchor-target id="hesuvi-and-hrtfs">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#hesuvi-and-hrtfs">#</doc-anchor-trigger>
-        <span>HeSuVi and HRTFs</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="hesuvi-and-hrtfs">HeSuVi and HRTFs</h2>
 <p><a href="https://sourceforge.net/projects/hesuvi/">HeSuVi</a> is a program that utilizes EqualizerAPO&#x27;s convolution filter to imitate surround sound (5.1/7.1/binaural sound effects) virtualizations for headphones/IEMs. Included with the software are Head related impulse responses (HRIRs), which can be thought of as recordings of a loudspeaker&#x27;s response at a specific direction measured with &quot;head mics&quot; (ie measured response at the eardrum). With multiple HRIRs in different directions, it becomes possible to simulate &quot;virtual loudspeakers&quot; for 5.1/7.1 surround sound virtualization. It therefore becomes possible to listen to 5.1/7.1 recordings without an actual surround sound system; while an interesting proposal, the lack of such recording makes it a niche product. The interesting part comes with adding said HRIRs with stereo recordings, in which case an added level of &quot;spaciousness&quot;.</p>
 <p>The quality of the HRIR varies greatly, and changes depending on how it was made and the intended goal. On the right side, there are common HRIRs, usually from other popular implementations of surround sound virtualization (mainly gaming related), and on the left side, other HRIRs from various databases. The <a href="https://binaural-audio.slite.page/p/i38zsD7728/Binaural-Audio">Binaural Audio</a> and its corresponding <a href="https://airtable.com/appayGNkn3nSuXkaz/shruimhjdSakUPg2m/tbloLjoZKWJDnLtTc">Binaural HRTF Database</a>  are resources that contains many different HRTFs/HRIRs and can be useful for quick testing in order to find a good fit.</p>
 <p><figure class="content-center">
@@ -206,12 +185,7 @@
 </figure>
 </p>
 <hr>
-<doc-anchor-target id="hrtf-creation-and-room-virtualizationsimulation">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#hrtf-creation-and-room-virtualizationsimulation">#</doc-anchor-trigger>
-        <span>HRTF Creation and room virtualization/simulation</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="hrtf-creation-and-room-virtualizationsimulation">HRTF Creation and room virtualization/simulation</h2>
 <p>Proper HRTF measurements are not feasible for most people, and are usually only conducted for population studies or done with mannequins. Companies like Apple and Final Audio employ different methods to account for HRTF, such as taking quick 3D scans of the ear, or by measuring the canal entrance response with microphones in and around the IEM. However, these solutions are either restricted to their own ecosystem, or are limited in accessibility.  There are however a few projects that try to bridge this gap by offering relatively simpler methods of acquiring said data, although their effectiveness is not ideal and effectiveness remains to be seen.</p>
 <p><a href="https://github.com/davircarvalho/Individualized_HRTF_Synthesis">EAC - Individualized HRTF synthesis</a> is a project that uses ML to recreate an HRTF measurement based on real-life measurements of the ear. The process requires the user to take measurements of their ear - there is a tool to facilitate the task using pictures and a reference length - and inputting them into their software. The final result is an HRTF SOFA file that can be used in room virtualization software. The HRTF file itself is not particularly useful; it needs another program, usually one that attempts to simulate a room with said file. For example, with their HRTF SOFA file, the user can then use another program that simulates a room to the user&#x27;s need, and for which the response of the person&#x27;s HRTF can be had. It is therefore possible to recreate a room that has a diffuse sound field, incorporate the HRTF, and measure the DF HRTF of the user. The author of the paper also has several other projects, such as a Webcam Head Tracker and a Room Auralization, with the latter being able to use SOFA HRTFs.</p>
 <p>The issue with this method is that the synthesized HRTF itself deviated significantly from their actual acoustically measured HRTFs. There is also the lack of ear canal geometry, head/torso dimensions, and finer ear details in the HRTF calculations; all of these factors can lead to synthesized HRTFs that aren&#x27;t ideal. The deviations shown in the image below highlight the large differences in amplitude between the proposed/synthesized response (dotted lines) and the original/measured response (solid lines) as well as the overall smoothed result.</p>
@@ -246,12 +220,7 @@
 </doc-tab>
 </doc-tabs>
 <hr>
-<doc-anchor-target id="custom-dsp">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#custom-dsp">#</doc-anchor-trigger>
-        <span>Custom DSP</span>
-    </h2>
-</doc-anchor-target>
+<h2 id="custom-dsp">Custom DSP</h2>
 <p>It is of course possible to create your own DSP if any of the current offerings are not enough. EqualizerAPO itself is a very powerful tool that allows for a lot of customization and signal mapping/processing, and combined with its convolution filter, it is overall an excellent method of experimenting. Both this method as well as creating a DSP is way beyond the scope of this guide, and should only be attempted by the curious. Most solutions are already available for way less effort.</p>
 
                 
