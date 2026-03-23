@@ -130,17 +130,6 @@ HATS-based measurement | HATS-based measurement |
 Different measurement types  | Non-downloadable data |
 Other databases and projects |  |
 
-***
-## [Rtings](https://www.rtings.com/headphones) (5128 & 711)
-
-Very large collection of measurements in both 711 and 5128. High quality measurements, but some tests and every score must be ignored. 
-
-Pros | Cons | 
-:-:|:-:|
-High quality measurements | Compensated measurements |
-HATS-based measurement | HATS-based measurement |
-Different measurement types  | Non-downloadable data |
-Large database | |
 
 ***
 ## [Soundguys](https://www.soundguys.com/) (5128 & 711)
@@ -152,10 +141,21 @@ Different measurement types | Compensated measurements |
 HATS-based measurement | HATS-based measurement |
 ‎ | Non-downloadable data |
 ‎ | Inconsistent measurement procedures and rigs |
+
+***
+## [Rtings](https://www.rtings.com/headphones) (5128 & 711)
+*Locked behind a membership.*
+Very large collection of measurements in both 711 and 5128. High quality measurements, but some tests and every score must be ignored. 
+
+Pros | Cons | 
+:-:|:-:|
+High quality measurements | **Need a membership to view tests/data** |
+HATS-based measurement | HATS-based measurement |
+Different measurement types  | Non-downloadable data |
+Large database | Compensated measurement |
  
 ***
 ## [PEQdB](https://peqdb.com/studio) (711)
-
 A scrape of available measurements from squig.link with a different yet similar UI. EQ functionality is much improved compared to the usual squig.link one, but some features are missing.
 
 Pros | Cons | 
