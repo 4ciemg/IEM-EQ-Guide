@@ -5,6 +5,9 @@ icon: clock
 
 # Changelog
 
+*22/03/2026*
+- Demoted Rtings in the Measurement Databases section due to membership restriction.
+
 *14/03/2026*
 - Added [Hangout.Audio's EQ Tool](https://eq.hangout.audio/) in the Additional Tools section.
 
