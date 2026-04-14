@@ -18,9 +18,9 @@ There are 7 **main sections** in this guide which can be accessed through the le
 	4. **Rigs, Curves, & Targets**, where information about metrology and preference testing is given
  	5. **Measurement Databases**, where relevant and popular measurement databases are examined
   	6. **Myths & Misconceptions**, where common mistaken assumptions are examined and debunked
-   	7. **Additional Tools**, where other potentially useful tools related to EQ and measurements are described and given instructions for 
+   	7. **Additional Tools**, where other tools related to EQ/measurements are described and given instructions for 
 	- **Changelog**, where every change is recorded on a daily basis
-	- **FAQ/Contact**. where common questions are answered and contact information is given
+	- **FAQ/Contact**, where common questions are answered and contact information is available
 
 **There is no order to follow. It is recommended that you check and read any sections when you want or need to as you progress along.**
 Use the table of contents on the left to navigate the guide, and use the secondary one on the right of each page for specific topics.
