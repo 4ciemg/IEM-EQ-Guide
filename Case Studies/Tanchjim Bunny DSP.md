@@ -38,12 +38,12 @@ For my own preference, treble will need to be slightly boosted; using **pink noi
 
 Compared to the Wan'er case study, the steps taken here are much simpler and shorter. Any measurement will do **as long as the conditions are the same** (very deep insertion in this case). The 5 filter limitation was also respected, with one remaining empty for any further FR refinement.
 
-No picture will be provided as the changes did not rely much on measurements, and because the EQ was done using someone else's measurements. To visualize the changes, use an appropriate, deep insertion measurement of the Bunny. **Bold** filters are highly individual (ie only for me), and are excluded from the final FR; **every filter parameter should be modified to your preferences**. Preamp should be set to -5 dB.
+No picture will be provided as the changes did not rely much on measurements, and because the EQ was done using someone else's measurements. To visualize the changes, use an appropriate, deep insertion measurement of the Bunny. **Bold** filters are highly individual (ie only for me), and are excluded from the final FR; **every filter parameter should be modified to your preferences**. Preamp should be set to -4 dB.
 
 
 Filter type | Frequency (Hz) | Gain (dB) | Q |
 :-:|:-:|:-:|:-:|
-PK | 20 | 5 | 0.5 | 
+PK | 30 | 4 | 0.5 | 
 PK | 200 | -2 | 1 |
 PK | 6000 | 3 | 1 |
 **PK** | 11700 | -5 | 5 |
