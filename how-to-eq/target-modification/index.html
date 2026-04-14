@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.4.0.828327722122">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829448163326">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.4.0">
+    <meta name="generator" content="Retype 4.5.3">
 
     <!-- Primary Meta Tags -->
     <title>Target Modification (**)</title>
     <meta name="title" content="Target Modification (**)">
-    <meta name="description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences. One good starting point is with targets, which have">
+    <meta name="description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences. One good starting point is with targets, which have been tested and shown to be preferred by people.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://iem-eq-guide.pages.dev/how-to-eq/target-modification/">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="https://iem-eq-guide.pages.dev/sitemap.xml">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://iem-eq-guide.pages.dev/how-to-eq/target-modification/">
     <meta property="og:title" content="Target Modification (**)">
-    <meta property="og:description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences. One good starting point is with targets, which have">
+    <meta property="og:description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences. One good starting point is with targets, which have been tested and shown to be preferred by people.">
     <meta property="og:image" content="https://i.postimg.cc/7ZdyqC55/Harman-Modification.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -33,18 +34,21 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://iem-eq-guide.pages.dev/how-to-eq/target-modification/">
     <meta name="twitter:title" content="Target Modification (**)">
-    <meta name="twitter:description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences. One good starting point is with targets, which have">
+    <meta name="twitter:description" content="Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences. One good starting point is with targets, which have been tested and shown to be preferred by people.">
     <meta name="twitter:image" content="https://i.postimg.cc/7ZdyqC55/Harman-Modification.png">
     <meta name="twitter:image:alt" content="Target Modification (**)">
+
+    <!-- Alternate Markdown -->
+    <link rel="alternate" type="text/markdown" href="https://iem-eq-guide.pages.dev/how-to-eq/target-modification.md">
 
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../icon.png" />
-    <link href="../../resources/css/retype.css?v=4.4.0.828327722122" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.829448163326" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.4.0.828327722122" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.4.0.828327722122" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.829448163326" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.829448163326" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -157,9 +161,11 @@
 <div class="flex">
     <div id="retype-main" class="min-w-0 p-4 grow md:px-16">
         <main class="relative pb-12 lg:pt-2">
-            <div class="retype-markdown" id="retype-content">
+            <div class="relative retype-markdown" id="retype-content">
                 <!-- Rendered if sidebar right is enabled -->
                 <div id="retype-sidebar-right-toggle"></div>
+                <doc-page-actions></doc-page-actions>
+
                 <!-- Page content  -->
 <h1 id="target-modification-">Target Modification (**)</h1>
 <p>Assuming that you&#x27;re now familiar with EQ, it&#x27;s time to dive a bit deeper into personal preferences. One good starting point is with targets, which have been tested and shown to be preferred by people. However, it has also been shown that while people do like specific targets, many also prefer some deviations from these.</p>
@@ -263,14 +269,24 @@ It is also usually meant to be used with a tilt, <strong>usually in the clockwis
 </div>
 <p>Testing out different values of tilt is possible through compatible squig.link databases by changing the value of the curve and using EQ to match it. However, the need for separate presets for each tilt value can be tedious to create and test. The following steps can be used in conjunction with the first two left filters to adjust the tilt quickly.</p>
 <ol>
-<li>Match the IEM&#x27;s FR to raw JM-1 (no tilt)<br />
-1.1. *The last left filter can instead be used for the same purpose as the steps below; simply adjust the gain (negative for clockwise tilt) to preference. The following steps are not necessary if this one is used.</li>
-<li>For any specific value of tilt, find the change in dB from 20 Hz to 20 kHz by multiplying said value by 10 (eg -0.8 dB/oct = -8dB from 20 Hz to 20 kHz)</li>
-<li>Divide the value in half; the obtained value will be the gains used for the two filters (eg 8 dB gives 4 dB)</li>
-<li>In the low frequency filter, input the obtained value (eg 4 dB)<br />
-4.1. For a counter clockwise tilt (brighter), input the obtained value as a negative (eg -4 dB)</li>
-<li>In the high frequency filter, input the obtained value with a negative sign (eg -4 dB)<br />
-5.1. For a counter clockwise tilt (brighter), input the obtained value as a positive (eg +4 dB)</li>
+<li>
+<p>Match the IEM&#x27;s FR to raw JM-1 (no tilt)<br />
+1.1. *The last left filter can instead be used for the same purpose as the steps below; simply adjust the gain (negative for clockwise tilt) to preference. The following steps are not necessary if this one is used.</p>
+</li>
+<li>
+<p>For any specific value of tilt, find the change in dB from 20 Hz to 20 kHz by multiplying said value by 10 (eg -0.8 dB/oct = -8dB from 20 Hz to 20 kHz)</p>
+</li>
+<li>
+<p>Divide the value in half; the obtained value will be the gains used for the two filters (eg 8 dB gives 4 dB)</p>
+</li>
+<li>
+<p>In the low frequency filter, input the obtained value (eg 4 dB)<br />
+4.1. For a counter clockwise tilt (brighter), input the obtained value as a negative (eg -4 dB)</p>
+</li>
+<li>
+<p>In the high frequency filter, input the obtained value with a negative sign (eg -4 dB)<br />
+5.1. For a counter clockwise tilt (brighter), input the obtained value as a positive (eg +4 dB)</p>
+</li>
 </ol>
 <p>The right ones address the criticisms which are also closely related to preference adjustments  <strong>Experiment and play around with the different frequency and Q factor values</strong>.</p>
 <div class="table-wrapper scrollbar overflow-hidden">
@@ -379,6 +395,6 @@ It is also usually meant to be used with a tilt, <strong>usually in the clockwis
 
     <div id="retype-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Target Modification (**)", level: 2, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+        <script data-cfasync="false">window.__DOCS__ = { "title": "Target Modification (**)", level: 2, icon: "file", hasPrism: false, hasInstagram: false, hasMermaid: false, hasMath: false, tocDepth: 23, "md": "/how-to-eq/target-modification.md" }</script>
 </body>
 </html>

@@ -1,0 +1,30 @@
+﻿# EQ Guide for IEMs
+
+> The goal of this guide is to provide the necessary practical information for equalizers (EQ) when it comes to audio reproduction, and is aimed at most people, from beginners to experienced users.
+
+- [EQ Guide for IEMs](https://iem-eq-guide.pages.dev/welcome.md): EQ Guide for IEMs
+- [Audio & EQ Basics](https://iem-eq-guide.pages.dev/audio-eq-basics.md): A quick summary of important aspects is shown below; each aspect is also covered in more detail and depth after the summary (highly recommended to read if the information doesn't seem too daunting).
+- [Rigs, Curves, & Targets](https://iem-eq-guide.pages.dev/rigs-curves-targets.md): The following section is dedicated to explaining and detailing the different FR curves that are prominent nowadays, as well as the different measurement rigs and standards that are being used.
+- [Measurement Databases](https://iem-eq-guide.pages.dev/measurement-databases.md): Below is a collection of several measurement databases and projects, with descriptions and detailed analyses of their pros and cons.
+- [Myths & Misconceptions](https://iem-eq-guide.pages.dev/myths-misconceptions.md): The following section covers a few myths and misconceptions that are popular, and whether or not they have any validity.
+- [Additional Tools](https://iem-eq-guide.pages.dev/additional-tools.md): Three tools - visualizer, subjectizer, treblizer - are available in the equalizer tab. The treblizer is arguably the most useful of the three, allowing users to dial in their treble EQ using sine sweeps.
+- [Changelog](https://iem-eq-guide.pages.dev/changelog.md): 22/03/2026
+- [FAQ](https://iem-eq-guide.pages.dev/faq.md): I can't hear the difference between EQ presets, am I doing something wrong? Check to see if you setup your EQ app properly, and if you routed your audio correctly.
+
+## How to EQ
+
+- [Before getting started](https://iem-eq-guide.pages.dev/how-to-eq/before-getting-started.md): The following sections are ordered in increasing levels of "difficulty", where later sections demand more theoretical and practical background knowledge, some of which will either not be covered, or only very briefly.
+- [AutoEQ to targets ( )](https://iem-eq-guide.pages.dev/how-to-eq/autoeq-to-targets.md): The simplest way to use EQ is by using AutoEQ, a project that aims to create automatic EQ presets using measurements and a specific target. There are various implementations of AutoEQ: in most cases, AutoEQ aims for the HarmanIE 2019 target, but the following are worth taking a look at.
+- [Custom EQ presets to targets (*)](https://iem-eq-guide.pages.dev/how-to-eq/custom-eq-presets-to-targets.md): While AutoEQ is excellent at what it sets out to do, it is also possible to EQ to a target manually. Results will probably be very similar to AutoEQ, but
+- [EQ for rough IEM emulation (*)](https://iem-eq-guide.pages.dev/how-to-eq/eq-for-rough-iem-emulation.md): So far, EQ was used to match an IEM's FR to a preference target (in most cases, HarmanIE 2019). It is also possible to roughly emulate another IEM through EQ.
+- [Target Modification (**)](https://iem-eq-guide.pages.dev/how-to-eq/target-modification.md): Assuming that you're now familiar with EQ, it's time to dive a bit deeper into personal preferences. One good starting point is with targets, which have been tested and shown to be preferred by people.
+- [EQ to preference and context (**)](https://iem-eq-guide.pages.dev/how-to-eq/eq-to-preference-and-context.md): Assuming that you're now familiar with EQ, it's time to dive into personal preference targets. While preference targets with small tweaks (eg an added bass
+- [EQ with personal measurements (***)](https://iem-eq-guide.pages.dev/how-to-eq/eq-with-personal-measurements.md): Up to this point, EQ was used with measurements provided in different databases, and while some of them are available with the 5128∆ project that allows
+- [EQ refinement (****)](https://iem-eq-guide.pages.dev/how-to-eq/eq-refinement.md): At this stage, EQ is a tool that with which you are intimately familiar with, FR graphs are readable, decipherable, and hopefully enough to explain your perception of sound, and preferences have been found and more-or-less perfected.
+- [More advanced DSP (****)](https://iem-eq-guide.pages.dev/how-to-eq/more-advanced-dsp.md): Digital signal processor (DSP) refers to, in this context, to any software/tool that changes the signal, in this case being audio. EQ is a form DSP, but there are many other ones that can change the audio signal in ways that EQ can't.
+- [Ideal spatial rendering and sound localization (*****)](https://iem-eq-guide.pages.dev/how-to-eq/ideal-spatial-rendering-and-sound-localization.md): The perfect audio experience with IEMs would be one where actual sound localization is perfected, and where transparency relative to real life has been achieved.
+
+## Case Studies
+
+- [Tangzu Wan'er](https://iem-eq-guide.pages.dev/case-studies/tangzu-waner.md): Now that EQ and other forms of DSP have been covered, it is time to apply what was learned; in this guide, the Tangzu Wan'er will be the IEM of choice due to its popularity.
+- [Tanchjim Bunny DSP](https://iem-eq-guide.pages.dev/case-studies/tanchjim-bunny-dsp.md): Let's now take a look at a different IEM, the Tanchjim Bunny DSP. It comes with a 5-peak-filter PEQ stored in a USB-C cable, ideal for using it outside. The context is now different, and will therefore influence the EQ and its intended goals.

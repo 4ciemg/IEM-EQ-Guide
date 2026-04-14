@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iem-eq-guide.pages.dev/sitemap.xml.gz
+Sitemap: https://iem-eq-guide.pages.dev/sitemap.xml
