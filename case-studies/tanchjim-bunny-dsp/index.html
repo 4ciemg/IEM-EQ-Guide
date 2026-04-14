@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829448163326">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.829448358248">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../icon.png" />
-    <link href="../../resources/css/retype.css?v=4.5.3.829448163326" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.5.3.829448358248" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.829448163326" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.829448358248" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.829448163326" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.829448358248" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -186,7 +186,7 @@
 <ul>
 <li>FR has to account for high background noise from public transit</li>
 <li>Both bass and treble have to be relatively elevated</li>
-<li>Only 5 peak filters are available for the DSP cable</li>
+<li>Only 5 peak filters are available for the DSP cable, with limitations on gain (maximum of +4 dB) and frequency range (30 Hz - 20 kHz)</li>
 <li>Timbre not as important due to noise, not looking for the best</li>
 <li>Listening volume around 75-85 dB when outside</li>
 </ul>
@@ -226,7 +226,7 @@
 </div>
 <hr>
 <h2 id="eq">EQ</h2>
-<p>For bass, a peak filter at 20 Hz with a Q of 0.5 for sub bass. Moderate gain value of 5 dB was enough to improve bass &quot;quality&quot;. However, bass is now dominating the whole sound, being a bit overwhelming. A small cut at 200 with a Q of 1 and -2 dB gain cleans up it up nicely.</p>
+<p>For bass, a peak filter at 30 Hz with a Q of 0.5 for sub bass. Moderate gain value of 4 dB was enough to improve bass &quot;quality&quot;. However, bass is now dominating the whole sound, being a bit overwhelming. A small cut at 200 with a Q of 1 and -2 dB gain cleans up it up nicely.</p>
 <p>For my own preference, treble will need to be slightly boosted; using <strong>pink noise and music</strong>, a small boost of 3 dB using a filter at 6 kHz with a Q of 1 helped a lot with clarity. <strong>In my case</strong>, any timbral issue or treble resonance problem was not significantly noticeable with outdoor use, except for a narrow peak around 11 to 12 kHz. Since this will be very different depending on the person, the filter for such use (fourth one) will not display any value.</p>
 <p>Compared to the Wan&#x27;er case study, the steps taken here are much simpler and shorter. Any measurement will do <strong>as long as the conditions are the same</strong> (very deep insertion in this case). The 5 filter limitation was also respected, with one remaining empty for any further FR refinement.</p>
 <p>No picture will be provided as the changes did not rely much on measurements, and because the EQ was done using someone else&#x27;s measurements. To visualize the changes, use an appropriate, deep insertion measurement of the Bunny. <strong>Bold</strong> filters are highly individual (ie only for me), and are excluded from the final FR; <strong>every filter parameter should be modified to your preferences</strong>. Preamp should be set to -5 dB.</p>

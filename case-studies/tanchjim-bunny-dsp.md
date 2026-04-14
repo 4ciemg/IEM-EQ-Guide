@@ -5,7 +5,7 @@ Let's now take a look at a different IEM, the Tanchjim Bunny DSP. It comes with 
 !!!info Preference & Context
 - FR has to account for high background noise from public transit
 - Both bass and treble have to be relatively elevated
-- Only 5 peak filters are available for the DSP cable
+- Only 5 peak filters are available for the DSP cable, with limitations on gain (maximum of +4 dB) and frequency range (30 Hz - 20 kHz)
 - Timbre not as important due to noise, not looking for the best 
 - Listening volume around 75-85 dB when outside
 !!!
@@ -29,7 +29,7 @@ The treble also needs work, as deep insertion creates a warm tilt by lifting low
 ***
 ## EQ
 
-For bass, a peak filter at 20 Hz with a Q of 0.5 for sub bass. Moderate gain value of 5 dB was enough to improve bass "quality". However, bass is now dominating the whole sound, being a bit overwhelming. A small cut at 200 with a Q of 1 and -2 dB gain cleans up it up nicely.
+For bass, a peak filter at 30 Hz with a Q of 0.5 for sub bass. Moderate gain value of 4 dB was enough to improve bass "quality". However, bass is now dominating the whole sound, being a bit overwhelming. A small cut at 200 with a Q of 1 and -2 dB gain cleans up it up nicely.
 
 For my own preference, treble will need to be slightly boosted; using **pink noise and music**, a small boost of 3 dB using a filter at 6 kHz with a Q of 1 helped a lot with clarity. **In my case**, any timbral issue or treble resonance problem was not significantly noticeable with outdoor use, except for a narrow peak around 11 to 12 kHz. Since this will be very different depending on the person, the filter for such use (fourth one) will not display any value. 
 
