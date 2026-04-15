@@ -1,5 +1,12 @@
 # Changelog
 
+*15/04/2026*
+- Modified the [Audio & EQ Basics](https://iem-eq-guide.pages.dev/audio-eq-basics/) section.
+
+*13/04/2026*
+- Modified the [Tanchjim Bunny DSP](https://iem-eq-guide.pages.dev/case-studies/tanchjim-bunny-dsp/) Case Study to reflect changes in the Tanchjim EQ app for frequency range and gain limitations.
+- Modified the homepage section descriptions.
+
 *22/03/2026*
 - Demoted Rtings in the Measurement Databases section due to membership restriction.
 
