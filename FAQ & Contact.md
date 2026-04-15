@@ -2,7 +2,7 @@
 order: -100
 icon: question
 ---
-# FAQ
+# FAQ & Contact
 
 *I can't hear the difference between EQ presets, am I doing something wrong?*
 Check to see if you setup your EQ app properly, and if you routed your audio correctly. If everything is correct but you are still struggling to hear a difference, then either your EQ preset doesn't impart meaningful changes, or your listening ability is not up to par. 
