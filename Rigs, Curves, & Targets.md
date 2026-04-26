@@ -148,6 +148,8 @@ For now, JM-1 and what is specified in the ISO standard are mostly similar, and 
 
 Here's a video by the creator of JM-1 explaining the target: [The New IEM Meta Explained](https://www.youtube.com/watch?v=EZoKPtzjdtQ)
 
+As of the end of April 2026, a new DF-based preference target was revealed by the team at Headphones.com titled the [Headphones.com IEM DFHRTF](https://headphones.com/blogs/reviews/crinear-reference-we-have-arrived#section-2). As explained above, it is JM-2; the canal transfer function has been found and added with human-average pinna effects.
+
 
 ***
 ## SoundGuys target (5128)
