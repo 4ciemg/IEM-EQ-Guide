@@ -5,6 +5,10 @@ icon: clock
 
 # Changelog
 
+*25/04/2026*
+- Added [IEM Database (GadgetryTech)](https://iemdatabase.com/measurements/) to the Measurement Databases section.
+- Edited the [Δ and JM-1 curve (711 & 5128)](https://iem-eq-guide.pages.dev/rigs-curves-targets/#%CE%B4-and-jm-1-curve-711--5128) section to add the new Headphones.com IEM DFHRTF. Position shifted after [Diffuse Field curve (711 & 5128)](https://iem-eq-guide.pages.dev/rigs-curves-targets/#diffuse-field-curve-711--5128).
+
 *15/04/2026*
 - Modified the [Audio & EQ Basics](https://iem-eq-guide.pages.dev/audio-eq-basics/) section.
 
