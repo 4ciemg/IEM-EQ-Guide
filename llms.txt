@@ -8,7 +8,7 @@
 - [Measurement Databases](https://iem-eq-guide.pages.dev/measurement-databases.md): Below is a collection of several measurement databases and projects, with descriptions and detailed analyses of their pros and cons.
 - [Myths & Misconceptions](https://iem-eq-guide.pages.dev/myths-misconceptions.md): The following section covers a few myths and misconceptions that are popular, and whether or not they have any validity.
 - [Additional Tools](https://iem-eq-guide.pages.dev/additional-tools.md): Three tools - visualizer, subjectizer, treblizer - are available in the equalizer tab. The treblizer is arguably the most useful of the three, allowing users to dial in their treble EQ using sine sweeps.
-- [Changelog](https://iem-eq-guide.pages.dev/changelog.md): 15/04/2026
+- [Changelog](https://iem-eq-guide.pages.dev/changelog.md): 25/04/2026
 - [FAQ & Contact](https://iem-eq-guide.pages.dev/faq-contact.md): I can't hear the difference between EQ presets, am I doing something wrong? Check to see if you setup your EQ app properly, and if you routed your audio correctly.
 
 ## How to EQ
