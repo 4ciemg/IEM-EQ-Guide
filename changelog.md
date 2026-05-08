@@ -1,5 +1,8 @@
 # Changelog
 
+*08/05/2026*
+2 years since publication, and more to come.
+
 *25/04/2026*
 - Added [IEM Database (GadgetryTech)](https://iemdatabase.com/measurements/) to the Measurement Databases section.
 - Edited the [Δ and JM-1 curve (711 & 5128)](https://iem-eq-guide.pages.dev/rigs-curves-targets/#%CE%B4-and-jm-1-curve-711--5128) section to add the new Headphones.com IEM DFHRTF. Position shifted after [Diffuse Field curve (711 & 5128)](https://iem-eq-guide.pages.dev/rigs-curves-targets/#diffuse-field-curve-711--5128).
