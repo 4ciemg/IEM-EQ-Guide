@@ -16,10 +16,7 @@ markdown:
 url: https://iem-eq-guide.pages.dev/
 
 actions:
-  items:
-    - text: 
-      action: 
-      icon: 
+  enabled: false
 
 
 search:
