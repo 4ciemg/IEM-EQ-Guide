@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831596067363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846556114716">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>AutoEQ to targets ( )</title>
@@ -38,11 +38,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../../icon.png" />
-    <link href="../../resources/css/retype.css?v=4.5.3.831596067363" rel="stylesheet">
+    <link href="../../resources/css/retype.css?v=4.6.0.846556114716" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../resources/js/config.js?v=4.5.3.831596067363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.5.3.831596067363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/config.js?v=4.6.0.846556114716" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../resources/js/lunr.js?v=4.6.0.846556114716" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -203,6 +203,11 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 <p>Import/use the file in your EQ app of choice.</p>
 </li>
 </ol>
+<retype-table copy-text="Pros | Cons | 
+:-:|:-:|
+Live demo'ing | Somewhat overwhelming/convoluted at first |
+Customization available | Customization can lead to bad results |
+Wide EQ app support | Somewhat limited model selection |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -227,12 +232,17 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h2 id="eq-app">EQ app</h2>
 <p>Several EQ apps have also implemented the AutoEQ project, such as Poweramp on Android and PeaceGUI on Windows. In this case, simply pick the IEM model you have and the preset should apply automatically.</p>
 <ol>
 <li>Find your IEM model and apply the preset</li>
 </ol>
+<retype-table copy-text="Pros | Cons | 
+:-:|:-:|
+Easy to use  | Somewhat limited model selection |
+No additional installation |  |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -253,6 +263,7 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h2 id="squigs">Squigs</h2>
 <p>Squig databases also have an Equalizer tab that implements AutoEQ. To use it, select the target that you want (under the FR graph), then select your IEM model in the Models tab, ensuring that only the chosen target and IEM are on the FR graph. In the Equalizer tab, find the AutoEQ option, adjust the range (maximum upper limit around 10kHz as specified by the AutoEQ project), generate the preset, then export it accordingly.</p>
@@ -264,6 +275,11 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 <li>Generate the preset</li>
 <li>Export the preset accordingly</li>
 </ol>
+<retype-table copy-text="Pros | Cons | 
+:-:|:-:|
+Extensive selection of models and targets | Export only exports the filter values which need to be manually re-input in whatever EQ app is being used |
+Customization available | Default range extends to 15kHz, far above what is recommended |
+| | Can be inefficient since it only uses peak filters">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -288,6 +304,7 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 </tbody>
 </table>
 </div>
+</retype-table>
 <hr>
 <h2 id="wavelet">Wavelet</h2>
 <p>Wavelet is an Android app that has AutoEQ implementation and allows for system-wide equalization.</p>
@@ -296,6 +313,10 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 <li>Choose your IEM model in the AutoEQ section<br />
 2*. If needed, import presets made in squig.link or AutoEQ.app</li>
 </ol>
+<retype-table copy-text="Pros | Cons | 
+:-:|:-:|
+Easy to install and use  | No customization possible |
+Presets available from other sources | Hassle when making a new preset |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -316,6 +337,7 @@ AutoEQ has a wiki that explains how it functions, but in short, it aims to match
 </tbody>
 </table>
 </div>
+</retype-table>
 
                 
                 <!-- Required only on API pages -->

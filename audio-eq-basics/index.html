@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831596067363">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.6.0.846556114716">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 4.5.3">
+    <meta name="generator" content="Retype 4.6.0">
 
     <!-- Primary Meta Tags -->
     <title>Audio &amp; EQ Basics</title>
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../icon.png" />
-    <link href="../resources/css/retype.css?v=4.5.3.831596067363" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.6.0.846556114716" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.831596067363" data-turbo-eval="false" defer></script>
-    <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.831596067363" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.6.0.846556114716" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/retype.js?v=4.6.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.6.0.846556114716" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -570,6 +570,12 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
     <img src="https://i.postimg.cc/zfY5VpYw/EQ.png" alt="Peak filters" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Peak filters</figcaption>
 </figure>
+<retype-table copy-text="Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
+:-:|:-:|:-:|:-:|:-:|:-:|
+50 | 5 | 3 | 50 | 8 | 3 | 
+1000 | 10 | 3 | 1000 | 10 | 1 |
+9000 | 5 | 3 | 10000 | -10 | 4 | 
+12000 | 5 | 3 | | | |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -618,6 +624,7 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
 </tbody>
 </table>
 </div>
+</retype-table>
 <div class="flex mb-6">
     <div class="shrink-0 w-1.5 rounded-tl-lg rounded-bl-lg bg-callout-info"></div>
     <div class="flex w-full py-4 border border-l-0 rounded-tr-lg rounded-br-lg doc-callout bg-callout-base-bg border-callout-base-border" role="alert">
@@ -667,6 +674,10 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
     <img src="https://i.postimg.cc/bJmwQSQw/Shelves.png" alt="Shelf filters" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" />
     <figcaption class="caption">Shelf filters</figcaption>
 </figure>
+<retype-table copy-text="Frequency (Hz) | Gain (dB) | Q | Frequency (Hz) | Gain (dB) | Q |
+:-:|:-:|:-:|:-:|:-:|:-:|
+100 | 8 |  0.4| 100 | 8 | 0.707 | 
+9000 | 5 | 1 | 9000 | -3 | 3 |">
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -699,6 +710,7 @@ The FAQ and terminology sections are also worth taking a quick look at.</strong>
 </tbody>
 </table>
 </div>
+</retype-table>
 <p>Shelf filters are useful for large changes for which precision is not needed, and are often used for customizing preference targets. For example, if the HarmanIE 2019 target sounded too bassy, simply adding a bass shelf filter with negative gain can be a simple yet effective fix. Same thing for treble: if there is too much or too little of it, use a high shelf filter to change the whole range. Shelf filters are generally used only for the two ends of the frequency range because of their nature, with <strong>Q values of 0.5, 0.71, or 1</strong>. More will be covered in relevant sections.</p>
 <p>When using EQ, there is also preamplification that has to be taken into account. In the digital domain - computer, phone, etc - volume has an upper limit. Exceeding this limit results in <a href="https://www.youtube.com/watch?v=W34SG5QO3Q0">digital clipping</a>, which can happen when an EQ preset has large boosts. To avoid this, a preamp is used which reduces the digital volume. Preamp values should always be negative dB values, and should correspond to the highest amplitude change of the EQ preset. For example, taking the blue FR in the first image with peak filters, the preamp would have to be -10 dB. If only the last two filters are considered, then the preamp would have to be -7 dB; the preamp does not necessarily correspond to the highest gain value of a filter, <strong>but rather the highest gain value overall, since summed filters can result in larger amplitudes/gain.</strong></p>
 <hr>
